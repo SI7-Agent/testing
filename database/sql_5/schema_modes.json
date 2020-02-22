@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "properties" : {
+        "id_mode":
+        {
+            "type": "number",
+            "minimum" : 1
+        },
+        "name_mode": 
+        {
+            "type" : "number"
+        },
+        "costs": 
+        {
+            "type" : "string"
+        }
+    },
+    "required" : ["id_mode", "name_mode", "costs"]
+}
