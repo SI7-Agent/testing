@@ -1,0 +1,1000 @@
+{"races": "Murloc", "attack": 2, "health": 1, "id_add": 6, "rarity": "Legendary", "ability": "Overkill", "id_card": 1, "manacost": 14, "name_card": "Mark Johnson"}
+{"races": "Beast", "attack": 3, "health": 20, "id_add": 6, "rarity": "Legendary", "ability": "Battle cry", "id_card": 2, "manacost": 11, "name_card": "Brad Walker"}
+{"races": "Dragon", "attack": 20, "health": 12, "id_add": 10, "rarity": "Base", "ability": "Taunt", "id_card": 3, "manacost": 19, "name_card": "Karen Walker"}
+{"races": "Totem", "attack": 9, "health": 10, "id_add": 15, "rarity": "Epic", "ability": "Divine shield", "id_card": 4, "manacost": 5, "name_card": "Robert Hernandez Jr."}
+{"races": "Beast", "attack": 1, "health": 20, "id_add": 2, "rarity": "Rare", "ability": "Overkill", "id_card": 5, "manacost": 4, "name_card": "Allison Kirby"}
+{"races": "Pirat", "attack": 2, "health": 18, "id_add": 10, "rarity": "Common", "ability": "Rush", "id_card": 6, "manacost": 9, "name_card": "Kyle Bailey"}
+{"races": "Beast", "attack": 8, "health": 12, "id_add": 5, "rarity": "Epic", "ability": "Non-target", "id_card": 7, "manacost": 5, "name_card": "Casey Sutton"}
+{"races": "Elemental", "attack": 0, "health": 4, "id_add": 4, "rarity": "Legendary", "ability": "Deathrattle", "id_card": 8, "manacost": 22, "name_card": "Joshua Mckay"}
+{"races": "Mechanism", "attack": 10, "health": 5, "id_add": 6, "rarity": "Rare", "ability": "Lifesteal", "id_card": 9, "manacost": 20, "name_card": "Phillip Medina PhD"}
+{"races": "Beast", "attack": 1, "health": 2, "id_add": 11, "rarity": "Base", "ability": "Divine shield", "id_card": 10, "manacost": 6, "name_card": "Lindsay Kirby"}
+{"races": "Pirat", "attack": 11, "health": 18, "id_add": 14, "rarity": "Common", "ability": "Divine shield", "id_card": 11, "manacost": 18, "name_card": "Robert Peterson"}
+{"races": "Mechanism", "attack": 0, "health": 4, "id_add": 6, "rarity": "Epic", "ability": "Poisonous", "id_card": 12, "manacost": 25, "name_card": "Gary Kennedy"}
+{"races": "Dragon", "attack": 15, "health": 7, "id_add": 8, "rarity": "Epic", "ability": "Poisonous", "id_card": 13, "manacost": 20, "name_card": "Jonathan Garcia"}
+{"races": "Totem", "attack": 6, "health": 18, "id_add": 13, "rarity": "Epic", "ability": "Battle cry", "id_card": 14, "manacost": 14, "name_card": "Nichole Shepherd"}
+{"races": "Dragon", "attack": 17, "health": 12, "id_add": 4, "rarity": "Base", "ability": "Divine shield", "id_card": 15, "manacost": 21, "name_card": "Miss Courtney Crawford"}
+{"races": "Pirat", "attack": 5, "health": 2, "id_add": 14, "rarity": "Epic", "ability": "Mega windfury", "id_card": 16, "manacost": 20, "name_card": "Robert Moyer"}
+{"races": "Pirat", "attack": 10, "health": 9, "id_add": 15, "rarity": "Legendary", "ability": "Overkill", "id_card": 17, "manacost": 16, "name_card": "Sara Grimes"}
+{"races": "Pirat", "attack": 11, "health": 5, "id_add": 10, "rarity": "Rare", "ability": "Divine shield", "id_card": 18, "manacost": 3, "name_card": "Eric Wilkins"}
+{"races": "Pirat", "attack": 18, "health": 7, "id_add": 7, "rarity": "Common", "ability": "Deathrattle", "id_card": 19, "manacost": 20, "name_card": "Andrew Rivera"}
+{"races": "Pirat", "attack": 14, "health": 1, "id_add": 11, "rarity": "Base", "ability": "Stealth", "id_card": 20, "manacost": 2, "name_card": "Robert Carr"}
+{"races": "Beast", "attack": 4, "health": 16, "id_add": 1, "rarity": "Common", "ability": "Taunt", "id_card": 21, "manacost": 19, "name_card": "Jeanette Burch"}
+{"races": "Beast", "attack": 11, "health": 2, "id_add": 4, "rarity": "Common", "ability": "Windfury", "id_card": 22, "manacost": 11, "name_card": "Stephanie Hebert"}
+{"races": "Murloc", "attack": 18, "health": 19, "id_add": 8, "rarity": "Base", "ability": "Stealth", "id_card": 23, "manacost": 17, "name_card": "Zachary Brown"}
+{"races": "Demon", "attack": 2, "health": 11, "id_add": 14, "rarity": "Epic", "ability": "Overkill", "id_card": 24, "manacost": 8, "name_card": "Jennifer Campos"}
+{"races": "Beast", "attack": 19, "health": 10, "id_add": 9, "rarity": "Rare", "ability": "Deathrattle", "id_card": 25, "manacost": 1, "name_card": "Jason Snyder"}
+{"races": "Murloc", "attack": 15, "health": 15, "id_add": 4, "rarity": "Base", "ability": "Windfury", "id_card": 26, "manacost": 22, "name_card": "Sean Pierce"}
+{"races": "Mechanism", "attack": 14, "health": 12, "id_add": 4, "rarity": "Common", "ability": "Mega windfury", "id_card": 27, "manacost": 9, "name_card": "Heather Price"}
+{"races": "Murloc", "attack": 3, "health": 3, "id_add": 5, "rarity": "Common", "ability": "Rush", "id_card": 28, "manacost": 1, "name_card": "Karen Wilson"}
+{"races": "Totem", "attack": 14, "health": 13, "id_add": 13, "rarity": "Base", "ability": "Poisonous", "id_card": 29, "manacost": 13, "name_card": "William Mccall"}
+{"races": "Dragon", "attack": 9, "health": 17, "id_add": 3, "rarity": "Legendary", "ability": "Overkill", "id_card": 30, "manacost": 23, "name_card": "Brian Hester"}
+{"races": "Pirat", "attack": 17, "health": 12, "id_add": 14, "rarity": "Common", "ability": "Overkill", "id_card": 31, "manacost": 19, "name_card": "Linda Smith"}
+{"races": "Demon", "attack": 11, "health": 15, "id_add": 7, "rarity": "Base", "ability": "Stealth", "id_card": 32, "manacost": 23, "name_card": "Dennis Wade"}
+{"races": "Beast", "attack": 7, "health": 7, "id_add": 6, "rarity": "Legendary", "ability": "Battle cry", "id_card": 33, "manacost": 7, "name_card": "Jeffery Acosta"}
+{"races": "Pirat", "attack": 0, "health": 6, "id_add": 10, "rarity": "Common", "ability": "Battle cry", "id_card": 34, "manacost": 9, "name_card": "Lawrence Barrett"}
+{"races": "Beast", "attack": 4, "health": 3, "id_add": 5, "rarity": "Rare", "ability": "Non-target", "id_card": 35, "manacost": 14, "name_card": "Wanda Davis"}
+{"races": "Elemental", "attack": 9, "health": 18, "id_add": 9, "rarity": "Common", "ability": "Lifesteal", "id_card": 36, "manacost": 2, "name_card": "Shari Rivera"}
+{"races": "Dragon", "attack": 13, "health": 15, "id_add": 3, "rarity": "Epic", "ability": "Rush", "id_card": 37, "manacost": 8, "name_card": "Tim Campos"}
+{"races": "Dragon", "attack": 15, "health": 17, "id_add": 10, "rarity": "Rare", "ability": "Windfury", "id_card": 38, "manacost": 18, "name_card": "Tyler Murphy DDS"}
+{"races": "Mechanism", "attack": 19, "health": 12, "id_add": 4, "rarity": "Epic", "ability": "Taunt", "id_card": 39, "manacost": 0, "name_card": "Terry Walker"}
+{"races": "Dragon", "attack": 18, "health": 7, "id_add": 2, "rarity": "Common", "ability": "Rush", "id_card": 40, "manacost": 15, "name_card": "Jared Weaver"}
+{"races": "Mechanism", "attack": 20, "health": 18, "id_add": 9, "rarity": "Legendary", "ability": "Taunt", "id_card": 41, "manacost": 14, "name_card": "Anna King"}
+{"races": "Demon", "attack": 14, "health": 17, "id_add": 2, "rarity": "Legendary", "ability": "Deathrattle", "id_card": 42, "manacost": 5, "name_card": "Lisa Morrison"}
+{"races": "Demon", "attack": 7, "health": 3, "id_add": 7, "rarity": "Rare", "ability": "Windfury", "id_card": 43, "manacost": 3, "name_card": "Joseph Ellison"}
+{"races": "Demon", "attack": 4, "health": 20, "id_add": 5, "rarity": "Common", "ability": "Rush", "id_card": 44, "manacost": 4, "name_card": "Kimberly Hawkins"}
+{"races": "Pirat", "attack": 4, "health": 2, "id_add": 1, "rarity": "Legendary", "ability": "Windfury", "id_card": 45, "manacost": 23, "name_card": "Preston Brock"}
+{"races": "Totem", "attack": 11, "health": 19, "id_add": 1, "rarity": "Base", "ability": "Overkill", "id_card": 46, "manacost": 18, "name_card": "Kimberly Smith"}
+{"races": "Murloc", "attack": 5, "health": 13, "id_add": 4, "rarity": "Base", "ability": "Battle cry", "id_card": 47, "manacost": 18, "name_card": "Angel Palmer"}
+{"races": "Mechanism", "attack": 2, "health": 16, "id_add": 3, "rarity": "Common", "ability": "Overkill", "id_card": 48, "manacost": 4, "name_card": "Jacob Jimenez"}
+{"races": "Beast", "attack": 10, "health": 10, "id_add": 13, "rarity": "Rare", "ability": "Battle cry", "id_card": 49, "manacost": 18, "name_card": "Leslie Waters"}
+{"races": "Pirat", "attack": 5, "health": 18, "id_add": 11, "rarity": "Base", "ability": "Windfury", "id_card": 50, "manacost": 7, "name_card": "John Nelson"}
+{"races": "Pirat", "attack": 5, "health": 14, "id_add": 10, "rarity": "Rare", "ability": "Deathrattle", "id_card": 51, "manacost": 18, "name_card": "Jon Shelton"}
+{"races": "Elemental", "attack": 6, "health": 3, "id_add": 13, "rarity": "Legendary", "ability": "Lifesteal", "id_card": 52, "manacost": 22, "name_card": "Susan Randall"}
+{"races": "Totem", "attack": 9, "health": 7, "id_add": 3, "rarity": "Legendary", "ability": "Divine shield", "id_card": 53, "manacost": 15, "name_card": "Stephen Edwards"}
+{"races": "Totem", "attack": 0, "health": 5, "id_add": 15, "rarity": "Common", "ability": "Windfury", "id_card": 54, "manacost": 9, "name_card": "Christopher Day"}
+{"races": "Elemental", "attack": 11, "health": 20, "id_add": 7, "rarity": "Base", "ability": "Taunt", "id_card": 55, "manacost": 6, "name_card": "Christopher Johnston"}
+{"races": "Dragon", "attack": 4, "health": 13, "id_add": 5, "rarity": "Common", "ability": "Stealth", "id_card": 56, "manacost": 17, "name_card": "Michele Hicks PhD"}
+{"races": "Elemental", "attack": 4, "health": 20, "id_add": 15, "rarity": "Base", "ability": "Battle cry", "id_card": 57, "manacost": 15, "name_card": "Karen Simpson"}
+{"races": "Pirat", "attack": 9, "health": 10, "id_add": 7, "rarity": "Legendary", "ability": "Non-target", "id_card": 58, "manacost": 2, "name_card": "Angela Harris"}
+{"races": "Mechanism", "attack": 18, "health": 9, "id_add": 4, "rarity": "Rare", "ability": "Non-target", "id_card": 59, "manacost": 4, "name_card": "Julie Klein"}
+{"races": "Mechanism", "attack": 13, "health": 19, "id_add": 7, "rarity": "Legendary", "ability": "Non-target", "id_card": 60, "manacost": 12, "name_card": "Katherine Barker"}
+{"races": "Totem", "attack": 13, "health": 4, "id_add": 7, "rarity": "Legendary", "ability": "Poisonous", "id_card": 61, "manacost": 10, "name_card": "Allison Smith"}
+{"races": "Mechanism", "attack": 7, "health": 6, "id_add": 4, "rarity": "Epic", "ability": "Overkill", "id_card": 62, "manacost": 2, "name_card": "Mrs. Kayla Haas"}
+{"races": "Pirat", "attack": 20, "health": 9, "id_add": 12, "rarity": "Rare", "ability": "Divine shield", "id_card": 63, "manacost": 5, "name_card": "Caroline Norman"}
+{"races": "Demon", "attack": 7, "health": 1, "id_add": 3, "rarity": "Legendary", "ability": "Non-target", "id_card": 64, "manacost": 25, "name_card": "Tiffany Valentine"}
+{"races": "Totem", "attack": 1, "health": 2, "id_add": 2, "rarity": "Base", "ability": "Non-target", "id_card": 65, "manacost": 4, "name_card": "Mrs. Doris Lynch"}
+{"races": "Totem", "attack": 3, "health": 14, "id_add": 3, "rarity": "Common", "ability": "Mega windfury", "id_card": 66, "manacost": 2, "name_card": "Kathryn Morales"}
+{"races": "Mechanism", "attack": 20, "health": 14, "id_add": 7, "rarity": "Rare", "ability": "Non-target", "id_card": 67, "manacost": 0, "name_card": "Anthony Hall"}
+{"races": "Demon", "attack": 10, "health": 19, "id_add": 2, "rarity": "Base", "ability": "Rush", "id_card": 68, "manacost": 18, "name_card": "Elizabeth Morris"}
+{"races": "Demon", "attack": 11, "health": 4, "id_add": 1, "rarity": "Rare", "ability": "Stealth", "id_card": 69, "manacost": 11, "name_card": "Paul Chavez"}
+{"races": "Totem", "attack": 8, "health": 9, "id_add": 15, "rarity": "Epic", "ability": "Taunt", "id_card": 70, "manacost": 9, "name_card": "Taylor Sanchez"}
+{"races": "Pirat", "attack": 16, "health": 15, "id_add": 9, "rarity": "Common", "ability": "Taunt", "id_card": 71, "manacost": 19, "name_card": "Scott Andrade"}
+{"races": "Murloc", "attack": 13, "health": 11, "id_add": 15, "rarity": "Common", "ability": "Divine shield", "id_card": 72, "manacost": 10, "name_card": "Caleb Cisneros"}
+{"races": "Dragon", "attack": 4, "health": 16, "id_add": 4, "rarity": "Rare", "ability": "Overkill", "id_card": 73, "manacost": 25, "name_card": "Evelyn Austin"}
+{"races": "Demon", "attack": 14, "health": 6, "id_add": 8, "rarity": "Rare", "ability": "Stealth", "id_card": 74, "manacost": 22, "name_card": "Mark Flynn"}
+{"races": "Totem", "attack": 14, "health": 8, "id_add": 12, "rarity": "Rare", "ability": "Mega windfury", "id_card": 75, "manacost": 8, "name_card": "Deborah Adams MD"}
+{"races": "Murloc", "attack": 3, "health": 3, "id_add": 3, "rarity": "Rare", "ability": "Mega windfury", "id_card": 76, "manacost": 16, "name_card": "Adam Mcbride"}
+{"races": "Dragon", "attack": 13, "health": 6, "id_add": 8, "rarity": "Rare", "ability": "Mega windfury", "id_card": 77, "manacost": 23, "name_card": "Penny Mcguire"}
+{"races": "Beast", "attack": 12, "health": 5, "id_add": 2, "rarity": "Legendary", "ability": "Poisonous", "id_card": 78, "manacost": 19, "name_card": "Becky White"}
+{"races": "Totem", "attack": 9, "health": 2, "id_add": 2, "rarity": "Rare", "ability": "Mega windfury", "id_card": 79, "manacost": 23, "name_card": "Brandi Benson"}
+{"races": "Beast", "attack": 19, "health": 1, "id_add": 5, "rarity": "Common", "ability": "Windfury", "id_card": 80, "manacost": 12, "name_card": "Kyle Thomas"}
+{"races": "Totem", "attack": 20, "health": 18, "id_add": 9, "rarity": "Base", "ability": "Lifesteal", "id_card": 81, "manacost": 3, "name_card": "Daniel Munoz"}
+{"races": "Beast", "attack": 11, "health": 16, "id_add": 14, "rarity": "Epic", "ability": "Divine shield", "id_card": 82, "manacost": 7, "name_card": "Mariah Allen"}
+{"races": "Murloc", "attack": 2, "health": 8, "id_add": 3, "rarity": "Base", "ability": "Divine shield", "id_card": 83, "manacost": 16, "name_card": "Lisa Holland"}
+{"races": "Mechanism", "attack": 14, "health": 3, "id_add": 13, "rarity": "Legendary", "ability": "Windfury", "id_card": 84, "manacost": 2, "name_card": "Ronald Evans"}
+{"races": "Beast", "attack": 13, "health": 7, "id_add": 14, "rarity": "Base", "ability": "Deathrattle", "id_card": 85, "manacost": 22, "name_card": "Morgan Reynolds"}
+{"races": "Demon", "attack": 5, "health": 6, "id_add": 1, "rarity": "Common", "ability": "Non-target", "id_card": 86, "manacost": 24, "name_card": "Rebecca Martin"}
+{"races": "Beast", "attack": 18, "health": 16, "id_add": 5, "rarity": "Base", "ability": "Poisonous", "id_card": 87, "manacost": 16, "name_card": "Daniel Bradley"}
+{"races": "Demon", "attack": 2, "health": 6, "id_add": 6, "rarity": "Legendary", "ability": "Stealth", "id_card": 88, "manacost": 25, "name_card": "Tyler Cherry"}
+{"races": "Pirat", "attack": 13, "health": 17, "id_add": 14, "rarity": "Base", "ability": "Mega windfury", "id_card": 89, "manacost": 3, "name_card": "Jessica Forbes"}
+{"races": "Elemental", "attack": 0, "health": 10, "id_add": 8, "rarity": "Base", "ability": "Poisonous", "id_card": 90, "manacost": 5, "name_card": "Paula Mccullough"}
+{"races": "Totem", "attack": 0, "health": 14, "id_add": 5, "rarity": "Legendary", "ability": "Overkill", "id_card": 91, "manacost": 18, "name_card": "Kelli Leonard"}
+{"races": "Mechanism", "attack": 1, "health": 11, "id_add": 14, "rarity": "Epic", "ability": "Divine shield", "id_card": 92, "manacost": 24, "name_card": "Emily Ramirez"}
+{"races": "Pirat", "attack": 3, "health": 11, "id_add": 1, "rarity": "Legendary", "ability": "Windfury", "id_card": 93, "manacost": 8, "name_card": "Mercedes Woods"}
+{"races": "Elemental", "attack": 8, "health": 18, "id_add": 15, "rarity": "Epic", "ability": "Deathrattle", "id_card": 94, "manacost": 4, "name_card": "Calvin Murphy"}
+{"races": "Murloc", "attack": 14, "health": 18, "id_add": 5, "rarity": "Rare", "ability": "Taunt", "id_card": 95, "manacost": 18, "name_card": "David Daniels"}
+{"races": "Murloc", "attack": 4, "health": 19, "id_add": 14, "rarity": "Epic", "ability": "Lifesteal", "id_card": 96, "manacost": 23, "name_card": "Alexandra Burgess"}
+{"races": "Pirat", "attack": 8, "health": 7, "id_add": 12, "rarity": "Rare", "ability": "Overkill", "id_card": 97, "manacost": 17, "name_card": "Barbara Romero"}
+{"races": "Demon", "attack": 8, "health": 10, "id_add": 7, "rarity": "Common", "ability": "Divine shield", "id_card": 98, "manacost": 8, "name_card": "Danielle Patton"}
+{"races": "Elemental", "attack": 16, "health": 20, "id_add": 11, "rarity": "Common", "ability": "Taunt", "id_card": 99, "manacost": 15, "name_card": "Jennifer Martinez"}
+{"races": "Elemental", "attack": 2, "health": 1, "id_add": 3, "rarity": "Common", "ability": "Deathrattle", "id_card": 100, "manacost": 6, "name_card": "Carl Black"}
+{"races": "Totem", "attack": 10, "health": 5, "id_add": 3, "rarity": "Base", "ability": "Non-target", "id_card": 101, "manacost": 7, "name_card": "Alejandra Hernandez"}
+{"races": "Totem", "attack": 6, "health": 10, "id_add": 12, "rarity": "Legendary", "ability": "Rush", "id_card": 102, "manacost": 18, "name_card": "Samantha Chavez"}
+{"races": "Murloc", "attack": 19, "health": 19, "id_add": 5, "rarity": "Common", "ability": "Rush", "id_card": 103, "manacost": 4, "name_card": "Rebecca Smith"}
+{"races": "Beast", "attack": 17, "health": 5, "id_add": 2, "rarity": "Epic", "ability": "Deathrattle", "id_card": 104, "manacost": 20, "name_card": "James Baker"}
+{"races": "Totem", "attack": 4, "health": 17, "id_add": 11, "rarity": "Legendary", "ability": "Battle cry", "id_card": 105, "manacost": 16, "name_card": "Chad Bennett"}
+{"races": "Dragon", "attack": 4, "health": 7, "id_add": 3, "rarity": "Base", "ability": "Battle cry", "id_card": 106, "manacost": 0, "name_card": "Jill Hernandez"}
+{"races": "Beast", "attack": 4, "health": 11, "id_add": 5, "rarity": "Epic", "ability": "Windfury", "id_card": 107, "manacost": 16, "name_card": "Adam Petersen"}
+{"races": "Pirat", "attack": 20, "health": 20, "id_add": 9, "rarity": "Rare", "ability": "Poisonous", "id_card": 108, "manacost": 20, "name_card": "Bryan Tucker"}
+{"races": "Totem", "attack": 10, "health": 6, "id_add": 15, "rarity": "Epic", "ability": "Poisonous", "id_card": 109, "manacost": 17, "name_card": "Theresa Wolf"}
+{"races": "Beast", "attack": 6, "health": 8, "id_add": 14, "rarity": "Common", "ability": "Rush", "id_card": 110, "manacost": 22, "name_card": "Patricia Smith"}
+{"races": "Dragon", "attack": 10, "health": 4, "id_add": 3, "rarity": "Common", "ability": "Rush", "id_card": 111, "manacost": 5, "name_card": "Leslie Miranda"}
+{"races": "Dragon", "attack": 11, "health": 1, "id_add": 13, "rarity": "Base", "ability": "Overkill", "id_card": 112, "manacost": 23, "name_card": "Tiffany Ruiz"}
+{"races": "Beast", "attack": 14, "health": 13, "id_add": 7, "rarity": "Rare", "ability": "Windfury", "id_card": 113, "manacost": 20, "name_card": "Brandon Daniels"}
+{"races": "Totem", "attack": 6, "health": 14, "id_add": 10, "rarity": "Base", "ability": "Divine shield", "id_card": 114, "manacost": 1, "name_card": "Sarah Harris"}
+{"races": "Elemental", "attack": 10, "health": 5, "id_add": 1, "rarity": "Common", "ability": "Taunt", "id_card": 115, "manacost": 24, "name_card": "Susan Beck"}
+{"races": "Beast", "attack": 9, "health": 16, "id_add": 6, "rarity": "Common", "ability": "Lifesteal", "id_card": 116, "manacost": 6, "name_card": "Kara Stevenson"}
+{"races": "Demon", "attack": 17, "health": 5, "id_add": 3, "rarity": "Common", "ability": "Windfury", "id_card": 117, "manacost": 9, "name_card": "Angela Bray"}
+{"races": "Dragon", "attack": 5, "health": 7, "id_add": 15, "rarity": "Common", "ability": "Windfury", "id_card": 118, "manacost": 6, "name_card": "Jessica Larsen"}
+{"races": "Elemental", "attack": 10, "health": 11, "id_add": 5, "rarity": "Legendary", "ability": "Battle cry", "id_card": 119, "manacost": 17, "name_card": "Shelly Stephens"}
+{"races": "Murloc", "attack": 3, "health": 3, "id_add": 12, "rarity": "Rare", "ability": "Mega windfury", "id_card": 120, "manacost": 3, "name_card": "Mark Baker"}
+{"races": "Dragon", "attack": 7, "health": 11, "id_add": 9, "rarity": "Epic", "ability": "Windfury", "id_card": 121, "manacost": 25, "name_card": "Bailey Fernandez"}
+{"races": "Demon", "attack": 14, "health": 11, "id_add": 15, "rarity": "Epic", "ability": "Lifesteal", "id_card": 122, "manacost": 19, "name_card": "Michael Yu"}
+{"races": "Dragon", "attack": 2, "health": 11, "id_add": 10, "rarity": "Base", "ability": "Overkill", "id_card": 123, "manacost": 2, "name_card": "Maria Jones"}
+{"races": "Elemental", "attack": 7, "health": 19, "id_add": 7, "rarity": "Base", "ability": "Lifesteal", "id_card": 124, "manacost": 4, "name_card": "Tonya Wang"}
+{"races": "Murloc", "attack": 6, "health": 4, "id_add": 10, "rarity": "Base", "ability": "Windfury", "id_card": 125, "manacost": 4, "name_card": "James Moore"}
+{"races": "Dragon", "attack": 16, "health": 19, "id_add": 9, "rarity": "Common", "ability": "Battle cry", "id_card": 126, "manacost": 15, "name_card": "Eric Taylor"}
+{"races": "Demon", "attack": 14, "health": 20, "id_add": 15, "rarity": "Epic", "ability": "Taunt", "id_card": 127, "manacost": 11, "name_card": "Christina Roberts"}
+{"races": "Murloc", "attack": 4, "health": 20, "id_add": 10, "rarity": "Base", "ability": "Lifesteal", "id_card": 128, "manacost": 18, "name_card": "Joseph Hernandez"}
+{"races": "Elemental", "attack": 8, "health": 9, "id_add": 1, "rarity": "Rare", "ability": "Mega windfury", "id_card": 129, "manacost": 14, "name_card": "Joshua Garcia"}
+{"races": "Demon", "attack": 10, "health": 6, "id_add": 15, "rarity": "Rare", "ability": "Stealth", "id_card": 130, "manacost": 0, "name_card": "Vanessa Jones"}
+{"races": "Demon", "attack": 13, "health": 19, "id_add": 12, "rarity": "Legendary", "ability": "Poisonous", "id_card": 131, "manacost": 1, "name_card": "Justin Smith"}
+{"races": "Totem", "attack": 0, "health": 1, "id_add": 9, "rarity": "Legendary", "ability": "Stealth", "id_card": 132, "manacost": 16, "name_card": "Robert Valencia"}
+{"races": "Dragon", "attack": 6, "health": 20, "id_add": 6, "rarity": "Legendary", "ability": "Lifesteal", "id_card": 133, "manacost": 15, "name_card": "Kaitlyn Pruitt"}
+{"races": "Elemental", "attack": 18, "health": 19, "id_add": 7, "rarity": "Common", "ability": "Non-target", "id_card": 134, "manacost": 17, "name_card": "Sandra Vincent"}
+{"races": "Murloc", "attack": 6, "health": 17, "id_add": 14, "rarity": "Rare", "ability": "Taunt", "id_card": 135, "manacost": 24, "name_card": "Michael Brooks"}
+{"races": "Murloc", "attack": 14, "health": 3, "id_add": 6, "rarity": "Common", "ability": "Lifesteal", "id_card": 136, "manacost": 13, "name_card": "Angela Johnson"}
+{"races": "Mechanism", "attack": 4, "health": 7, "id_add": 14, "rarity": "Common", "ability": "Poisonous", "id_card": 137, "manacost": 10, "name_card": "Sharon Crawford"}
+{"races": "Totem", "attack": 7, "health": 3, "id_add": 2, "rarity": "Epic", "ability": "Non-target", "id_card": 138, "manacost": 7, "name_card": "James Kramer"}
+{"races": "Pirat", "attack": 5, "health": 7, "id_add": 6, "rarity": "Legendary", "ability": "Windfury", "id_card": 139, "manacost": 1, "name_card": "Shannon Schultz"}
+{"races": "Pirat", "attack": 5, "health": 5, "id_add": 8, "rarity": "Base", "ability": "Battle cry", "id_card": 140, "manacost": 3, "name_card": "Joshua Bowman"}
+{"races": "Demon", "attack": 2, "health": 17, "id_add": 1, "rarity": "Legendary", "ability": "Mega windfury", "id_card": 141, "manacost": 2, "name_card": "Donna Kennedy"}
+{"races": "Mechanism", "attack": 20, "health": 10, "id_add": 7, "rarity": "Legendary", "ability": "Overkill", "id_card": 142, "manacost": 13, "name_card": "Michael Smith"}
+{"races": "Demon", "attack": 14, "health": 5, "id_add": 15, "rarity": "Common", "ability": "Stealth", "id_card": 143, "manacost": 3, "name_card": "Brandon Potts"}
+{"races": "Murloc", "attack": 5, "health": 6, "id_add": 9, "rarity": "Rare", "ability": "Poisonous", "id_card": 144, "manacost": 8, "name_card": "Melvin Williams"}
+{"races": "Elemental", "attack": 15, "health": 20, "id_add": 14, "rarity": "Legendary", "ability": "Non-target", "id_card": 145, "manacost": 11, "name_card": "Edward Peters"}
+{"races": "Mechanism", "attack": 20, "health": 2, "id_add": 6, "rarity": "Common", "ability": "Windfury", "id_card": 146, "manacost": 12, "name_card": "Jason Walters"}
+{"races": "Dragon", "attack": 4, "health": 5, "id_add": 7, "rarity": "Rare", "ability": "Battle cry", "id_card": 147, "manacost": 15, "name_card": "Ricardo Hester"}
+{"races": "Pirat", "attack": 16, "health": 16, "id_add": 8, "rarity": "Common", "ability": "Battle cry", "id_card": 148, "manacost": 13, "name_card": "Christopher Clark"}
+{"races": "Mechanism", "attack": 10, "health": 12, "id_add": 7, "rarity": "Base", "ability": "Overkill", "id_card": 149, "manacost": 17, "name_card": "Paul Lee"}
+{"races": "Elemental", "attack": 19, "health": 15, "id_add": 9, "rarity": "Epic", "ability": "Poisonous", "id_card": 150, "manacost": 15, "name_card": "Donna Johnson"}
+{"races": "Totem", "attack": 13, "health": 2, "id_add": 9, "rarity": "Rare", "ability": "Taunt", "id_card": 151, "manacost": 14, "name_card": "Stacey Nguyen"}
+{"races": "Beast", "attack": 14, "health": 14, "id_add": 3, "rarity": "Base", "ability": "Poisonous", "id_card": 152, "manacost": 13, "name_card": "Steven Edwards"}
+{"races": "Dragon", "attack": 9, "health": 20, "id_add": 1, "rarity": "Legendary", "ability": "Deathrattle", "id_card": 153, "manacost": 9, "name_card": "Vickie Mcdonald"}
+{"races": "Demon", "attack": 1, "health": 12, "id_add": 9, "rarity": "Rare", "ability": "Taunt", "id_card": 154, "manacost": 6, "name_card": "Travis Meza"}
+{"races": "Dragon", "attack": 11, "health": 17, "id_add": 5, "rarity": "Common", "ability": "Deathrattle", "id_card": 155, "manacost": 20, "name_card": "Cynthia Hernandez"}
+{"races": "Mechanism", "attack": 8, "health": 19, "id_add": 10, "rarity": "Rare", "ability": "Mega windfury", "id_card": 156, "manacost": 22, "name_card": "Diane Romero"}
+{"races": "Pirat", "attack": 6, "health": 7, "id_add": 4, "rarity": "Epic", "ability": "Battle cry", "id_card": 157, "manacost": 16, "name_card": "Autumn Miller"}
+{"races": "Dragon", "attack": 16, "health": 6, "id_add": 6, "rarity": "Epic", "ability": "Windfury", "id_card": 158, "manacost": 21, "name_card": "Shirley Hamilton"}
+{"races": "Elemental", "attack": 19, "health": 3, "id_add": 1, "rarity": "Rare", "ability": "Overkill", "id_card": 159, "manacost": 22, "name_card": "Crystal Werner"}
+{"races": "Murloc", "attack": 14, "health": 5, "id_add": 11, "rarity": "Legendary", "ability": "Poisonous", "id_card": 160, "manacost": 24, "name_card": "Valerie Smith"}
+{"races": "Demon", "attack": 14, "health": 5, "id_add": 15, "rarity": "Base", "ability": "Overkill", "id_card": 161, "manacost": 3, "name_card": "Matthew Luna"}
+{"races": "Dragon", "attack": 15, "health": 13, "id_add": 12, "rarity": "Rare", "ability": "Deathrattle", "id_card": 162, "manacost": 11, "name_card": "Jeffrey Mcdaniel"}
+{"races": "Demon", "attack": 20, "health": 8, "id_add": 15, "rarity": "Rare", "ability": "Mega windfury", "id_card": 163, "manacost": 17, "name_card": "Bradley Figueroa"}
+{"races": "Beast", "attack": 11, "health": 1, "id_add": 4, "rarity": "Legendary", "ability": "Deathrattle", "id_card": 164, "manacost": 21, "name_card": "Jose Leonard"}
+{"races": "Totem", "attack": 19, "health": 16, "id_add": 11, "rarity": "Common", "ability": "Mega windfury", "id_card": 165, "manacost": 4, "name_card": "Michael Davis"}
+{"races": "Murloc", "attack": 7, "health": 15, "id_add": 10, "rarity": "Epic", "ability": "Divine shield", "id_card": 166, "manacost": 8, "name_card": "Patrick Jacobs"}
+{"races": "Elemental", "attack": 16, "health": 17, "id_add": 15, "rarity": "Base", "ability": "Mega windfury", "id_card": 167, "manacost": 13, "name_card": "Amy Lawson"}
+{"races": "Demon", "attack": 6, "health": 2, "id_add": 10, "rarity": "Epic", "ability": "Lifesteal", "id_card": 168, "manacost": 19, "name_card": "Renee Johnson"}
+{"races": "Beast", "attack": 16, "health": 12, "id_add": 6, "rarity": "Epic", "ability": "Poisonous", "id_card": 169, "manacost": 18, "name_card": "Kyle Jones"}
+{"races": "Totem", "attack": 14, "health": 13, "id_add": 9, "rarity": "Common", "ability": "Rush", "id_card": 170, "manacost": 25, "name_card": "Kimberly Clark"}
+{"races": "Murloc", "attack": 15, "health": 18, "id_add": 13, "rarity": "Epic", "ability": "Rush", "id_card": 171, "manacost": 23, "name_card": "Patricia Williams"}
+{"races": "Mechanism", "attack": 19, "health": 3, "id_add": 6, "rarity": "Base", "ability": "Divine shield", "id_card": 172, "manacost": 17, "name_card": "Catherine Holland"}
+{"races": "Beast", "attack": 2, "health": 1, "id_add": 4, "rarity": "Legendary", "ability": "Divine shield", "id_card": 173, "manacost": 5, "name_card": "Scott Mercado"}
+{"races": "Beast", "attack": 0, "health": 6, "id_add": 1, "rarity": "Legendary", "ability": "Poisonous", "id_card": 174, "manacost": 0, "name_card": "Dr. Kyle Zamora DDS"}
+{"races": "Pirat", "attack": 7, "health": 13, "id_add": 1, "rarity": "Epic", "ability": "Battle cry", "id_card": 175, "manacost": 23, "name_card": "Rachel Cole"}
+{"races": "Mechanism", "attack": 1, "health": 17, "id_add": 7, "rarity": "Common", "ability": "Lifesteal", "id_card": 176, "manacost": 0, "name_card": "Brittney Torres"}
+{"races": "Mechanism", "attack": 4, "health": 16, "id_add": 4, "rarity": "Common", "ability": "Non-target", "id_card": 177, "manacost": 1, "name_card": "Tracy Flores"}
+{"races": "Elemental", "attack": 16, "health": 3, "id_add": 13, "rarity": "Epic", "ability": "Mega windfury", "id_card": 178, "manacost": 3, "name_card": "Stacy Soto"}
+{"races": "Elemental", "attack": 20, "health": 12, "id_add": 13, "rarity": "Epic", "ability": "Lifesteal", "id_card": 179, "manacost": 22, "name_card": "Allen Coleman"}
+{"races": "Dragon", "attack": 16, "health": 13, "id_add": 11, "rarity": "Legendary", "ability": "Rush", "id_card": 180, "manacost": 22, "name_card": "Kayla Pollard"}
+{"races": "Elemental", "attack": 4, "health": 18, "id_add": 1, "rarity": "Legendary", "ability": "Deathrattle", "id_card": 181, "manacost": 1, "name_card": "Christopher Phelps"}
+{"races": "Totem", "attack": 9, "health": 20, "id_add": 12, "rarity": "Rare", "ability": "Stealth", "id_card": 182, "manacost": 4, "name_card": "Kelsey Tran"}
+{"races": "Demon", "attack": 11, "health": 12, "id_add": 13, "rarity": "Rare", "ability": "Rush", "id_card": 183, "manacost": 24, "name_card": "Vanessa Vaughan"}
+{"races": "Murloc", "attack": 8, "health": 3, "id_add": 1, "rarity": "Base", "ability": "Overkill", "id_card": 184, "manacost": 20, "name_card": "Aaron Huynh"}
+{"races": "Totem", "attack": 4, "health": 11, "id_add": 13, "rarity": "Common", "ability": "Poisonous", "id_card": 185, "manacost": 8, "name_card": "Mark Buchanan"}
+{"races": "Totem", "attack": 18, "health": 4, "id_add": 3, "rarity": "Base", "ability": "Non-target", "id_card": 186, "manacost": 0, "name_card": "Janice Hawkins"}
+{"races": "Demon", "attack": 10, "health": 8, "id_add": 11, "rarity": "Legendary", "ability": "Battle cry", "id_card": 187, "manacost": 15, "name_card": "Christina Brown"}
+{"races": "Murloc", "attack": 11, "health": 2, "id_add": 3, "rarity": "Rare", "ability": "Divine shield", "id_card": 188, "manacost": 7, "name_card": "James Carlson"}
+{"races": "Elemental", "attack": 17, "health": 9, "id_add": 1, "rarity": "Legendary", "ability": "Overkill", "id_card": 189, "manacost": 2, "name_card": "Julie Robinson"}
+{"races": "Beast", "attack": 5, "health": 2, "id_add": 11, "rarity": "Epic", "ability": "Overkill", "id_card": 190, "manacost": 2, "name_card": "Jeff Coleman"}
+{"races": "Beast", "attack": 19, "health": 8, "id_add": 13, "rarity": "Epic", "ability": "Deathrattle", "id_card": 191, "manacost": 13, "name_card": "Derrick White"}
+{"races": "Elemental", "attack": 16, "health": 6, "id_add": 2, "rarity": "Common", "ability": "Lifesteal", "id_card": 192, "manacost": 2, "name_card": "Jeffrey Wolfe"}
+{"races": "Dragon", "attack": 12, "health": 7, "id_add": 14, "rarity": "Rare", "ability": "Stealth", "id_card": 193, "manacost": 18, "name_card": "Jesse Phillips"}
+{"races": "Dragon", "attack": 12, "health": 5, "id_add": 12, "rarity": "Base", "ability": "Windfury", "id_card": 194, "manacost": 25, "name_card": "Jeffrey Jacobs"}
+{"races": "Beast", "attack": 12, "health": 3, "id_add": 13, "rarity": "Legendary", "ability": "Poisonous", "id_card": 195, "manacost": 15, "name_card": "Brooke James"}
+{"races": "Totem", "attack": 2, "health": 6, "id_add": 4, "rarity": "Rare", "ability": "Non-target", "id_card": 196, "manacost": 6, "name_card": "Mr. Kevin Gonzales"}
+{"races": "Demon", "attack": 15, "health": 11, "id_add": 4, "rarity": "Epic", "ability": "Stealth", "id_card": 197, "manacost": 22, "name_card": "Robert Adams"}
+{"races": "Totem", "attack": 0, "health": 4, "id_add": 12, "rarity": "Common", "ability": "Windfury", "id_card": 198, "manacost": 20, "name_card": "Joseph Mccoy"}
+{"races": "Murloc", "attack": 10, "health": 16, "id_add": 12, "rarity": "Legendary", "ability": "Mega windfury", "id_card": 199, "manacost": 4, "name_card": "Jennifer Webb"}
+{"races": "Elemental", "attack": 11, "health": 10, "id_add": 5, "rarity": "Common", "ability": "Windfury", "id_card": 200, "manacost": 20, "name_card": "Kevin Gaines"}
+{"races": "Dragon", "attack": 16, "health": 12, "id_add": 2, "rarity": "Rare", "ability": "Battle cry", "id_card": 201, "manacost": 5, "name_card": "Jesse Hoffman"}
+{"races": "Pirat", "attack": 18, "health": 10, "id_add": 14, "rarity": "Rare", "ability": "Poisonous", "id_card": 202, "manacost": 15, "name_card": "Kristy Santos"}
+{"races": "Demon", "attack": 12, "health": 1, "id_add": 14, "rarity": "Common", "ability": "Rush", "id_card": 203, "manacost": 10, "name_card": "Brian Moreno"}
+{"races": "Pirat", "attack": 8, "health": 3, "id_add": 11, "rarity": "Common", "ability": "Non-target", "id_card": 204, "manacost": 7, "name_card": "Holly Green"}
+{"races": "Beast", "attack": 20, "health": 3, "id_add": 11, "rarity": "Common", "ability": "Battle cry", "id_card": 205, "manacost": 21, "name_card": "Hayden Hodges"}
+{"races": "Totem", "attack": 19, "health": 10, "id_add": 3, "rarity": "Epic", "ability": "Taunt", "id_card": 206, "manacost": 20, "name_card": "Renee Miranda"}
+{"races": "Mechanism", "attack": 20, "health": 15, "id_add": 5, "rarity": "Epic", "ability": "Stealth", "id_card": 207, "manacost": 12, "name_card": "James Hubbard"}
+{"races": "Mechanism", "attack": 0, "health": 11, "id_add": 3, "rarity": "Base", "ability": "Battle cry", "id_card": 208, "manacost": 16, "name_card": "Anthony Jones"}
+{"races": "Beast", "attack": 1, "health": 17, "id_add": 4, "rarity": "Legendary", "ability": "Non-target", "id_card": 209, "manacost": 7, "name_card": "Courtney Rice"}
+{"races": "Mechanism", "attack": 6, "health": 1, "id_add": 6, "rarity": "Rare", "ability": "Non-target", "id_card": 210, "manacost": 16, "name_card": "Jacob Johnson"}
+{"races": "Murloc", "attack": 20, "health": 9, "id_add": 13, "rarity": "Epic", "ability": "Taunt", "id_card": 211, "manacost": 20, "name_card": "Melissa Rogers"}
+{"races": "Dragon", "attack": 18, "health": 20, "id_add": 15, "rarity": "Base", "ability": "Taunt", "id_card": 212, "manacost": 13, "name_card": "Roger Smith"}
+{"races": "Totem", "attack": 5, "health": 18, "id_add": 3, "rarity": "Rare", "ability": "Divine shield", "id_card": 213, "manacost": 6, "name_card": "Jennifer Parker"}
+{"races": "Dragon", "attack": 14, "health": 3, "id_add": 5, "rarity": "Legendary", "ability": "Stealth", "id_card": 214, "manacost": 1, "name_card": "Zachary Huynh"}
+{"races": "Mechanism", "attack": 17, "health": 3, "id_add": 3, "rarity": "Common", "ability": "Poisonous", "id_card": 215, "manacost": 25, "name_card": "Bryan Vincent"}
+{"races": "Murloc", "attack": 6, "health": 18, "id_add": 4, "rarity": "Legendary", "ability": "Stealth", "id_card": 216, "manacost": 22, "name_card": "Timothy Jimenez"}
+{"races": "Demon", "attack": 13, "health": 7, "id_add": 12, "rarity": "Base", "ability": "Deathrattle", "id_card": 217, "manacost": 18, "name_card": "David Stein"}
+{"races": "Pirat", "attack": 2, "health": 11, "id_add": 6, "rarity": "Rare", "ability": "Mega windfury", "id_card": 218, "manacost": 22, "name_card": "Christine Carr"}
+{"races": "Mechanism", "attack": 14, "health": 10, "id_add": 12, "rarity": "Epic", "ability": "Stealth", "id_card": 219, "manacost": 16, "name_card": "Blake Adams"}
+{"races": "Demon", "attack": 2, "health": 10, "id_add": 10, "rarity": "Epic", "ability": "Stealth", "id_card": 220, "manacost": 3, "name_card": "Jodi Sullivan"}
+{"races": "Totem", "attack": 17, "health": 10, "id_add": 9, "rarity": "Common", "ability": "Overkill", "id_card": 221, "manacost": 21, "name_card": "Joel Williams"}
+{"races": "Demon", "attack": 2, "health": 1, "id_add": 11, "rarity": "Legendary", "ability": "Taunt", "id_card": 222, "manacost": 6, "name_card": "Connie Barrett"}
+{"races": "Dragon", "attack": 12, "health": 3, "id_add": 6, "rarity": "Common", "ability": "Poisonous", "id_card": 223, "manacost": 16, "name_card": "Jose Peterson"}
+{"races": "Totem", "attack": 5, "health": 2, "id_add": 6, "rarity": "Common", "ability": "Rush", "id_card": 224, "manacost": 6, "name_card": "Lisa Wilson"}
+{"races": "Pirat", "attack": 0, "health": 3, "id_add": 12, "rarity": "Base", "ability": "Battle cry", "id_card": 225, "manacost": 6, "name_card": "Billy Miles"}
+{"races": "Pirat", "attack": 18, "health": 17, "id_add": 11, "rarity": "Rare", "ability": "Taunt", "id_card": 226, "manacost": 17, "name_card": "Tonya Miller"}
+{"races": "Pirat", "attack": 9, "health": 10, "id_add": 4, "rarity": "Common", "ability": "Deathrattle", "id_card": 227, "manacost": 7, "name_card": "James Hammond"}
+{"races": "Elemental", "attack": 9, "health": 16, "id_add": 15, "rarity": "Common", "ability": "Lifesteal", "id_card": 228, "manacost": 16, "name_card": "Christopher Stewart"}
+{"races": "Elemental", "attack": 11, "health": 15, "id_add": 7, "rarity": "Legendary", "ability": "Windfury", "id_card": 229, "manacost": 21, "name_card": "Brandon Hartman"}
+{"races": "Pirat", "attack": 6, "health": 20, "id_add": 14, "rarity": "Legendary", "ability": "Lifesteal", "id_card": 230, "manacost": 5, "name_card": "Michael Maynard"}
+{"races": "Dragon", "attack": 15, "health": 15, "id_add": 12, "rarity": "Epic", "ability": "Overkill", "id_card": 231, "manacost": 16, "name_card": "Robert Willis"}
+{"races": "Demon", "attack": 0, "health": 10, "id_add": 5, "rarity": "Common", "ability": "Taunt", "id_card": 232, "manacost": 16, "name_card": "Caroline Hull"}
+{"races": "Mechanism", "attack": 11, "health": 13, "id_add": 8, "rarity": "Epic", "ability": "Windfury", "id_card": 233, "manacost": 2, "name_card": "Dustin Small"}
+{"races": "Demon", "attack": 12, "health": 19, "id_add": 10, "rarity": "Epic", "ability": "Taunt", "id_card": 234, "manacost": 18, "name_card": "Aaron Conley"}
+{"races": "Demon", "attack": 11, "health": 10, "id_add": 11, "rarity": "Rare", "ability": "Battle cry", "id_card": 235, "manacost": 12, "name_card": "Susan York"}
+{"races": "Demon", "attack": 8, "health": 12, "id_add": 2, "rarity": "Legendary", "ability": "Windfury", "id_card": 236, "manacost": 23, "name_card": "Philip Roth"}
+{"races": "Totem", "attack": 15, "health": 8, "id_add": 7, "rarity": "Common", "ability": "Lifesteal", "id_card": 237, "manacost": 13, "name_card": "Matthew Smith"}
+{"races": "Pirat", "attack": 17, "health": 18, "id_add": 9, "rarity": "Legendary", "ability": "Stealth", "id_card": 238, "manacost": 16, "name_card": "Dawn Spencer"}
+{"races": "Murloc", "attack": 4, "health": 8, "id_add": 6, "rarity": "Common", "ability": "Rush", "id_card": 239, "manacost": 21, "name_card": "Brian Morgan"}
+{"races": "Beast", "attack": 2, "health": 17, "id_add": 14, "rarity": "Epic", "ability": "Overkill", "id_card": 240, "manacost": 5, "name_card": "Michelle Blanchard"}
+{"races": "Pirat", "attack": 4, "health": 14, "id_add": 11, "rarity": "Epic", "ability": "Rush", "id_card": 241, "manacost": 4, "name_card": "Katherine Barber"}
+{"races": "Pirat", "attack": 20, "health": 3, "id_add": 10, "rarity": "Legendary", "ability": "Deathrattle", "id_card": 242, "manacost": 13, "name_card": "Alexis Porter DVM"}
+{"races": "Dragon", "attack": 6, "health": 5, "id_add": 9, "rarity": "Rare", "ability": "Mega windfury", "id_card": 243, "manacost": 18, "name_card": "Ann Thompson"}
+{"races": "Elemental", "attack": 11, "health": 6, "id_add": 11, "rarity": "Base", "ability": "Poisonous", "id_card": 244, "manacost": 25, "name_card": "Chelsea Miller"}
+{"races": "Beast", "attack": 17, "health": 6, "id_add": 11, "rarity": "Rare", "ability": "Windfury", "id_card": 245, "manacost": 0, "name_card": "Christopher Shaw"}
+{"races": "Beast", "attack": 18, "health": 13, "id_add": 13, "rarity": "Legendary", "ability": "Taunt", "id_card": 246, "manacost": 5, "name_card": "Theresa Lee"}
+{"races": "Totem", "attack": 3, "health": 8, "id_add": 7, "rarity": "Epic", "ability": "Non-target", "id_card": 247, "manacost": 9, "name_card": "Timothy Wagner"}
+{"races": "Murloc", "attack": 6, "health": 11, "id_add": 13, "rarity": "Rare", "ability": "Rush", "id_card": 248, "manacost": 14, "name_card": "Janet Ewing"}
+{"races": "Dragon", "attack": 0, "health": 4, "id_add": 7, "rarity": "Epic", "ability": "Windfury", "id_card": 249, "manacost": 25, "name_card": "Amy Ward"}
+{"races": "Murloc", "attack": 15, "health": 8, "id_add": 3, "rarity": "Base", "ability": "Deathrattle", "id_card": 250, "manacost": 14, "name_card": "Misty Cooper"}
+{"races": "Murloc", "attack": 4, "health": 19, "id_add": 14, "rarity": "Common", "ability": "Windfury", "id_card": 251, "manacost": 1, "name_card": "Kevin Webb"}
+{"races": "Mechanism", "attack": 8, "health": 8, "id_add": 12, "rarity": "Legendary", "ability": "Rush", "id_card": 252, "manacost": 12, "name_card": "Miguel Hart"}
+{"races": "Pirat", "attack": 13, "health": 19, "id_add": 5, "rarity": "Base", "ability": "Taunt", "id_card": 253, "manacost": 13, "name_card": "William Burton"}
+{"races": "Elemental", "attack": 10, "health": 4, "id_add": 12, "rarity": "Rare", "ability": "Lifesteal", "id_card": 254, "manacost": 13, "name_card": "Eric Sloan"}
+{"races": "Murloc", "attack": 12, "health": 9, "id_add": 7, "rarity": "Rare", "ability": "Stealth", "id_card": 255, "manacost": 19, "name_card": "Jeremy Foster"}
+{"races": "Murloc", "attack": 9, "health": 3, "id_add": 5, "rarity": "Common", "ability": "Rush", "id_card": 256, "manacost": 4, "name_card": "Jonathan Garrison"}
+{"races": "Totem", "attack": 4, "health": 11, "id_add": 2, "rarity": "Legendary", "ability": "Overkill", "id_card": 257, "manacost": 20, "name_card": "Brittany Wolfe"}
+{"races": "Beast", "attack": 0, "health": 12, "id_add": 5, "rarity": "Base", "ability": "Deathrattle", "id_card": 258, "manacost": 22, "name_card": "Susan Bennett"}
+{"races": "Elemental", "attack": 11, "health": 8, "id_add": 12, "rarity": "Rare", "ability": "Lifesteal", "id_card": 259, "manacost": 22, "name_card": "Gregg Woodward"}
+{"races": "Elemental", "attack": 0, "health": 6, "id_add": 2, "rarity": "Epic", "ability": "Divine shield", "id_card": 260, "manacost": 11, "name_card": "Jerry Bartlett"}
+{"races": "Pirat", "attack": 7, "health": 11, "id_add": 7, "rarity": "Common", "ability": "Overkill", "id_card": 261, "manacost": 18, "name_card": "Stephanie Davis"}
+{"races": "Mechanism", "attack": 11, "health": 14, "id_add": 5, "rarity": "Legendary", "ability": "Mega windfury", "id_card": 262, "manacost": 9, "name_card": "Mary Wiggins"}
+{"races": "Demon", "attack": 4, "health": 17, "id_add": 12, "rarity": "Rare", "ability": "Taunt", "id_card": 263, "manacost": 25, "name_card": "Lisa Medina"}
+{"races": "Beast", "attack": 1, "health": 3, "id_add": 9, "rarity": "Common", "ability": "Non-target", "id_card": 264, "manacost": 5, "name_card": "Nicole Ross"}
+{"races": "Elemental", "attack": 16, "health": 14, "id_add": 6, "rarity": "Legendary", "ability": "Non-target", "id_card": 265, "manacost": 2, "name_card": "Joshua Chavez"}
+{"races": "Demon", "attack": 19, "health": 15, "id_add": 9, "rarity": "Base", "ability": "Stealth", "id_card": 266, "manacost": 13, "name_card": "Joseph Briggs"}
+{"races": "Murloc", "attack": 0, "health": 15, "id_add": 5, "rarity": "Base", "ability": "Windfury", "id_card": 267, "manacost": 9, "name_card": "Mitchell Carr"}
+{"races": "Mechanism", "attack": 7, "health": 8, "id_add": 13, "rarity": "Base", "ability": "Overkill", "id_card": 268, "manacost": 10, "name_card": "Krista Townsend"}
+{"races": "Totem", "attack": 19, "health": 14, "id_add": 2, "rarity": "Common", "ability": "Divine shield", "id_card": 269, "manacost": 23, "name_card": "Thomas Munoz"}
+{"races": "Demon", "attack": 13, "health": 7, "id_add": 10, "rarity": "Common", "ability": "Non-target", "id_card": 270, "manacost": 12, "name_card": "Michelle Evans"}
+{"races": "Pirat", "attack": 18, "health": 13, "id_add": 8, "rarity": "Legendary", "ability": "Overkill", "id_card": 271, "manacost": 18, "name_card": "Sherri Clark"}
+{"races": "Beast", "attack": 17, "health": 9, "id_add": 2, "rarity": "Legendary", "ability": "Divine shield", "id_card": 272, "manacost": 4, "name_card": "Rachel Richards"}
+{"races": "Mechanism", "attack": 8, "health": 5, "id_add": 13, "rarity": "Base", "ability": "Windfury", "id_card": 273, "manacost": 2, "name_card": "David Herrera"}
+{"races": "Pirat", "attack": 15, "health": 6, "id_add": 8, "rarity": "Rare", "ability": "Rush", "id_card": 274, "manacost": 16, "name_card": "Joshua Ray"}
+{"races": "Demon", "attack": 13, "health": 10, "id_add": 10, "rarity": "Rare", "ability": "Overkill", "id_card": 275, "manacost": 9, "name_card": "Amy Walls"}
+{"races": "Demon", "attack": 3, "health": 2, "id_add": 12, "rarity": "Base", "ability": "Divine shield", "id_card": 276, "manacost": 20, "name_card": "Diane Kirby"}
+{"races": "Mechanism", "attack": 18, "health": 17, "id_add": 11, "rarity": "Common", "ability": "Battle cry", "id_card": 277, "manacost": 23, "name_card": "Dawn Chambers"}
+{"races": "Mechanism", "attack": 11, "health": 20, "id_add": 2, "rarity": "Epic", "ability": "Stealth", "id_card": 278, "manacost": 25, "name_card": "Andrea Lopez"}
+{"races": "Murloc", "attack": 17, "health": 5, "id_add": 13, "rarity": "Epic", "ability": "Poisonous", "id_card": 279, "manacost": 10, "name_card": "April Simmons"}
+{"races": "Demon", "attack": 2, "health": 8, "id_add": 5, "rarity": "Rare", "ability": "Divine shield", "id_card": 280, "manacost": 0, "name_card": "Jeffrey Sharp"}
+{"races": "Beast", "attack": 16, "health": 20, "id_add": 8, "rarity": "Legendary", "ability": "Divine shield", "id_card": 281, "manacost": 3, "name_card": "Mrs. Connie Lawson PhD"}
+{"races": "Murloc", "attack": 11, "health": 3, "id_add": 6, "rarity": "Base", "ability": "Deathrattle", "id_card": 282, "manacost": 24, "name_card": "Cheyenne Simon"}
+{"races": "Mechanism", "attack": 17, "health": 19, "id_add": 12, "rarity": "Legendary", "ability": "Poisonous", "id_card": 283, "manacost": 12, "name_card": "Margaret Thompson"}
+{"races": "Elemental", "attack": 19, "health": 10, "id_add": 12, "rarity": "Rare", "ability": "Windfury", "id_card": 284, "manacost": 2, "name_card": "James Lopez"}
+{"races": "Pirat", "attack": 10, "health": 17, "id_add": 14, "rarity": "Base", "ability": "Stealth", "id_card": 285, "manacost": 12, "name_card": "Peter Cox"}
+{"races": "Elemental", "attack": 12, "health": 7, "id_add": 8, "rarity": "Rare", "ability": "Non-target", "id_card": 286, "manacost": 2, "name_card": "Bobby Thomas"}
+{"races": "Totem", "attack": 0, "health": 14, "id_add": 5, "rarity": "Legendary", "ability": "Rush", "id_card": 287, "manacost": 3, "name_card": "Michael Walker"}
+{"races": "Dragon", "attack": 9, "health": 6, "id_add": 8, "rarity": "Rare", "ability": "Battle cry", "id_card": 288, "manacost": 3, "name_card": "Caleb Mcdonald"}
+{"races": "Totem", "attack": 17, "health": 4, "id_add": 2, "rarity": "Base", "ability": "Rush", "id_card": 289, "manacost": 0, "name_card": "Melissa Riley"}
+{"races": "Dragon", "attack": 10, "health": 20, "id_add": 10, "rarity": "Rare", "ability": "Taunt", "id_card": 290, "manacost": 13, "name_card": "Nicholas Adams"}
+{"races": "Mechanism", "attack": 11, "health": 8, "id_add": 13, "rarity": "Common", "ability": "Poisonous", "id_card": 291, "manacost": 16, "name_card": "David Curtis"}
+{"races": "Murloc", "attack": 17, "health": 1, "id_add": 15, "rarity": "Epic", "ability": "Windfury", "id_card": 292, "manacost": 25, "name_card": "Dale Cantrell DVM"}
+{"races": "Totem", "attack": 9, "health": 8, "id_add": 10, "rarity": "Common", "ability": "Stealth", "id_card": 293, "manacost": 21, "name_card": "William Anderson"}
+{"races": "Mechanism", "attack": 17, "health": 18, "id_add": 15, "rarity": "Legendary", "ability": "Overkill", "id_card": 294, "manacost": 13, "name_card": "Anna Lawrence"}
+{"races": "Dragon", "attack": 1, "health": 14, "id_add": 14, "rarity": "Epic", "ability": "Mega windfury", "id_card": 295, "manacost": 12, "name_card": "Mr. Donald Mitchell DDS"}
+{"races": "Mechanism", "attack": 14, "health": 9, "id_add": 13, "rarity": "Legendary", "ability": "Divine shield", "id_card": 296, "manacost": 25, "name_card": "Carl Jones"}
+{"races": "Demon", "attack": 13, "health": 3, "id_add": 1, "rarity": "Common", "ability": "Divine shield", "id_card": 297, "manacost": 25, "name_card": "Christopher Estes"}
+{"races": "Dragon", "attack": 19, "health": 16, "id_add": 2, "rarity": "Legendary", "ability": "Battle cry", "id_card": 298, "manacost": 24, "name_card": "Henry Munoz"}
+{"races": "Dragon", "attack": 18, "health": 2, "id_add": 2, "rarity": "Legendary", "ability": "Taunt", "id_card": 299, "manacost": 20, "name_card": "Jacqueline Johnson"}
+{"races": "Mechanism", "attack": 18, "health": 7, "id_add": 14, "rarity": "Legendary", "ability": "Windfury", "id_card": 300, "manacost": 21, "name_card": "Holly Golden"}
+{"races": "Totem", "attack": 20, "health": 4, "id_add": 10, "rarity": "Rare", "ability": "Divine shield", "id_card": 301, "manacost": 16, "name_card": "Tammy Smith"}
+{"races": "Totem", "attack": 17, "health": 7, "id_add": 11, "rarity": "Rare", "ability": "Non-target", "id_card": 302, "manacost": 11, "name_card": "Ashley Oneal"}
+{"races": "Elemental", "attack": 7, "health": 8, "id_add": 11, "rarity": "Rare", "ability": "Non-target", "id_card": 303, "manacost": 22, "name_card": "Jason Moore"}
+{"races": "Elemental", "attack": 1, "health": 15, "id_add": 1, "rarity": "Base", "ability": "Stealth", "id_card": 304, "manacost": 11, "name_card": "Morgan Gutierrez"}
+{"races": "Dragon", "attack": 15, "health": 9, "id_add": 4, "rarity": "Common", "ability": "Non-target", "id_card": 305, "manacost": 23, "name_card": "Juan Boone"}
+{"races": "Beast", "attack": 6, "health": 11, "id_add": 8, "rarity": "Common", "ability": "Windfury", "id_card": 306, "manacost": 19, "name_card": "Tyler Green"}
+{"races": "Elemental", "attack": 13, "health": 2, "id_add": 12, "rarity": "Rare", "ability": "Poisonous", "id_card": 307, "manacost": 1, "name_card": "Paul Shelton"}
+{"races": "Pirat", "attack": 4, "health": 11, "id_add": 1, "rarity": "Rare", "ability": "Rush", "id_card": 308, "manacost": 3, "name_card": "Marissa Kirby"}
+{"races": "Dragon", "attack": 11, "health": 6, "id_add": 9, "rarity": "Base", "ability": "Divine shield", "id_card": 309, "manacost": 11, "name_card": "Derek Johnson PhD"}
+{"races": "Elemental", "attack": 9, "health": 11, "id_add": 14, "rarity": "Common", "ability": "Rush", "id_card": 310, "manacost": 23, "name_card": "Tracy Berger"}
+{"races": "Elemental", "attack": 19, "health": 9, "id_add": 12, "rarity": "Legendary", "ability": "Rush", "id_card": 311, "manacost": 19, "name_card": "Jenna Harmon"}
+{"races": "Mechanism", "attack": 2, "health": 2, "id_add": 6, "rarity": "Rare", "ability": "Taunt", "id_card": 312, "manacost": 14, "name_card": "Michelle Gonzalez"}
+{"races": "Pirat", "attack": 17, "health": 2, "id_add": 7, "rarity": "Epic", "ability": "Taunt", "id_card": 313, "manacost": 24, "name_card": "William Burke"}
+{"races": "Demon", "attack": 17, "health": 14, "id_add": 1, "rarity": "Legendary", "ability": "Battle cry", "id_card": 314, "manacost": 20, "name_card": "Lauren Miller"}
+{"races": "Demon", "attack": 15, "health": 11, "id_add": 3, "rarity": "Legendary", "ability": "Taunt", "id_card": 315, "manacost": 4, "name_card": "Jeffrey Reeves"}
+{"races": "Mechanism", "attack": 0, "health": 20, "id_add": 2, "rarity": "Rare", "ability": "Poisonous", "id_card": 316, "manacost": 15, "name_card": "Christina Owens"}
+{"races": "Beast", "attack": 3, "health": 1, "id_add": 2, "rarity": "Common", "ability": "Divine shield", "id_card": 317, "manacost": 4, "name_card": "Travis Brock"}
+{"races": "Dragon", "attack": 18, "health": 2, "id_add": 15, "rarity": "Base", "ability": "Lifesteal", "id_card": 318, "manacost": 6, "name_card": "Thomas Webb"}
+{"races": "Dragon", "attack": 8, "health": 17, "id_add": 6, "rarity": "Base", "ability": "Stealth", "id_card": 319, "manacost": 8, "name_card": "Kaitlyn Webb"}
+{"races": "Elemental", "attack": 9, "health": 16, "id_add": 2, "rarity": "Rare", "ability": "Divine shield", "id_card": 320, "manacost": 8, "name_card": "Shirley Valencia"}
+{"races": "Murloc", "attack": 9, "health": 15, "id_add": 3, "rarity": "Rare", "ability": "Non-target", "id_card": 321, "manacost": 19, "name_card": "Robert Reed"}
+{"races": "Dragon", "attack": 19, "health": 19, "id_add": 4, "rarity": "Rare", "ability": "Deathrattle", "id_card": 322, "manacost": 24, "name_card": "Maurice Johnston"}
+{"races": "Demon", "attack": 15, "health": 1, "id_add": 10, "rarity": "Base", "ability": "Divine shield", "id_card": 323, "manacost": 13, "name_card": "Sara Hernandez"}
+{"races": "Pirat", "attack": 6, "health": 14, "id_add": 12, "rarity": "Common", "ability": "Rush", "id_card": 324, "manacost": 0, "name_card": "John Ramirez"}
+{"races": "Elemental", "attack": 2, "health": 5, "id_add": 2, "rarity": "Common", "ability": "Deathrattle", "id_card": 325, "manacost": 19, "name_card": "Adam Thomas"}
+{"races": "Dragon", "attack": 4, "health": 10, "id_add": 15, "rarity": "Legendary", "ability": "Poisonous", "id_card": 326, "manacost": 23, "name_card": "Sara Byrd"}
+{"races": "Pirat", "attack": 16, "health": 6, "id_add": 2, "rarity": "Legendary", "ability": "Non-target", "id_card": 327, "manacost": 23, "name_card": "Anthony Landry"}
+{"races": "Elemental", "attack": 10, "health": 1, "id_add": 14, "rarity": "Rare", "ability": "Overkill", "id_card": 328, "manacost": 22, "name_card": "Marvin Thomas"}
+{"races": "Demon", "attack": 17, "health": 5, "id_add": 9, "rarity": "Rare", "ability": "Mega windfury", "id_card": 329, "manacost": 17, "name_card": "Brittany Scott"}
+{"races": "Dragon", "attack": 12, "health": 8, "id_add": 11, "rarity": "Legendary", "ability": "Mega windfury", "id_card": 330, "manacost": 4, "name_card": "Kenneth Schmidt DDS"}
+{"races": "Pirat", "attack": 12, "health": 4, "id_add": 4, "rarity": "Common", "ability": "Non-target", "id_card": 331, "manacost": 4, "name_card": "Mario Baker"}
+{"races": "Elemental", "attack": 17, "health": 5, "id_add": 14, "rarity": "Rare", "ability": "Windfury", "id_card": 332, "manacost": 6, "name_card": "Zachary Gates"}
+{"races": "Totem", "attack": 0, "health": 12, "id_add": 9, "rarity": "Rare", "ability": "Overkill", "id_card": 333, "manacost": 11, "name_card": "Tracey Carroll"}
+{"races": "Murloc", "attack": 6, "health": 10, "id_add": 4, "rarity": "Legendary", "ability": "Deathrattle", "id_card": 334, "manacost": 23, "name_card": "Joshua Henry"}
+{"races": "Beast", "attack": 5, "health": 1, "id_add": 3, "rarity": "Epic", "ability": "Windfury", "id_card": 335, "manacost": 7, "name_card": "Deborah Estrada"}
+{"races": "Elemental", "attack": 5, "health": 5, "id_add": 12, "rarity": "Base", "ability": "Mega windfury", "id_card": 336, "manacost": 16, "name_card": "Cheryl Richards"}
+{"races": "Elemental", "attack": 1, "health": 16, "id_add": 12, "rarity": "Common", "ability": "Divine shield", "id_card": 337, "manacost": 14, "name_card": "William Jones"}
+{"races": "Mechanism", "attack": 15, "health": 19, "id_add": 1, "rarity": "Legendary", "ability": "Taunt", "id_card": 338, "manacost": 17, "name_card": "Jo Williams"}
+{"races": "Murloc", "attack": 3, "health": 17, "id_add": 2, "rarity": "Base", "ability": "Deathrattle", "id_card": 339, "manacost": 4, "name_card": "Erik Stephens"}
+{"races": "Murloc", "attack": 1, "health": 14, "id_add": 15, "rarity": "Rare", "ability": "Poisonous", "id_card": 340, "manacost": 17, "name_card": "Cathy Maxwell"}
+{"races": "Totem", "attack": 6, "health": 10, "id_add": 12, "rarity": "Legendary", "ability": "Battle cry", "id_card": 341, "manacost": 11, "name_card": "Lisa Stewart"}
+{"races": "Murloc", "attack": 8, "health": 7, "id_add": 2, "rarity": "Rare", "ability": "Lifesteal", "id_card": 342, "manacost": 23, "name_card": "Ryan Murray"}
+{"races": "Beast", "attack": 17, "health": 13, "id_add": 3, "rarity": "Rare", "ability": "Rush", "id_card": 343, "manacost": 7, "name_card": "Ricardo Davis"}
+{"races": "Murloc", "attack": 4, "health": 18, "id_add": 5, "rarity": "Base", "ability": "Battle cry", "id_card": 344, "manacost": 9, "name_card": "Felicia Brown"}
+{"races": "Pirat", "attack": 17, "health": 18, "id_add": 8, "rarity": "Common", "ability": "Lifesteal", "id_card": 345, "manacost": 1, "name_card": "Adrienne Ramirez"}
+{"races": "Totem", "attack": 1, "health": 15, "id_add": 10, "rarity": "Rare", "ability": "Overkill", "id_card": 346, "manacost": 12, "name_card": "Dorothy Lawrence"}
+{"races": "Beast", "attack": 10, "health": 3, "id_add": 1, "rarity": "Base", "ability": "Battle cry", "id_card": 347, "manacost": 2, "name_card": "Michael Smith"}
+{"races": "Elemental", "attack": 15, "health": 6, "id_add": 5, "rarity": "Epic", "ability": "Battle cry", "id_card": 348, "manacost": 22, "name_card": "Jessica Wise"}
+{"races": "Totem", "attack": 3, "health": 10, "id_add": 9, "rarity": "Epic", "ability": "Lifesteal", "id_card": 349, "manacost": 13, "name_card": "Brittany Morrison"}
+{"races": "Pirat", "attack": 20, "health": 6, "id_add": 8, "rarity": "Epic", "ability": "Overkill", "id_card": 350, "manacost": 14, "name_card": "Jonathan Carter"}
+{"races": "Murloc", "attack": 10, "health": 8, "id_add": 11, "rarity": "Legendary", "ability": "Battle cry", "id_card": 351, "manacost": 2, "name_card": "Kelly Jackson"}
+{"races": "Elemental", "attack": 4, "health": 8, "id_add": 14, "rarity": "Rare", "ability": "Non-target", "id_card": 352, "manacost": 17, "name_card": "Donald Barnett"}
+{"races": "Demon", "attack": 2, "health": 18, "id_add": 7, "rarity": "Rare", "ability": "Lifesteal", "id_card": 353, "manacost": 12, "name_card": "Kevin Bell"}
+{"races": "Murloc", "attack": 6, "health": 4, "id_add": 15, "rarity": "Base", "ability": "Mega windfury", "id_card": 354, "manacost": 2, "name_card": "Amber Horton"}
+{"races": "Elemental", "attack": 16, "health": 16, "id_add": 14, "rarity": "Base", "ability": "Windfury", "id_card": 355, "manacost": 4, "name_card": "Melvin Marquez"}
+{"races": "Murloc", "attack": 19, "health": 5, "id_add": 13, "rarity": "Common", "ability": "Mega windfury", "id_card": 356, "manacost": 22, "name_card": "Michael Bauer II"}
+{"races": "Mechanism", "attack": 6, "health": 18, "id_add": 8, "rarity": "Epic", "ability": "Windfury", "id_card": 357, "manacost": 19, "name_card": "Tiffany Ramos"}
+{"races": "Totem", "attack": 18, "health": 9, "id_add": 6, "rarity": "Legendary", "ability": "Deathrattle", "id_card": 358, "manacost": 1, "name_card": "James Harrell"}
+{"races": "Murloc", "attack": 16, "health": 1, "id_add": 14, "rarity": "Epic", "ability": "Taunt", "id_card": 359, "manacost": 21, "name_card": "Dana Cook"}
+{"races": "Pirat", "attack": 6, "health": 7, "id_add": 12, "rarity": "Legendary", "ability": "Rush", "id_card": 360, "manacost": 6, "name_card": "James Arroyo"}
+{"races": "Murloc", "attack": 9, "health": 3, "id_add": 6, "rarity": "Base", "ability": "Windfury", "id_card": 361, "manacost": 2, "name_card": "Martha Howard"}
+{"races": "Demon", "attack": 14, "health": 19, "id_add": 2, "rarity": "Base", "ability": "Divine shield", "id_card": 362, "manacost": 13, "name_card": "Henry Beck"}
+{"races": "Dragon", "attack": 12, "health": 17, "id_add": 12, "rarity": "Base", "ability": "Non-target", "id_card": 363, "manacost": 15, "name_card": "Tiffany Gonzalez"}
+{"races": "Mechanism", "attack": 8, "health": 18, "id_add": 3, "rarity": "Legendary", "ability": "Taunt", "id_card": 364, "manacost": 11, "name_card": "Brian Abbott"}
+{"races": "Beast", "attack": 10, "health": 6, "id_add": 6, "rarity": "Rare", "ability": "Overkill", "id_card": 365, "manacost": 0, "name_card": "Joshua Jenkins"}
+{"races": "Murloc", "attack": 9, "health": 9, "id_add": 11, "rarity": "Legendary", "ability": "Poisonous", "id_card": 366, "manacost": 24, "name_card": "Bryan Liu"}
+{"races": "Beast", "attack": 6, "health": 13, "id_add": 12, "rarity": "Legendary", "ability": "Lifesteal", "id_card": 367, "manacost": 4, "name_card": "Shawn Reynolds"}
+{"races": "Mechanism", "attack": 6, "health": 2, "id_add": 12, "rarity": "Base", "ability": "Rush", "id_card": 368, "manacost": 1, "name_card": "Gabrielle Meza"}
+{"races": "Pirat", "attack": 15, "health": 2, "id_add": 13, "rarity": "Legendary", "ability": "Non-target", "id_card": 369, "manacost": 0, "name_card": "Jenna Wise"}
+{"races": "Murloc", "attack": 11, "health": 11, "id_add": 12, "rarity": "Epic", "ability": "Windfury", "id_card": 370, "manacost": 7, "name_card": "Jessica Cooper"}
+{"races": "Dragon", "attack": 8, "health": 7, "id_add": 2, "rarity": "Epic", "ability": "Mega windfury", "id_card": 371, "manacost": 5, "name_card": "Shannon Huang"}
+{"races": "Murloc", "attack": 6, "health": 11, "id_add": 7, "rarity": "Legendary", "ability": "Deathrattle", "id_card": 372, "manacost": 11, "name_card": "Michael Holloway"}
+{"races": "Pirat", "attack": 3, "health": 12, "id_add": 13, "rarity": "Base", "ability": "Battle cry", "id_card": 373, "manacost": 5, "name_card": "Peter Rosales"}
+{"races": "Totem", "attack": 15, "health": 6, "id_add": 2, "rarity": "Common", "ability": "Divine shield", "id_card": 374, "manacost": 1, "name_card": "James Petty"}
+{"races": "Pirat", "attack": 4, "health": 4, "id_add": 10, "rarity": "Rare", "ability": "Deathrattle", "id_card": 375, "manacost": 15, "name_card": "Leslie Reed"}
+{"races": "Pirat", "attack": 18, "health": 18, "id_add": 13, "rarity": "Rare", "ability": "Divine shield", "id_card": 376, "manacost": 22, "name_card": "Lisa Perez"}
+{"races": "Beast", "attack": 11, "health": 2, "id_add": 9, "rarity": "Legendary", "ability": "Deathrattle", "id_card": 377, "manacost": 5, "name_card": "Chelsea Boyer"}
+{"races": "Demon", "attack": 17, "health": 5, "id_add": 2, "rarity": "Common", "ability": "Taunt", "id_card": 378, "manacost": 11, "name_card": "James Watson"}
+{"races": "Beast", "attack": 4, "health": 7, "id_add": 13, "rarity": "Legendary", "ability": "Non-target", "id_card": 379, "manacost": 19, "name_card": "Jerry Floyd"}
+{"races": "Beast", "attack": 13, "health": 16, "id_add": 13, "rarity": "Epic", "ability": "Non-target", "id_card": 380, "manacost": 12, "name_card": "Kaitlyn Michael"}
+{"races": "Elemental", "attack": 16, "health": 16, "id_add": 13, "rarity": "Base", "ability": "Divine shield", "id_card": 381, "manacost": 3, "name_card": "Tina Rush"}
+{"races": "Murloc", "attack": 13, "health": 17, "id_add": 11, "rarity": "Legendary", "ability": "Stealth", "id_card": 382, "manacost": 12, "name_card": "Brittany Davis"}
+{"races": "Beast", "attack": 14, "health": 7, "id_add": 8, "rarity": "Base", "ability": "Taunt", "id_card": 383, "manacost": 22, "name_card": "Daniel Jackson"}
+{"races": "Pirat", "attack": 9, "health": 19, "id_add": 5, "rarity": "Common", "ability": "Windfury", "id_card": 384, "manacost": 6, "name_card": "Joshua Smith"}
+{"races": "Totem", "attack": 14, "health": 13, "id_add": 13, "rarity": "Common", "ability": "Windfury", "id_card": 385, "manacost": 14, "name_card": "Alexander Collins"}
+{"races": "Beast", "attack": 13, "health": 14, "id_add": 13, "rarity": "Epic", "ability": "Deathrattle", "id_card": 386, "manacost": 17, "name_card": "Joseph Cummings"}
+{"races": "Murloc", "attack": 20, "health": 14, "id_add": 3, "rarity": "Base", "ability": "Stealth", "id_card": 387, "manacost": 12, "name_card": "Sarah George MD"}
+{"races": "Pirat", "attack": 12, "health": 4, "id_add": 10, "rarity": "Legendary", "ability": "Divine shield", "id_card": 388, "manacost": 15, "name_card": "Aaron Arias"}
+{"races": "Totem", "attack": 7, "health": 14, "id_add": 6, "rarity": "Legendary", "ability": "Overkill", "id_card": 389, "manacost": 6, "name_card": "Gary Callahan"}
+{"races": "Elemental", "attack": 8, "health": 7, "id_add": 12, "rarity": "Base", "ability": "Non-target", "id_card": 390, "manacost": 22, "name_card": "Kristine Hudson"}
+{"races": "Totem", "attack": 1, "health": 16, "id_add": 15, "rarity": "Rare", "ability": "Non-target", "id_card": 391, "manacost": 12, "name_card": "Aimee Wiggins"}
+{"races": "Dragon", "attack": 11, "health": 10, "id_add": 7, "rarity": "Rare", "ability": "Divine shield", "id_card": 392, "manacost": 11, "name_card": "Mikayla Harris"}
+{"races": "Mechanism", "attack": 7, "health": 4, "id_add": 7, "rarity": "Legendary", "ability": "Rush", "id_card": 393, "manacost": 23, "name_card": "Jessica Murphy"}
+{"races": "Beast", "attack": 19, "health": 4, "id_add": 15, "rarity": "Rare", "ability": "Non-target", "id_card": 394, "manacost": 10, "name_card": "Jennifer Randolph DVM"}
+{"races": "Mechanism", "attack": 2, "health": 2, "id_add": 1, "rarity": "Rare", "ability": "Poisonous", "id_card": 395, "manacost": 1, "name_card": "Michaela Lopez"}
+{"races": "Dragon", "attack": 3, "health": 9, "id_add": 11, "rarity": "Rare", "ability": "Battle cry", "id_card": 396, "manacost": 25, "name_card": "Jason Parker"}
+{"races": "Totem", "attack": 6, "health": 12, "id_add": 7, "rarity": "Rare", "ability": "Mega windfury", "id_card": 397, "manacost": 4, "name_card": "Linda Henderson"}
+{"races": "Demon", "attack": 5, "health": 13, "id_add": 4, "rarity": "Epic", "ability": "Mega windfury", "id_card": 398, "manacost": 11, "name_card": "Danielle Durham"}
+{"races": "Elemental", "attack": 18, "health": 10, "id_add": 15, "rarity": "Epic", "ability": "Battle cry", "id_card": 399, "manacost": 16, "name_card": "Patricia Jackson"}
+{"races": "Pirat", "attack": 7, "health": 1, "id_add": 13, "rarity": "Legendary", "ability": "Lifesteal", "id_card": 400, "manacost": 20, "name_card": "Michael Lin"}
+{"races": "Mechanism", "attack": 2, "health": 3, "id_add": 1, "rarity": "Rare", "ability": "Taunt", "id_card": 401, "manacost": 10, "name_card": "Michael Long"}
+{"races": "Pirat", "attack": 2, "health": 11, "id_add": 10, "rarity": "Common", "ability": "Divine shield", "id_card": 402, "manacost": 19, "name_card": "Emily Guzman"}
+{"races": "Totem", "attack": 10, "health": 11, "id_add": 8, "rarity": "Legendary", "ability": "Deathrattle", "id_card": 403, "manacost": 10, "name_card": "Janet Elliott"}
+{"races": "Pirat", "attack": 4, "health": 4, "id_add": 6, "rarity": "Common", "ability": "Taunt", "id_card": 404, "manacost": 9, "name_card": "Sherry Costa"}
+{"races": "Pirat", "attack": 4, "health": 14, "id_add": 13, "rarity": "Rare", "ability": "Overkill", "id_card": 405, "manacost": 17, "name_card": "Kevin Davidson"}
+{"races": "Elemental", "attack": 15, "health": 10, "id_add": 12, "rarity": "Legendary", "ability": "Windfury", "id_card": 406, "manacost": 7, "name_card": "Thomas Obrien"}
+{"races": "Dragon", "attack": 8, "health": 18, "id_add": 10, "rarity": "Legendary", "ability": "Divine shield", "id_card": 407, "manacost": 6, "name_card": "Mckenzie Church"}
+{"races": "Totem", "attack": 5, "health": 19, "id_add": 11, "rarity": "Epic", "ability": "Deathrattle", "id_card": 408, "manacost": 3, "name_card": "Donna Christian"}
+{"races": "Dragon", "attack": 4, "health": 19, "id_add": 10, "rarity": "Rare", "ability": "Battle cry", "id_card": 409, "manacost": 17, "name_card": "Chris Patterson"}
+{"races": "Totem", "attack": 7, "health": 3, "id_add": 9, "rarity": "Legendary", "ability": "Divine shield", "id_card": 410, "manacost": 2, "name_card": "Bradley Meyer"}
+{"races": "Demon", "attack": 11, "health": 3, "id_add": 11, "rarity": "Base", "ability": "Battle cry", "id_card": 411, "manacost": 5, "name_card": "Lisa Hernandez"}
+{"races": "Dragon", "attack": 8, "health": 2, "id_add": 4, "rarity": "Legendary", "ability": "Stealth", "id_card": 412, "manacost": 10, "name_card": "William Johnson"}
+{"races": "Totem", "attack": 8, "health": 2, "id_add": 3, "rarity": "Common", "ability": "Overkill", "id_card": 413, "manacost": 11, "name_card": "Connie Schmidt"}
+{"races": "Beast", "attack": 15, "health": 14, "id_add": 10, "rarity": "Common", "ability": "Battle cry", "id_card": 414, "manacost": 23, "name_card": "Jerry Gibson"}
+{"races": "Dragon", "attack": 12, "health": 4, "id_add": 7, "rarity": "Legendary", "ability": "Lifesteal", "id_card": 415, "manacost": 12, "name_card": "Johnny Howell"}
+{"races": "Murloc", "attack": 6, "health": 2, "id_add": 6, "rarity": "Common", "ability": "Rush", "id_card": 416, "manacost": 1, "name_card": "Christina Gallegos"}
+{"races": "Elemental", "attack": 15, "health": 15, "id_add": 11, "rarity": "Rare", "ability": "Stealth", "id_card": 417, "manacost": 19, "name_card": "Cynthia Johnson"}
+{"races": "Murloc", "attack": 17, "health": 14, "id_add": 8, "rarity": "Common", "ability": "Stealth", "id_card": 418, "manacost": 23, "name_card": "James Waters"}
+{"races": "Dragon", "attack": 6, "health": 12, "id_add": 4, "rarity": "Epic", "ability": "Poisonous", "id_card": 419, "manacost": 12, "name_card": "Brandi Caldwell"}
+{"races": "Totem", "attack": 12, "health": 9, "id_add": 8, "rarity": "Epic", "ability": "Battle cry", "id_card": 420, "manacost": 13, "name_card": "Joseph Gilbert"}
+{"races": "Dragon", "attack": 9, "health": 13, "id_add": 10, "rarity": "Epic", "ability": "Poisonous", "id_card": 421, "manacost": 5, "name_card": "Courtney King"}
+{"races": "Beast", "attack": 19, "health": 10, "id_add": 13, "rarity": "Rare", "ability": "Taunt", "id_card": 422, "manacost": 22, "name_card": "Robert Jones"}
+{"races": "Beast", "attack": 4, "health": 9, "id_add": 12, "rarity": "Legendary", "ability": "Stealth", "id_card": 423, "manacost": 2, "name_card": "Sandra Rollins"}
+{"races": "Elemental", "attack": 13, "health": 10, "id_add": 6, "rarity": "Epic", "ability": "Stealth", "id_card": 424, "manacost": 6, "name_card": "Robert Brown"}
+{"races": "Murloc", "attack": 14, "health": 11, "id_add": 7, "rarity": "Legendary", "ability": "Non-target", "id_card": 425, "manacost": 13, "name_card": "Jeffrey Thomas"}
+{"races": "Beast", "attack": 1, "health": 17, "id_add": 10, "rarity": "Base", "ability": "Battle cry", "id_card": 426, "manacost": 20, "name_card": "Trevor Douglas"}
+{"races": "Elemental", "attack": 15, "health": 14, "id_add": 12, "rarity": "Base", "ability": "Lifesteal", "id_card": 427, "manacost": 22, "name_card": "Martin Fernandez"}
+{"races": "Mechanism", "attack": 10, "health": 8, "id_add": 11, "rarity": "Epic", "ability": "Windfury", "id_card": 428, "manacost": 5, "name_card": "Sara Smith"}
+{"races": "Totem", "attack": 11, "health": 6, "id_add": 14, "rarity": "Rare", "ability": "Lifesteal", "id_card": 429, "manacost": 9, "name_card": "Pamela Garcia"}
+{"races": "Elemental", "attack": 19, "health": 14, "id_add": 7, "rarity": "Epic", "ability": "Mega windfury", "id_card": 430, "manacost": 12, "name_card": "Heather Lee"}
+{"races": "Demon", "attack": 2, "health": 3, "id_add": 9, "rarity": "Base", "ability": "Rush", "id_card": 431, "manacost": 11, "name_card": "Elizabeth Howard"}
+{"races": "Totem", "attack": 4, "health": 13, "id_add": 9, "rarity": "Base", "ability": "Overkill", "id_card": 432, "manacost": 9, "name_card": "Thomas Strickland"}
+{"races": "Mechanism", "attack": 20, "health": 9, "id_add": 15, "rarity": "Legendary", "ability": "Overkill", "id_card": 433, "manacost": 11, "name_card": "William Harvey"}
+{"races": "Elemental", "attack": 18, "health": 13, "id_add": 5, "rarity": "Base", "ability": "Deathrattle", "id_card": 434, "manacost": 2, "name_card": "Amanda Guerrero"}
+{"races": "Demon", "attack": 20, "health": 4, "id_add": 11, "rarity": "Rare", "ability": "Deathrattle", "id_card": 435, "manacost": 20, "name_card": "Charles Henry"}
+{"races": "Pirat", "attack": 11, "health": 12, "id_add": 8, "rarity": "Common", "ability": "Stealth", "id_card": 436, "manacost": 10, "name_card": "Maureen Perry"}
+{"races": "Murloc", "attack": 7, "health": 1, "id_add": 6, "rarity": "Epic", "ability": "Mega windfury", "id_card": 437, "manacost": 4, "name_card": "Jamie Martin"}
+{"races": "Pirat", "attack": 14, "health": 3, "id_add": 2, "rarity": "Base", "ability": "Deathrattle", "id_card": 438, "manacost": 0, "name_card": "Krista Cruz"}
+{"races": "Dragon", "attack": 9, "health": 3, "id_add": 15, "rarity": "Base", "ability": "Mega windfury", "id_card": 439, "manacost": 2, "name_card": "Oscar Wood"}
+{"races": "Demon", "attack": 19, "health": 5, "id_add": 12, "rarity": "Epic", "ability": "Taunt", "id_card": 440, "manacost": 10, "name_card": "Sean Hunter"}
+{"races": "Mechanism", "attack": 11, "health": 9, "id_add": 9, "rarity": "Common", "ability": "Non-target", "id_card": 441, "manacost": 17, "name_card": "Sharon Vasquez"}
+{"races": "Beast", "attack": 15, "health": 3, "id_add": 1, "rarity": "Rare", "ability": "Rush", "id_card": 442, "manacost": 19, "name_card": "George Bailey"}
+{"races": "Mechanism", "attack": 11, "health": 16, "id_add": 13, "rarity": "Legendary", "ability": "Non-target", "id_card": 443, "manacost": 3, "name_card": "Vicki Turner"}
+{"races": "Elemental", "attack": 2, "health": 14, "id_add": 8, "rarity": "Common", "ability": "Non-target", "id_card": 444, "manacost": 2, "name_card": "Mark Bradley III"}
+{"races": "Dragon", "attack": 15, "health": 6, "id_add": 13, "rarity": "Base", "ability": "Non-target", "id_card": 445, "manacost": 6, "name_card": "Christopher Montgomery"}
+{"races": "Murloc", "attack": 16, "health": 3, "id_add": 1, "rarity": "Common", "ability": "Overkill", "id_card": 446, "manacost": 13, "name_card": "Dave Olsen"}
+{"races": "Demon", "attack": 13, "health": 20, "id_add": 8, "rarity": "Epic", "ability": "Divine shield", "id_card": 447, "manacost": 18, "name_card": "Michael Jackson"}
+{"races": "Beast", "attack": 14, "health": 15, "id_add": 1, "rarity": "Legendary", "ability": "Taunt", "id_card": 448, "manacost": 7, "name_card": "Arthur Zimmerman"}
+{"races": "Pirat", "attack": 15, "health": 19, "id_add": 12, "rarity": "Legendary", "ability": "Divine shield", "id_card": 449, "manacost": 23, "name_card": "Meghan Turner"}
+{"races": "Pirat", "attack": 12, "health": 6, "id_add": 11, "rarity": "Epic", "ability": "Battle cry", "id_card": 450, "manacost": 13, "name_card": "Ann Young"}
+{"races": "Elemental", "attack": 1, "health": 1, "id_add": 6, "rarity": "Common", "ability": "Battle cry", "id_card": 451, "manacost": 25, "name_card": "Robert Reed"}
+{"races": "Murloc", "attack": 15, "health": 7, "id_add": 1, "rarity": "Common", "ability": "Poisonous", "id_card": 452, "manacost": 23, "name_card": "Richard Brown"}
+{"races": "Elemental", "attack": 11, "health": 17, "id_add": 10, "rarity": "Epic", "ability": "Windfury", "id_card": 453, "manacost": 22, "name_card": "Frank Maddox"}
+{"races": "Murloc", "attack": 3, "health": 19, "id_add": 13, "rarity": "Legendary", "ability": "Deathrattle", "id_card": 454, "manacost": 19, "name_card": "Victoria Rios"}
+{"races": "Totem", "attack": 16, "health": 14, "id_add": 9, "rarity": "Base", "ability": "Divine shield", "id_card": 455, "manacost": 22, "name_card": "Manuel Villanueva"}
+{"races": "Murloc", "attack": 7, "health": 16, "id_add": 15, "rarity": "Epic", "ability": "Non-target", "id_card": 456, "manacost": 12, "name_card": "Daniel Cowan"}
+{"races": "Murloc", "attack": 17, "health": 14, "id_add": 4, "rarity": "Common", "ability": "Deathrattle", "id_card": 457, "manacost": 16, "name_card": "Matthew Sexton"}
+{"races": "Beast", "attack": 5, "health": 17, "id_add": 2, "rarity": "Legendary", "ability": "Poisonous", "id_card": 458, "manacost": 25, "name_card": "Joshua Heath"}
+{"races": "Beast", "attack": 4, "health": 8, "id_add": 3, "rarity": "Base", "ability": "Rush", "id_card": 459, "manacost": 23, "name_card": "Bryan Anderson"}
+{"races": "Beast", "attack": 15, "health": 2, "id_add": 11, "rarity": "Legendary", "ability": "Mega windfury", "id_card": 460, "manacost": 15, "name_card": "Mark Mason"}
+{"races": "Murloc", "attack": 1, "health": 17, "id_add": 12, "rarity": "Epic", "ability": "Battle cry", "id_card": 461, "manacost": 3, "name_card": "Timothy Lamb"}
+{"races": "Demon", "attack": 11, "health": 3, "id_add": 8, "rarity": "Epic", "ability": "Windfury", "id_card": 462, "manacost": 16, "name_card": "Travis Wilson DVM"}
+{"races": "Dragon", "attack": 9, "health": 9, "id_add": 5, "rarity": "Rare", "ability": "Deathrattle", "id_card": 463, "manacost": 22, "name_card": "Victoria Williams"}
+{"races": "Totem", "attack": 15, "health": 12, "id_add": 14, "rarity": "Base", "ability": "Windfury", "id_card": 464, "manacost": 18, "name_card": "Mrs. Michelle Wright"}
+{"races": "Murloc", "attack": 10, "health": 17, "id_add": 9, "rarity": "Base", "ability": "Overkill", "id_card": 465, "manacost": 20, "name_card": "Jake Waters"}
+{"races": "Pirat", "attack": 10, "health": 15, "id_add": 12, "rarity": "Epic", "ability": "Lifesteal", "id_card": 466, "manacost": 5, "name_card": "Matthew Olson"}
+{"races": "Beast", "attack": 7, "health": 4, "id_add": 2, "rarity": "Epic", "ability": "Poisonous", "id_card": 467, "manacost": 25, "name_card": "Robert Smith"}
+{"races": "Murloc", "attack": 8, "health": 12, "id_add": 14, "rarity": "Common", "ability": "Poisonous", "id_card": 468, "manacost": 20, "name_card": "Willie Lamb"}
+{"races": "Demon", "attack": 18, "health": 16, "id_add": 14, "rarity": "Epic", "ability": "Battle cry", "id_card": 469, "manacost": 11, "name_card": "Lindsay Wang"}
+{"races": "Beast", "attack": 2, "health": 17, "id_add": 4, "rarity": "Rare", "ability": "Mega windfury", "id_card": 470, "manacost": 13, "name_card": "Shawn Williams"}
+{"races": "Totem", "attack": 7, "health": 10, "id_add": 8, "rarity": "Common", "ability": "Taunt", "id_card": 471, "manacost": 24, "name_card": "Jason Cantu"}
+{"races": "Totem", "attack": 16, "health": 7, "id_add": 9, "rarity": "Epic", "ability": "Lifesteal", "id_card": 472, "manacost": 25, "name_card": "Anna Hunter"}
+{"races": "Totem", "attack": 19, "health": 17, "id_add": 6, "rarity": "Epic", "ability": "Windfury", "id_card": 473, "manacost": 3, "name_card": "Devin Vazquez"}
+{"races": "Pirat", "attack": 2, "health": 15, "id_add": 15, "rarity": "Base", "ability": "Rush", "id_card": 474, "manacost": 20, "name_card": "Christine Hill"}
+{"races": "Murloc", "attack": 15, "health": 4, "id_add": 8, "rarity": "Legendary", "ability": "Non-target", "id_card": 475, "manacost": 3, "name_card": "Rebecca Dixon"}
+{"races": "Dragon", "attack": 20, "health": 9, "id_add": 3, "rarity": "Common", "ability": "Battle cry", "id_card": 476, "manacost": 25, "name_card": "Samantha Wyatt"}
+{"races": "Elemental", "attack": 17, "health": 8, "id_add": 3, "rarity": "Epic", "ability": "Taunt", "id_card": 477, "manacost": 10, "name_card": "Dr. Mark Fitzgerald"}
+{"races": "Murloc", "attack": 19, "health": 20, "id_add": 4, "rarity": "Legendary", "ability": "Stealth", "id_card": 478, "manacost": 2, "name_card": "Joshua Johnson"}
+{"races": "Murloc", "attack": 19, "health": 10, "id_add": 6, "rarity": "Common", "ability": "Poisonous", "id_card": 479, "manacost": 24, "name_card": "Mark Owens"}
+{"races": "Beast", "attack": 19, "health": 6, "id_add": 4, "rarity": "Base", "ability": "Stealth", "id_card": 480, "manacost": 25, "name_card": "Richard Miller"}
+{"races": "Beast", "attack": 17, "health": 14, "id_add": 4, "rarity": "Legendary", "ability": "Non-target", "id_card": 481, "manacost": 17, "name_card": "Kevin Young"}
+{"races": "Beast", "attack": 6, "health": 2, "id_add": 11, "rarity": "Base", "ability": "Poisonous", "id_card": 482, "manacost": 7, "name_card": "Paula Combs"}
+{"races": "Demon", "attack": 8, "health": 14, "id_add": 3, "rarity": "Epic", "ability": "Windfury", "id_card": 483, "manacost": 24, "name_card": "Jesse Miranda"}
+{"races": "Dragon", "attack": 10, "health": 3, "id_add": 3, "rarity": "Epic", "ability": "Divine shield", "id_card": 484, "manacost": 7, "name_card": "Nicole Brown"}
+{"races": "Dragon", "attack": 13, "health": 5, "id_add": 5, "rarity": "Common", "ability": "Windfury", "id_card": 485, "manacost": 1, "name_card": "Bridget Johnson"}
+{"races": "Beast", "attack": 10, "health": 1, "id_add": 9, "rarity": "Common", "ability": "Divine shield", "id_card": 486, "manacost": 15, "name_card": "Alyssa Dunn"}
+{"races": "Beast", "attack": 8, "health": 19, "id_add": 7, "rarity": "Rare", "ability": "Mega windfury", "id_card": 487, "manacost": 20, "name_card": "Susan Walker"}
+{"races": "Pirat", "attack": 12, "health": 16, "id_add": 8, "rarity": "Epic", "ability": "Stealth", "id_card": 488, "manacost": 22, "name_card": "Christopher Lowe"}
+{"races": "Murloc", "attack": 19, "health": 14, "id_add": 12, "rarity": "Base", "ability": "Mega windfury", "id_card": 489, "manacost": 18, "name_card": "Kimberly Wallace"}
+{"races": "Murloc", "attack": 1, "health": 6, "id_add": 12, "rarity": "Rare", "ability": "Windfury", "id_card": 490, "manacost": 0, "name_card": "Anthony Ray"}
+{"races": "Mechanism", "attack": 13, "health": 11, "id_add": 10, "rarity": "Rare", "ability": "Deathrattle", "id_card": 491, "manacost": 15, "name_card": "John Rivera"}
+{"races": "Totem", "attack": 1, "health": 1, "id_add": 12, "rarity": "Common", "ability": "Poisonous", "id_card": 492, "manacost": 1, "name_card": "Margaret Gray"}
+{"races": "Elemental", "attack": 8, "health": 17, "id_add": 12, "rarity": "Base", "ability": "Battle cry", "id_card": 493, "manacost": 5, "name_card": "Donna Schultz"}
+{"races": "Elemental", "attack": 4, "health": 11, "id_add": 3, "rarity": "Common", "ability": "Mega windfury", "id_card": 494, "manacost": 16, "name_card": "Kathryn Hall"}
+{"races": "Totem", "attack": 3, "health": 4, "id_add": 3, "rarity": "Legendary", "ability": "Windfury", "id_card": 495, "manacost": 21, "name_card": "Derek Weaver"}
+{"races": "Beast", "attack": 20, "health": 1, "id_add": 2, "rarity": "Base", "ability": "Battle cry", "id_card": 496, "manacost": 8, "name_card": "Gerald Morales"}
+{"races": "Beast", "attack": 9, "health": 3, "id_add": 14, "rarity": "Legendary", "ability": "Poisonous", "id_card": 497, "manacost": 22, "name_card": "Michele Garcia"}
+{"races": "Elemental", "attack": 10, "health": 5, "id_add": 9, "rarity": "Epic", "ability": "Mega windfury", "id_card": 498, "manacost": 10, "name_card": "Tanner Murphy"}
+{"races": "Pirat", "attack": 16, "health": 12, "id_add": 4, "rarity": "Epic", "ability": "Stealth", "id_card": 499, "manacost": 25, "name_card": "Mary Lang"}
+{"races": "Murloc", "attack": 4, "health": 19, "id_add": 12, "rarity": "Epic", "ability": "Mega windfury", "id_card": 500, "manacost": 3, "name_card": "Molly Collins"}
+{"races": "Mechanism", "attack": 2, "health": 20, "id_add": 9, "rarity": "Base", "ability": "Stealth", "id_card": 501, "manacost": 16, "name_card": "Victor Munoz"}
+{"races": "Elemental", "attack": 4, "health": 9, "id_add": 11, "rarity": "Epic", "ability": "Divine shield", "id_card": 502, "manacost": 24, "name_card": "Kathleen Bennett"}
+{"races": "Pirat", "attack": 11, "health": 14, "id_add": 6, "rarity": "Epic", "ability": "Battle cry", "id_card": 503, "manacost": 25, "name_card": "David Nelson"}
+{"races": "Mechanism", "attack": 19, "health": 4, "id_add": 3, "rarity": "Rare", "ability": "Lifesteal", "id_card": 504, "manacost": 14, "name_card": "Sarah Palmer"}
+{"races": "Elemental", "attack": 9, "health": 5, "id_add": 3, "rarity": "Legendary", "ability": "Battle cry", "id_card": 505, "manacost": 11, "name_card": "Anne Higgins"}
+{"races": "Murloc", "attack": 12, "health": 4, "id_add": 6, "rarity": "Base", "ability": "Poisonous", "id_card": 506, "manacost": 16, "name_card": "Mary Mcdowell"}
+{"races": "Totem", "attack": 2, "health": 9, "id_add": 7, "rarity": "Common", "ability": "Divine shield", "id_card": 507, "manacost": 24, "name_card": "Ian Brooks"}
+{"races": "Totem", "attack": 2, "health": 16, "id_add": 2, "rarity": "Common", "ability": "Windfury", "id_card": 508, "manacost": 4, "name_card": "Jeremy Evans"}
+{"races": "Dragon", "attack": 20, "health": 18, "id_add": 12, "rarity": "Base", "ability": "Non-target", "id_card": 509, "manacost": 17, "name_card": "Robert Smith"}
+{"races": "Dragon", "attack": 11, "health": 13, "id_add": 15, "rarity": "Legendary", "ability": "Divine shield", "id_card": 510, "manacost": 13, "name_card": "Kevin Pratt"}
+{"races": "Mechanism", "attack": 6, "health": 10, "id_add": 9, "rarity": "Epic", "ability": "Stealth", "id_card": 511, "manacost": 7, "name_card": "Laura Caldwell"}
+{"races": "Beast", "attack": 1, "health": 4, "id_add": 3, "rarity": "Base", "ability": "Overkill", "id_card": 512, "manacost": 3, "name_card": "Anthony Moore"}
+{"races": "Murloc", "attack": 4, "health": 7, "id_add": 4, "rarity": "Base", "ability": "Poisonous", "id_card": 513, "manacost": 3, "name_card": "Jared Patel"}
+{"races": "Beast", "attack": 4, "health": 14, "id_add": 9, "rarity": "Base", "ability": "Overkill", "id_card": 514, "manacost": 13, "name_card": "Craig Davis"}
+{"races": "Pirat", "attack": 18, "health": 2, "id_add": 7, "rarity": "Epic", "ability": "Mega windfury", "id_card": 515, "manacost": 12, "name_card": "Ms. Nicole Proctor"}
+{"races": "Demon", "attack": 7, "health": 19, "id_add": 9, "rarity": "Legendary", "ability": "Stealth", "id_card": 516, "manacost": 4, "name_card": "Richard Miller"}
+{"races": "Murloc", "attack": 4, "health": 12, "id_add": 7, "rarity": "Rare", "ability": "Battle cry", "id_card": 517, "manacost": 5, "name_card": "Eugene Smith"}
+{"races": "Murloc", "attack": 5, "health": 6, "id_add": 7, "rarity": "Common", "ability": "Deathrattle", "id_card": 518, "manacost": 18, "name_card": "Jason Barnes"}
+{"races": "Demon", "attack": 19, "health": 3, "id_add": 7, "rarity": "Base", "ability": "Windfury", "id_card": 519, "manacost": 9, "name_card": "David Anderson"}
+{"races": "Pirat", "attack": 20, "health": 20, "id_add": 1, "rarity": "Rare", "ability": "Mega windfury", "id_card": 520, "manacost": 1, "name_card": "Sabrina Maxwell"}
+{"races": "Murloc", "attack": 16, "health": 17, "id_add": 7, "rarity": "Epic", "ability": "Rush", "id_card": 521, "manacost": 23, "name_card": "William Henderson"}
+{"races": "Demon", "attack": 0, "health": 5, "id_add": 5, "rarity": "Common", "ability": "Stealth", "id_card": 522, "manacost": 8, "name_card": "Megan Mercado"}
+{"races": "Dragon", "attack": 18, "health": 12, "id_add": 12, "rarity": "Legendary", "ability": "Stealth", "id_card": 523, "manacost": 8, "name_card": "Lisa Holt"}
+{"races": "Demon", "attack": 19, "health": 19, "id_add": 3, "rarity": "Epic", "ability": "Divine shield", "id_card": 524, "manacost": 11, "name_card": "Mr. Howard Cooper"}
+{"races": "Pirat", "attack": 9, "health": 11, "id_add": 2, "rarity": "Rare", "ability": "Lifesteal", "id_card": 525, "manacost": 24, "name_card": "Bailey Patel"}
+{"races": "Totem", "attack": 11, "health": 3, "id_add": 15, "rarity": "Legendary", "ability": "Overkill", "id_card": 526, "manacost": 15, "name_card": "Randy Olson"}
+{"races": "Murloc", "attack": 5, "health": 12, "id_add": 2, "rarity": "Base", "ability": "Mega windfury", "id_card": 527, "manacost": 8, "name_card": "Amy Valencia"}
+{"races": "Murloc", "attack": 0, "health": 7, "id_add": 8, "rarity": "Legendary", "ability": "Deathrattle", "id_card": 528, "manacost": 13, "name_card": "Alexandra Morrison"}
+{"races": "Mechanism", "attack": 3, "health": 8, "id_add": 5, "rarity": "Base", "ability": "Stealth", "id_card": 529, "manacost": 24, "name_card": "Dr. Emily Bennett"}
+{"races": "Murloc", "attack": 0, "health": 1, "id_add": 11, "rarity": "Epic", "ability": "Overkill", "id_card": 530, "manacost": 8, "name_card": "Jacob Brown"}
+{"races": "Totem", "attack": 9, "health": 19, "id_add": 7, "rarity": "Common", "ability": "Deathrattle", "id_card": 531, "manacost": 12, "name_card": "Kyle Torres"}
+{"races": "Totem", "attack": 3, "health": 3, "id_add": 8, "rarity": "Base", "ability": "Stealth", "id_card": 532, "manacost": 5, "name_card": "Shannon Dawson"}
+{"races": "Mechanism", "attack": 10, "health": 13, "id_add": 12, "rarity": "Rare", "ability": "Battle cry", "id_card": 533, "manacost": 3, "name_card": "James Reynolds"}
+{"races": "Dragon", "attack": 7, "health": 20, "id_add": 9, "rarity": "Epic", "ability": "Windfury", "id_card": 534, "manacost": 21, "name_card": "Erik Daniels"}
+{"races": "Beast", "attack": 18, "health": 13, "id_add": 2, "rarity": "Base", "ability": "Divine shield", "id_card": 535, "manacost": 15, "name_card": "Catherine Evans"}
+{"races": "Mechanism", "attack": 14, "health": 11, "id_add": 13, "rarity": "Legendary", "ability": "Overkill", "id_card": 536, "manacost": 24, "name_card": "Cynthia Rice"}
+{"races": "Demon", "attack": 0, "health": 4, "id_add": 15, "rarity": "Legendary", "ability": "Overkill", "id_card": 537, "manacost": 17, "name_card": "Christopher Gilbert"}
+{"races": "Dragon", "attack": 4, "health": 12, "id_add": 1, "rarity": "Rare", "ability": "Poisonous", "id_card": 538, "manacost": 16, "name_card": "Raymond Nguyen"}
+{"races": "Totem", "attack": 17, "health": 9, "id_add": 12, "rarity": "Base", "ability": "Battle cry", "id_card": 539, "manacost": 21, "name_card": "Mark Porter"}
+{"races": "Dragon", "attack": 12, "health": 10, "id_add": 2, "rarity": "Epic", "ability": "Lifesteal", "id_card": 540, "manacost": 22, "name_card": "Brittany Smith"}
+{"races": "Murloc", "attack": 3, "health": 16, "id_add": 8, "rarity": "Rare", "ability": "Lifesteal", "id_card": 541, "manacost": 16, "name_card": "Marcus Thompson"}
+{"races": "Elemental", "attack": 12, "health": 12, "id_add": 8, "rarity": "Legendary", "ability": "Overkill", "id_card": 542, "manacost": 14, "name_card": "Rachel Owens"}
+{"races": "Elemental", "attack": 17, "health": 2, "id_add": 13, "rarity": "Base", "ability": "Rush", "id_card": 543, "manacost": 13, "name_card": "Ethan Roy"}
+{"races": "Totem", "attack": 15, "health": 13, "id_add": 11, "rarity": "Legendary", "ability": "Battle cry", "id_card": 544, "manacost": 0, "name_card": "Cameron Jones"}
+{"races": "Elemental", "attack": 8, "health": 11, "id_add": 4, "rarity": "Rare", "ability": "Mega windfury", "id_card": 545, "manacost": 0, "name_card": "Jennifer Patterson"}
+{"races": "Dragon", "attack": 10, "health": 18, "id_add": 12, "rarity": "Epic", "ability": "Poisonous", "id_card": 546, "manacost": 6, "name_card": "Carla Mack"}
+{"races": "Beast", "attack": 9, "health": 13, "id_add": 5, "rarity": "Epic", "ability": "Windfury", "id_card": 547, "manacost": 25, "name_card": "Timothy Bowers"}
+{"races": "Totem", "attack": 15, "health": 12, "id_add": 10, "rarity": "Rare", "ability": "Windfury", "id_card": 548, "manacost": 15, "name_card": "Victoria Aguilar"}
+{"races": "Elemental", "attack": 6, "health": 4, "id_add": 13, "rarity": "Common", "ability": "Mega windfury", "id_card": 549, "manacost": 4, "name_card": "Donna Miller"}
+{"races": "Beast", "attack": 16, "health": 18, "id_add": 5, "rarity": "Legendary", "ability": "Windfury", "id_card": 550, "manacost": 15, "name_card": "Andrew Liu"}
+{"races": "Totem", "attack": 15, "health": 10, "id_add": 13, "rarity": "Epic", "ability": "Non-target", "id_card": 551, "manacost": 9, "name_card": "Heidi Williams"}
+{"races": "Totem", "attack": 11, "health": 12, "id_add": 14, "rarity": "Base", "ability": "Overkill", "id_card": 552, "manacost": 21, "name_card": "Benjamin Brown"}
+{"races": "Elemental", "attack": 16, "health": 9, "id_add": 14, "rarity": "Common", "ability": "Battle cry", "id_card": 553, "manacost": 3, "name_card": "George Daniels"}
+{"races": "Murloc", "attack": 7, "health": 16, "id_add": 6, "rarity": "Rare", "ability": "Poisonous", "id_card": 554, "manacost": 7, "name_card": "Monica Lee"}
+{"races": "Elemental", "attack": 8, "health": 5, "id_add": 14, "rarity": "Base", "ability": "Mega windfury", "id_card": 555, "manacost": 7, "name_card": "Heather Barnes"}
+{"races": "Beast", "attack": 0, "health": 19, "id_add": 5, "rarity": "Base", "ability": "Overkill", "id_card": 556, "manacost": 23, "name_card": "Robert Carter"}
+{"races": "Demon", "attack": 19, "health": 10, "id_add": 9, "rarity": "Common", "ability": "Taunt", "id_card": 557, "manacost": 11, "name_card": "Anna Newman"}
+{"races": "Elemental", "attack": 19, "health": 7, "id_add": 15, "rarity": "Rare", "ability": "Rush", "id_card": 558, "manacost": 7, "name_card": "Donald Carter"}
+{"races": "Demon", "attack": 9, "health": 4, "id_add": 11, "rarity": "Base", "ability": "Lifesteal", "id_card": 559, "manacost": 22, "name_card": "Shannon Rich"}
+{"races": "Beast", "attack": 11, "health": 10, "id_add": 2, "rarity": "Legendary", "ability": "Lifesteal", "id_card": 560, "manacost": 9, "name_card": "Richard Burgess"}
+{"races": "Beast", "attack": 6, "health": 11, "id_add": 14, "rarity": "Epic", "ability": "Lifesteal", "id_card": 561, "manacost": 21, "name_card": "James Gonzalez"}
+{"races": "Murloc", "attack": 15, "health": 14, "id_add": 10, "rarity": "Legendary", "ability": "Deathrattle", "id_card": 562, "manacost": 0, "name_card": "Courtney Stout"}
+{"races": "Murloc", "attack": 7, "health": 14, "id_add": 9, "rarity": "Epic", "ability": "Rush", "id_card": 563, "manacost": 12, "name_card": "Garrett Gomez"}
+{"races": "Totem", "attack": 8, "health": 11, "id_add": 3, "rarity": "Rare", "ability": "Non-target", "id_card": 564, "manacost": 14, "name_card": "Cheryl Mcmillan"}
+{"races": "Totem", "attack": 1, "health": 5, "id_add": 5, "rarity": "Rare", "ability": "Stealth", "id_card": 565, "manacost": 19, "name_card": "Ashley Ramirez"}
+{"races": "Totem", "attack": 20, "health": 9, "id_add": 12, "rarity": "Epic", "ability": "Poisonous", "id_card": 566, "manacost": 7, "name_card": "Lori Carter"}
+{"races": "Demon", "attack": 19, "health": 16, "id_add": 10, "rarity": "Base", "ability": "Divine shield", "id_card": 567, "manacost": 9, "name_card": "John Taylor"}
+{"races": "Demon", "attack": 5, "health": 13, "id_add": 9, "rarity": "Base", "ability": "Non-target", "id_card": 568, "manacost": 25, "name_card": "Mark Morrison"}
+{"races": "Beast", "attack": 18, "health": 5, "id_add": 1, "rarity": "Common", "ability": "Lifesteal", "id_card": 569, "manacost": 3, "name_card": "Michael Bell"}
+{"races": "Murloc", "attack": 19, "health": 16, "id_add": 7, "rarity": "Base", "ability": "Rush", "id_card": 570, "manacost": 17, "name_card": "James West"}
+{"races": "Murloc", "attack": 20, "health": 8, "id_add": 2, "rarity": "Epic", "ability": "Taunt", "id_card": 571, "manacost": 0, "name_card": "Melissa Marsh"}
+{"races": "Demon", "attack": 20, "health": 1, "id_add": 4, "rarity": "Legendary", "ability": "Overkill", "id_card": 572, "manacost": 9, "name_card": "Jeffrey Sullivan"}
+{"races": "Elemental", "attack": 18, "health": 9, "id_add": 9, "rarity": "Legendary", "ability": "Battle cry", "id_card": 573, "manacost": 20, "name_card": "David Dixon"}
+{"races": "Totem", "attack": 18, "health": 1, "id_add": 5, "rarity": "Base", "ability": "Battle cry", "id_card": 574, "manacost": 4, "name_card": "Curtis Burns"}
+{"races": "Totem", "attack": 15, "health": 18, "id_add": 6, "rarity": "Legendary", "ability": "Taunt", "id_card": 575, "manacost": 16, "name_card": "David Johnson"}
+{"races": "Dragon", "attack": 8, "health": 11, "id_add": 14, "rarity": "Legendary", "ability": "Windfury", "id_card": 576, "manacost": 23, "name_card": "Donna Harvey"}
+{"races": "Pirat", "attack": 1, "health": 11, "id_add": 6, "rarity": "Legendary", "ability": "Deathrattle", "id_card": 577, "manacost": 15, "name_card": "Tracy Ward"}
+{"races": "Elemental", "attack": 7, "health": 1, "id_add": 10, "rarity": "Common", "ability": "Divine shield", "id_card": 578, "manacost": 5, "name_card": "Erik Moore"}
+{"races": "Elemental", "attack": 4, "health": 5, "id_add": 4, "rarity": "Rare", "ability": "Poisonous", "id_card": 579, "manacost": 2, "name_card": "Robert Barton"}
+{"races": "Elemental", "attack": 15, "health": 17, "id_add": 12, "rarity": "Common", "ability": "Overkill", "id_card": 580, "manacost": 2, "name_card": "Katherine Blankenship"}
+{"races": "Demon", "attack": 4, "health": 6, "id_add": 10, "rarity": "Legendary", "ability": "Deathrattle", "id_card": 581, "manacost": 2, "name_card": "Timothy Hunt"}
+{"races": "Pirat", "attack": 20, "health": 5, "id_add": 8, "rarity": "Legendary", "ability": "Windfury", "id_card": 582, "manacost": 18, "name_card": "Micheal Hughes"}
+{"races": "Pirat", "attack": 6, "health": 3, "id_add": 15, "rarity": "Base", "ability": "Deathrattle", "id_card": 583, "manacost": 16, "name_card": "Ronald Chang"}
+{"races": "Elemental", "attack": 16, "health": 14, "id_add": 5, "rarity": "Epic", "ability": "Mega windfury", "id_card": 584, "manacost": 10, "name_card": "Christopher Burton"}
+{"races": "Pirat", "attack": 5, "health": 13, "id_add": 13, "rarity": "Legendary", "ability": "Deathrattle", "id_card": 585, "manacost": 16, "name_card": "Aaron Smith"}
+{"races": "Murloc", "attack": 0, "health": 18, "id_add": 12, "rarity": "Base", "ability": "Deathrattle", "id_card": 586, "manacost": 5, "name_card": "Rick Lara"}
+{"races": "Demon", "attack": 11, "health": 17, "id_add": 11, "rarity": "Common", "ability": "Overkill", "id_card": 587, "manacost": 21, "name_card": "Robert White"}
+{"races": "Pirat", "attack": 6, "health": 18, "id_add": 12, "rarity": "Rare", "ability": "Battle cry", "id_card": 588, "manacost": 16, "name_card": "Carol Marshall"}
+{"races": "Dragon", "attack": 12, "health": 5, "id_add": 11, "rarity": "Common", "ability": "Overkill", "id_card": 589, "manacost": 15, "name_card": "Brooke Parsons"}
+{"races": "Murloc", "attack": 13, "health": 2, "id_add": 3, "rarity": "Base", "ability": "Poisonous", "id_card": 590, "manacost": 10, "name_card": "Caroline Dixon"}
+{"races": "Dragon", "attack": 0, "health": 19, "id_add": 9, "rarity": "Base", "ability": "Stealth", "id_card": 591, "manacost": 18, "name_card": "Timothy Howell"}
+{"races": "Totem", "attack": 1, "health": 3, "id_add": 2, "rarity": "Rare", "ability": "Overkill", "id_card": 592, "manacost": 21, "name_card": "Michael Riley"}
+{"races": "Demon", "attack": 1, "health": 2, "id_add": 13, "rarity": "Rare", "ability": "Non-target", "id_card": 593, "manacost": 22, "name_card": "James Lee"}
+{"races": "Demon", "attack": 9, "health": 1, "id_add": 8, "rarity": "Common", "ability": "Taunt", "id_card": 594, "manacost": 18, "name_card": "David Stewart"}
+{"races": "Pirat", "attack": 7, "health": 1, "id_add": 4, "rarity": "Epic", "ability": "Overkill", "id_card": 595, "manacost": 24, "name_card": "Andrew Welch"}
+{"races": "Dragon", "attack": 2, "health": 5, "id_add": 1, "rarity": "Epic", "ability": "Lifesteal", "id_card": 596, "manacost": 2, "name_card": "David Yoder"}
+{"races": "Beast", "attack": 1, "health": 15, "id_add": 11, "rarity": "Base", "ability": "Divine shield", "id_card": 597, "manacost": 9, "name_card": "Brian Johnson"}
+{"races": "Totem", "attack": 6, "health": 10, "id_add": 11, "rarity": "Epic", "ability": "Rush", "id_card": 598, "manacost": 24, "name_card": "Timothy Cunningham"}
+{"races": "Dragon", "attack": 1, "health": 5, "id_add": 4, "rarity": "Base", "ability": "Lifesteal", "id_card": 599, "manacost": 18, "name_card": "Michele Brennan"}
+{"races": "Mechanism", "attack": 15, "health": 18, "id_add": 6, "rarity": "Legendary", "ability": "Poisonous", "id_card": 600, "manacost": 11, "name_card": "Laura French"}
+{"races": "Dragon", "attack": 5, "health": 3, "id_add": 12, "rarity": "Rare", "ability": "Lifesteal", "id_card": 601, "manacost": 6, "name_card": "Grace Sherman MD"}
+{"races": "Dragon", "attack": 8, "health": 17, "id_add": 9, "rarity": "Epic", "ability": "Battle cry", "id_card": 602, "manacost": 3, "name_card": "Susan Woods"}
+{"races": "Beast", "attack": 4, "health": 4, "id_add": 3, "rarity": "Legendary", "ability": "Poisonous", "id_card": 603, "manacost": 1, "name_card": "Mary Johnson"}
+{"races": "Beast", "attack": 17, "health": 12, "id_add": 8, "rarity": "Rare", "ability": "Poisonous", "id_card": 604, "manacost": 19, "name_card": "Erica Smith"}
+{"races": "Elemental", "attack": 14, "health": 16, "id_add": 7, "rarity": "Legendary", "ability": "Divine shield", "id_card": 605, "manacost": 4, "name_card": "Michael Mcintyre"}
+{"races": "Beast", "attack": 13, "health": 11, "id_add": 12, "rarity": "Legendary", "ability": "Poisonous", "id_card": 606, "manacost": 3, "name_card": "Mario Fletcher"}
+{"races": "Murloc", "attack": 12, "health": 10, "id_add": 10, "rarity": "Epic", "ability": "Lifesteal", "id_card": 607, "manacost": 1, "name_card": "Hunter Anthony"}
+{"races": "Demon", "attack": 4, "health": 19, "id_add": 8, "rarity": "Base", "ability": "Windfury", "id_card": 608, "manacost": 2, "name_card": "Calvin Marquez"}
+{"races": "Demon", "attack": 0, "health": 13, "id_add": 13, "rarity": "Epic", "ability": "Stealth", "id_card": 609, "manacost": 0, "name_card": "Christopher Maddox"}
+{"races": "Dragon", "attack": 13, "health": 8, "id_add": 10, "rarity": "Epic", "ability": "Poisonous", "id_card": 610, "manacost": 9, "name_card": "Michelle Nash"}
+{"races": "Demon", "attack": 8, "health": 2, "id_add": 14, "rarity": "Legendary", "ability": "Divine shield", "id_card": 611, "manacost": 9, "name_card": "Donna Allen"}
+{"races": "Pirat", "attack": 4, "health": 3, "id_add": 15, "rarity": "Epic", "ability": "Windfury", "id_card": 612, "manacost": 11, "name_card": "Michael Jones"}
+{"races": "Demon", "attack": 12, "health": 2, "id_add": 14, "rarity": "Base", "ability": "Overkill", "id_card": 613, "manacost": 6, "name_card": "Logan Mccann"}
+{"races": "Elemental", "attack": 17, "health": 4, "id_add": 8, "rarity": "Epic", "ability": "Non-target", "id_card": 614, "manacost": 5, "name_card": "Ms. Susan Patterson"}
+{"races": "Elemental", "attack": 20, "health": 3, "id_add": 8, "rarity": "Epic", "ability": "Deathrattle", "id_card": 615, "manacost": 20, "name_card": "Cynthia Padilla"}
+{"races": "Murloc", "attack": 18, "health": 8, "id_add": 6, "rarity": "Common", "ability": "Stealth", "id_card": 616, "manacost": 6, "name_card": "Amber Brown"}
+{"races": "Totem", "attack": 11, "health": 4, "id_add": 15, "rarity": "Base", "ability": "Deathrattle", "id_card": 617, "manacost": 14, "name_card": "David Patterson"}
+{"races": "Elemental", "attack": 3, "health": 12, "id_add": 9, "rarity": "Base", "ability": "Divine shield", "id_card": 618, "manacost": 11, "name_card": "Angela Tyler"}
+{"races": "Beast", "attack": 7, "health": 7, "id_add": 14, "rarity": "Common", "ability": "Lifesteal", "id_card": 619, "manacost": 8, "name_card": "Elizabeth Gross"}
+{"races": "Murloc", "attack": 6, "health": 6, "id_add": 8, "rarity": "Common", "ability": "Lifesteal", "id_card": 620, "manacost": 1, "name_card": "Donald Rios"}
+{"races": "Elemental", "attack": 17, "health": 17, "id_add": 3, "rarity": "Rare", "ability": "Divine shield", "id_card": 621, "manacost": 21, "name_card": "William Vaughan"}
+{"races": "Elemental", "attack": 17, "health": 3, "id_add": 12, "rarity": "Base", "ability": "Deathrattle", "id_card": 622, "manacost": 20, "name_card": "Christina Thompson"}
+{"races": "Elemental", "attack": 7, "health": 1, "id_add": 2, "rarity": "Common", "ability": "Lifesteal", "id_card": 623, "manacost": 4, "name_card": "Christine Brown"}
+{"races": "Pirat", "attack": 18, "health": 2, "id_add": 4, "rarity": "Legendary", "ability": "Stealth", "id_card": 624, "manacost": 13, "name_card": "Lori Deleon"}
+{"races": "Demon", "attack": 4, "health": 8, "id_add": 9, "rarity": "Epic", "ability": "Battle cry", "id_card": 625, "manacost": 24, "name_card": "Justin Thomas"}
+{"races": "Elemental", "attack": 17, "health": 8, "id_add": 3, "rarity": "Epic", "ability": "Deathrattle", "id_card": 626, "manacost": 14, "name_card": "Gilbert Suarez"}
+{"races": "Elemental", "attack": 19, "health": 17, "id_add": 12, "rarity": "Legendary", "ability": "Poisonous", "id_card": 627, "manacost": 23, "name_card": "Karen Robertson"}
+{"races": "Pirat", "attack": 9, "health": 12, "id_add": 9, "rarity": "Legendary", "ability": "Poisonous", "id_card": 628, "manacost": 2, "name_card": "Diane Fletcher"}
+{"races": "Dragon", "attack": 1, "health": 12, "id_add": 4, "rarity": "Base", "ability": "Lifesteal", "id_card": 629, "manacost": 17, "name_card": "Kimberly Hammond"}
+{"races": "Mechanism", "attack": 0, "health": 9, "id_add": 5, "rarity": "Legendary", "ability": "Battle cry", "id_card": 630, "manacost": 6, "name_card": "Richard Fitzgerald"}
+{"races": "Dragon", "attack": 19, "health": 20, "id_add": 5, "rarity": "Legendary", "ability": "Overkill", "id_card": 631, "manacost": 22, "name_card": "Peter Weaver"}
+{"races": "Demon", "attack": 18, "health": 16, "id_add": 7, "rarity": "Base", "ability": "Poisonous", "id_card": 632, "manacost": 23, "name_card": "Jordan Davis"}
+{"races": "Totem", "attack": 11, "health": 20, "id_add": 9, "rarity": "Legendary", "ability": "Stealth", "id_card": 633, "manacost": 8, "name_card": "Jennifer Holmes"}
+{"races": "Elemental", "attack": 3, "health": 6, "id_add": 4, "rarity": "Legendary", "ability": "Battle cry", "id_card": 634, "manacost": 14, "name_card": "Karen Hicks"}
+{"races": "Pirat", "attack": 1, "health": 2, "id_add": 3, "rarity": "Epic", "ability": "Non-target", "id_card": 635, "manacost": 10, "name_card": "Kim Martinez"}
+{"races": "Mechanism", "attack": 9, "health": 12, "id_add": 14, "rarity": "Base", "ability": "Deathrattle", "id_card": 636, "manacost": 17, "name_card": "Jaclyn Clark"}
+{"races": "Totem", "attack": 12, "health": 17, "id_add": 1, "rarity": "Base", "ability": "Taunt", "id_card": 637, "manacost": 6, "name_card": "Tammy Warren"}
+{"races": "Dragon", "attack": 10, "health": 11, "id_add": 15, "rarity": "Legendary", "ability": "Windfury", "id_card": 638, "manacost": 16, "name_card": "Michael Velazquez"}
+{"races": "Totem", "attack": 17, "health": 1, "id_add": 5, "rarity": "Epic", "ability": "Divine shield", "id_card": 639, "manacost": 22, "name_card": "Shelby Clark"}
+{"races": "Beast", "attack": 6, "health": 14, "id_add": 6, "rarity": "Legendary", "ability": "Overkill", "id_card": 640, "manacost": 12, "name_card": "Emily Reid"}
+{"races": "Pirat", "attack": 8, "health": 2, "id_add": 8, "rarity": "Common", "ability": "Mega windfury", "id_card": 641, "manacost": 23, "name_card": "Joshua Solis"}
+{"races": "Murloc", "attack": 12, "health": 3, "id_add": 6, "rarity": "Common", "ability": "Battle cry", "id_card": 642, "manacost": 12, "name_card": "Calvin Aguilar"}
+{"races": "Elemental", "attack": 10, "health": 3, "id_add": 1, "rarity": "Rare", "ability": "Poisonous", "id_card": 643, "manacost": 13, "name_card": "Erica Henry"}
+{"races": "Totem", "attack": 11, "health": 10, "id_add": 14, "rarity": "Rare", "ability": "Taunt", "id_card": 644, "manacost": 11, "name_card": "Holly Murphy"}
+{"races": "Murloc", "attack": 15, "health": 2, "id_add": 1, "rarity": "Base", "ability": "Windfury", "id_card": 645, "manacost": 21, "name_card": "Stephanie Miller"}
+{"races": "Demon", "attack": 9, "health": 15, "id_add": 4, "rarity": "Common", "ability": "Deathrattle", "id_card": 646, "manacost": 15, "name_card": "Colleen Haley"}
+{"races": "Murloc", "attack": 2, "health": 6, "id_add": 15, "rarity": "Common", "ability": "Deathrattle", "id_card": 647, "manacost": 20, "name_card": "Ashley Welch"}
+{"races": "Totem", "attack": 1, "health": 6, "id_add": 5, "rarity": "Rare", "ability": "Lifesteal", "id_card": 648, "manacost": 0, "name_card": "Eduardo Vasquez"}
+{"races": "Elemental", "attack": 12, "health": 14, "id_add": 10, "rarity": "Common", "ability": "Divine shield", "id_card": 649, "manacost": 8, "name_card": "Joanna Villanueva"}
+{"races": "Dragon", "attack": 19, "health": 13, "id_add": 6, "rarity": "Legendary", "ability": "Mega windfury", "id_card": 650, "manacost": 16, "name_card": "Angela Wilson"}
+{"races": "Totem", "attack": 17, "health": 17, "id_add": 5, "rarity": "Legendary", "ability": "Non-target", "id_card": 651, "manacost": 18, "name_card": "Jared Greer"}
+{"races": "Demon", "attack": 15, "health": 17, "id_add": 10, "rarity": "Legendary", "ability": "Overkill", "id_card": 652, "manacost": 6, "name_card": "Paul Smith"}
+{"races": "Totem", "attack": 5, "health": 18, "id_add": 10, "rarity": "Base", "ability": "Rush", "id_card": 653, "manacost": 11, "name_card": "Timothy Park"}
+{"races": "Totem", "attack": 1, "health": 16, "id_add": 9, "rarity": "Common", "ability": "Mega windfury", "id_card": 654, "manacost": 20, "name_card": "Wendy Marks"}
+{"races": "Dragon", "attack": 14, "health": 10, "id_add": 3, "rarity": "Common", "ability": "Rush", "id_card": 655, "manacost": 14, "name_card": "Amanda Estes"}
+{"races": "Elemental", "attack": 2, "health": 9, "id_add": 8, "rarity": "Base", "ability": "Battle cry", "id_card": 656, "manacost": 5, "name_card": "Heather Scott"}
+{"races": "Demon", "attack": 4, "health": 16, "id_add": 9, "rarity": "Legendary", "ability": "Stealth", "id_card": 657, "manacost": 13, "name_card": "Ashley Hood"}
+{"races": "Murloc", "attack": 16, "health": 14, "id_add": 3, "rarity": "Epic", "ability": "Battle cry", "id_card": 658, "manacost": 11, "name_card": "Holly Daniel"}
+{"races": "Murloc", "attack": 8, "health": 17, "id_add": 6, "rarity": "Epic", "ability": "Lifesteal", "id_card": 659, "manacost": 9, "name_card": "Charles Soto"}
+{"races": "Demon", "attack": 5, "health": 10, "id_add": 15, "rarity": "Epic", "ability": "Poisonous", "id_card": 660, "manacost": 24, "name_card": "Donna Little"}
+{"races": "Demon", "attack": 13, "health": 15, "id_add": 10, "rarity": "Legendary", "ability": "Stealth", "id_card": 661, "manacost": 3, "name_card": "Mr. William Flores"}
+{"races": "Demon", "attack": 6, "health": 11, "id_add": 3, "rarity": "Common", "ability": "Divine shield", "id_card": 662, "manacost": 3, "name_card": "Diana Dorsey"}
+{"races": "Demon", "attack": 10, "health": 11, "id_add": 10, "rarity": "Common", "ability": "Deathrattle", "id_card": 663, "manacost": 13, "name_card": "Michael Khan"}
+{"races": "Elemental", "attack": 3, "health": 16, "id_add": 1, "rarity": "Epic", "ability": "Overkill", "id_card": 664, "manacost": 8, "name_card": "Marie Salazar"}
+{"races": "Murloc", "attack": 2, "health": 16, "id_add": 15, "rarity": "Base", "ability": "Overkill", "id_card": 665, "manacost": 0, "name_card": "Tina Ford"}
+{"races": "Totem", "attack": 14, "health": 8, "id_add": 12, "rarity": "Common", "ability": "Lifesteal", "id_card": 666, "manacost": 4, "name_card": "Nathan Sims"}
+{"races": "Demon", "attack": 10, "health": 5, "id_add": 1, "rarity": "Base", "ability": "Deathrattle", "id_card": 667, "manacost": 12, "name_card": "Steven Anderson"}
+{"races": "Elemental", "attack": 6, "health": 1, "id_add": 10, "rarity": "Rare", "ability": "Windfury", "id_card": 668, "manacost": 10, "name_card": "Deborah Davis"}
+{"races": "Totem", "attack": 11, "health": 5, "id_add": 9, "rarity": "Legendary", "ability": "Taunt", "id_card": 669, "manacost": 20, "name_card": "Brian Randall"}
+{"races": "Totem", "attack": 15, "health": 18, "id_add": 15, "rarity": "Common", "ability": "Rush", "id_card": 670, "manacost": 21, "name_card": "Kenneth Smith"}
+{"races": "Mechanism", "attack": 6, "health": 4, "id_add": 13, "rarity": "Rare", "ability": "Deathrattle", "id_card": 671, "manacost": 10, "name_card": "Patrick Rogers"}
+{"races": "Totem", "attack": 2, "health": 5, "id_add": 13, "rarity": "Rare", "ability": "Battle cry", "id_card": 672, "manacost": 2, "name_card": "Elizabeth Jordan"}
+{"races": "Elemental", "attack": 11, "health": 10, "id_add": 3, "rarity": "Epic", "ability": "Divine shield", "id_card": 673, "manacost": 21, "name_card": "James Mullen"}
+{"races": "Pirat", "attack": 5, "health": 19, "id_add": 4, "rarity": "Common", "ability": "Lifesteal", "id_card": 674, "manacost": 20, "name_card": "Tom Smith"}
+{"races": "Dragon", "attack": 9, "health": 6, "id_add": 4, "rarity": "Rare", "ability": "Deathrattle", "id_card": 675, "manacost": 20, "name_card": "Joel Tyler"}
+{"races": "Beast", "attack": 2, "health": 9, "id_add": 9, "rarity": "Base", "ability": "Rush", "id_card": 676, "manacost": 20, "name_card": "Sara Horn"}
+{"races": "Beast", "attack": 9, "health": 9, "id_add": 2, "rarity": "Common", "ability": "Windfury", "id_card": 677, "manacost": 13, "name_card": "Jessica Jones"}
+{"races": "Demon", "attack": 2, "health": 15, "id_add": 14, "rarity": "Rare", "ability": "Stealth", "id_card": 678, "manacost": 7, "name_card": "Hannah Jensen"}
+{"races": "Mechanism", "attack": 20, "health": 14, "id_add": 5, "rarity": "Rare", "ability": "Stealth", "id_card": 679, "manacost": 18, "name_card": "Kristen Allen"}
+{"races": "Demon", "attack": 13, "health": 7, "id_add": 6, "rarity": "Legendary", "ability": "Deathrattle", "id_card": 680, "manacost": 25, "name_card": "Derek Simpson"}
+{"races": "Beast", "attack": 5, "health": 3, "id_add": 11, "rarity": "Base", "ability": "Stealth", "id_card": 681, "manacost": 6, "name_card": "Mr. Kristopher Reid"}
+{"races": "Murloc", "attack": 4, "health": 19, "id_add": 8, "rarity": "Common", "ability": "Deathrattle", "id_card": 682, "manacost": 5, "name_card": "Ashley Jensen"}
+{"races": "Demon", "attack": 4, "health": 12, "id_add": 8, "rarity": "Epic", "ability": "Windfury", "id_card": 683, "manacost": 25, "name_card": "Kaitlyn Clayton"}
+{"races": "Dragon", "attack": 6, "health": 10, "id_add": 8, "rarity": "Rare", "ability": "Windfury", "id_card": 684, "manacost": 23, "name_card": "Tyler Jones"}
+{"races": "Elemental", "attack": 5, "health": 13, "id_add": 8, "rarity": "Epic", "ability": "Rush", "id_card": 685, "manacost": 23, "name_card": "Jenna Ruiz"}
+{"races": "Murloc", "attack": 0, "health": 13, "id_add": 5, "rarity": "Rare", "ability": "Mega windfury", "id_card": 686, "manacost": 4, "name_card": "Sarah Mcmillan"}
+{"races": "Totem", "attack": 17, "health": 6, "id_add": 12, "rarity": "Base", "ability": "Divine shield", "id_card": 687, "manacost": 22, "name_card": "Dawn Clark"}
+{"races": "Elemental", "attack": 13, "health": 7, "id_add": 1, "rarity": "Base", "ability": "Battle cry", "id_card": 688, "manacost": 24, "name_card": "Christopher Contreras"}
+{"races": "Dragon", "attack": 12, "health": 7, "id_add": 3, "rarity": "Common", "ability": "Poisonous", "id_card": 689, "manacost": 14, "name_card": "Emily Hernandez"}
+{"races": "Elemental", "attack": 13, "health": 13, "id_add": 4, "rarity": "Epic", "ability": "Divine shield", "id_card": 690, "manacost": 2, "name_card": "Donald Wiggins"}
+{"races": "Murloc", "attack": 16, "health": 13, "id_add": 13, "rarity": "Base", "ability": "Stealth", "id_card": 691, "manacost": 6, "name_card": "Matthew Campbell"}
+{"races": "Dragon", "attack": 17, "health": 7, "id_add": 5, "rarity": "Epic", "ability": "Rush", "id_card": 692, "manacost": 17, "name_card": "Andrew Bonilla"}
+{"races": "Pirat", "attack": 13, "health": 1, "id_add": 5, "rarity": "Rare", "ability": "Rush", "id_card": 693, "manacost": 3, "name_card": "Katherine Potter"}
+{"races": "Beast", "attack": 12, "health": 13, "id_add": 12, "rarity": "Rare", "ability": "Deathrattle", "id_card": 694, "manacost": 16, "name_card": "Crystal Baldwin"}
+{"races": "Elemental", "attack": 9, "health": 17, "id_add": 7, "rarity": "Rare", "ability": "Lifesteal", "id_card": 695, "manacost": 13, "name_card": "Matthew Francis"}
+{"races": "Demon", "attack": 6, "health": 11, "id_add": 11, "rarity": "Epic", "ability": "Lifesteal", "id_card": 696, "manacost": 21, "name_card": "Jennifer Harris"}
+{"races": "Demon", "attack": 0, "health": 16, "id_add": 8, "rarity": "Base", "ability": "Windfury", "id_card": 697, "manacost": 1, "name_card": "Tina Clark"}
+{"races": "Pirat", "attack": 11, "health": 9, "id_add": 15, "rarity": "Common", "ability": "Deathrattle", "id_card": 698, "manacost": 0, "name_card": "Tammy Cruz"}
+{"races": "Murloc", "attack": 3, "health": 13, "id_add": 13, "rarity": "Base", "ability": "Rush", "id_card": 699, "manacost": 6, "name_card": "Cassandra Marshall"}
+{"races": "Totem", "attack": 15, "health": 8, "id_add": 5, "rarity": "Base", "ability": "Deathrattle", "id_card": 700, "manacost": 14, "name_card": "Martha Smith"}
+{"races": "Murloc", "attack": 4, "health": 13, "id_add": 3, "rarity": "Common", "ability": "Non-target", "id_card": 701, "manacost": 3, "name_card": "Connor Collier"}
+{"races": "Beast", "attack": 15, "health": 13, "id_add": 4, "rarity": "Rare", "ability": "Windfury", "id_card": 702, "manacost": 15, "name_card": "Dean Morrow"}
+{"races": "Demon", "attack": 7, "health": 9, "id_add": 2, "rarity": "Base", "ability": "Stealth", "id_card": 703, "manacost": 8, "name_card": "Mitchell Boone"}
+{"races": "Dragon", "attack": 17, "health": 17, "id_add": 2, "rarity": "Rare", "ability": "Battle cry", "id_card": 704, "manacost": 23, "name_card": "Benjamin Wong"}
+{"races": "Elemental", "attack": 1, "health": 15, "id_add": 7, "rarity": "Base", "ability": "Rush", "id_card": 705, "manacost": 9, "name_card": "Andrea Roy"}
+{"races": "Dragon", "attack": 15, "health": 1, "id_add": 9, "rarity": "Common", "ability": "Rush", "id_card": 706, "manacost": 24, "name_card": "Eric Rogers"}
+{"races": "Beast", "attack": 15, "health": 11, "id_add": 3, "rarity": "Common", "ability": "Taunt", "id_card": 707, "manacost": 13, "name_card": "Julie Huerta"}
+{"races": "Totem", "attack": 2, "health": 19, "id_add": 3, "rarity": "Common", "ability": "Taunt", "id_card": 708, "manacost": 8, "name_card": "Christopher Baker"}
+{"races": "Elemental", "attack": 18, "health": 1, "id_add": 1, "rarity": "Epic", "ability": "Rush", "id_card": 709, "manacost": 2, "name_card": "David Colon"}
+{"races": "Beast", "attack": 0, "health": 9, "id_add": 13, "rarity": "Legendary", "ability": "Deathrattle", "id_card": 710, "manacost": 15, "name_card": "Nicole Patrick"}
+{"races": "Dragon", "attack": 5, "health": 19, "id_add": 14, "rarity": "Common", "ability": "Lifesteal", "id_card": 711, "manacost": 4, "name_card": "Terri Osborne"}
+{"races": "Pirat", "attack": 0, "health": 7, "id_add": 10, "rarity": "Rare", "ability": "Non-target", "id_card": 712, "manacost": 23, "name_card": "Troy Figueroa"}
+{"races": "Elemental", "attack": 8, "health": 1, "id_add": 10, "rarity": "Epic", "ability": "Mega windfury", "id_card": 713, "manacost": 17, "name_card": "Jacqueline Vasquez"}
+{"races": "Mechanism", "attack": 8, "health": 16, "id_add": 15, "rarity": "Epic", "ability": "Mega windfury", "id_card": 714, "manacost": 25, "name_card": "Susan Moreno"}
+{"races": "Elemental", "attack": 7, "health": 12, "id_add": 3, "rarity": "Base", "ability": "Taunt", "id_card": 715, "manacost": 12, "name_card": "Charles Hess"}
+{"races": "Pirat", "attack": 5, "health": 11, "id_add": 9, "rarity": "Epic", "ability": "Mega windfury", "id_card": 716, "manacost": 20, "name_card": "Charles Matthews"}
+{"races": "Murloc", "attack": 11, "health": 18, "id_add": 12, "rarity": "Epic", "ability": "Poisonous", "id_card": 717, "manacost": 15, "name_card": "Gabriel Armstrong"}
+{"races": "Totem", "attack": 19, "health": 19, "id_add": 10, "rarity": "Common", "ability": "Deathrattle", "id_card": 718, "manacost": 5, "name_card": "Alexis Santos"}
+{"races": "Pirat", "attack": 0, "health": 2, "id_add": 13, "rarity": "Epic", "ability": "Stealth", "id_card": 719, "manacost": 23, "name_card": "Shelby Lane"}
+{"races": "Totem", "attack": 8, "health": 3, "id_add": 15, "rarity": "Epic", "ability": "Rush", "id_card": 720, "manacost": 14, "name_card": "Kenneth Dunn"}
+{"races": "Demon", "attack": 2, "health": 2, "id_add": 10, "rarity": "Legendary", "ability": "Overkill", "id_card": 721, "manacost": 4, "name_card": "Katherine Larsen"}
+{"races": "Beast", "attack": 6, "health": 7, "id_add": 9, "rarity": "Rare", "ability": "Stealth", "id_card": 722, "manacost": 18, "name_card": "Evan Richardson"}
+{"races": "Mechanism", "attack": 5, "health": 11, "id_add": 2, "rarity": "Epic", "ability": "Taunt", "id_card": 723, "manacost": 17, "name_card": "Melinda Walker"}
+{"races": "Murloc", "attack": 15, "health": 7, "id_add": 11, "rarity": "Base", "ability": "Taunt", "id_card": 724, "manacost": 8, "name_card": "Natasha Patel"}
+{"races": "Murloc", "attack": 7, "health": 2, "id_add": 11, "rarity": "Base", "ability": "Taunt", "id_card": 725, "manacost": 19, "name_card": "Mr. Samuel Weber"}
+{"races": "Totem", "attack": 18, "health": 20, "id_add": 3, "rarity": "Base", "ability": "Windfury", "id_card": 726, "manacost": 15, "name_card": "Traci Hernandez"}
+{"races": "Beast", "attack": 2, "health": 3, "id_add": 13, "rarity": "Common", "ability": "Taunt", "id_card": 727, "manacost": 11, "name_card": "Monica Tran"}
+{"races": "Dragon", "attack": 14, "health": 17, "id_add": 8, "rarity": "Epic", "ability": "Lifesteal", "id_card": 728, "manacost": 7, "name_card": "Zachary Young"}
+{"races": "Pirat", "attack": 10, "health": 11, "id_add": 5, "rarity": "Legendary", "ability": "Deathrattle", "id_card": 729, "manacost": 21, "name_card": "Matthew Shelton"}
+{"races": "Beast", "attack": 5, "health": 5, "id_add": 9, "rarity": "Common", "ability": "Lifesteal", "id_card": 730, "manacost": 0, "name_card": "Aaron Smith"}
+{"races": "Murloc", "attack": 13, "health": 1, "id_add": 15, "rarity": "Epic", "ability": "Stealth", "id_card": 731, "manacost": 17, "name_card": "Kayla Potts"}
+{"races": "Dragon", "attack": 1, "health": 15, "id_add": 14, "rarity": "Legendary", "ability": "Rush", "id_card": 732, "manacost": 10, "name_card": "Holly Walton"}
+{"races": "Totem", "attack": 12, "health": 18, "id_add": 2, "rarity": "Epic", "ability": "Rush", "id_card": 733, "manacost": 1, "name_card": "Scott Hurley"}
+{"races": "Totem", "attack": 8, "health": 13, "id_add": 15, "rarity": "Epic", "ability": "Poisonous", "id_card": 734, "manacost": 18, "name_card": "Mark Rivera"}
+{"races": "Mechanism", "attack": 4, "health": 7, "id_add": 9, "rarity": "Base", "ability": "Mega windfury", "id_card": 735, "manacost": 5, "name_card": "Dr. Gary Haley"}
+{"races": "Elemental", "attack": 4, "health": 3, "id_add": 3, "rarity": "Legendary", "ability": "Windfury", "id_card": 736, "manacost": 25, "name_card": "Andrea Williamson DVM"}
+{"races": "Elemental", "attack": 16, "health": 4, "id_add": 10, "rarity": "Common", "ability": "Battle cry", "id_card": 737, "manacost": 13, "name_card": "Robert Jackson"}
+{"races": "Pirat", "attack": 10, "health": 11, "id_add": 2, "rarity": "Common", "ability": "Lifesteal", "id_card": 738, "manacost": 17, "name_card": "Kenneth James"}
+{"races": "Mechanism", "attack": 17, "health": 12, "id_add": 13, "rarity": "Legendary", "ability": "Battle cry", "id_card": 739, "manacost": 5, "name_card": "Aaron Watts"}
+{"races": "Totem", "attack": 14, "health": 13, "id_add": 9, "rarity": "Base", "ability": "Rush", "id_card": 740, "manacost": 22, "name_card": "Kyle Mcfarland"}
+{"races": "Beast", "attack": 6, "health": 4, "id_add": 5, "rarity": "Rare", "ability": "Poisonous", "id_card": 741, "manacost": 21, "name_card": "Travis Allen"}
+{"races": "Totem", "attack": 20, "health": 5, "id_add": 7, "rarity": "Legendary", "ability": "Rush", "id_card": 742, "manacost": 7, "name_card": "Rebecca Wise"}
+{"races": "Murloc", "attack": 20, "health": 2, "id_add": 14, "rarity": "Common", "ability": "Battle cry", "id_card": 743, "manacost": 22, "name_card": "Travis Ramsey"}
+{"races": "Pirat", "attack": 11, "health": 6, "id_add": 11, "rarity": "Epic", "ability": "Deathrattle", "id_card": 744, "manacost": 1, "name_card": "Rachel Miller"}
+{"races": "Pirat", "attack": 9, "health": 11, "id_add": 4, "rarity": "Base", "ability": "Overkill", "id_card": 745, "manacost": 15, "name_card": "Hannah Weiss"}
+{"races": "Dragon", "attack": 12, "health": 2, "id_add": 5, "rarity": "Epic", "ability": "Battle cry", "id_card": 746, "manacost": 3, "name_card": "Adrienne Sanchez"}
+{"races": "Pirat", "attack": 5, "health": 12, "id_add": 8, "rarity": "Legendary", "ability": "Lifesteal", "id_card": 747, "manacost": 15, "name_card": "Shirley Byrd"}
+{"races": "Pirat", "attack": 17, "health": 8, "id_add": 11, "rarity": "Rare", "ability": "Divine shield", "id_card": 748, "manacost": 23, "name_card": "Lynn Grant"}
+{"races": "Dragon", "attack": 19, "health": 12, "id_add": 7, "rarity": "Base", "ability": "Battle cry", "id_card": 749, "manacost": 20, "name_card": "Mark Harris"}
+{"races": "Dragon", "attack": 14, "health": 8, "id_add": 1, "rarity": "Base", "ability": "Battle cry", "id_card": 750, "manacost": 25, "name_card": "Jody Brown"}
+{"races": "Murloc", "attack": 4, "health": 1, "id_add": 9, "rarity": "Epic", "ability": "Overkill", "id_card": 751, "manacost": 7, "name_card": "Gabrielle Lin"}
+{"races": "Demon", "attack": 5, "health": 13, "id_add": 10, "rarity": "Base", "ability": "Stealth", "id_card": 752, "manacost": 5, "name_card": "Deborah Villa"}
+{"races": "Demon", "attack": 20, "health": 13, "id_add": 13, "rarity": "Legendary", "ability": "Lifesteal", "id_card": 753, "manacost": 21, "name_card": "Michael Kim"}
+{"races": "Totem", "attack": 10, "health": 18, "id_add": 1, "rarity": "Legendary", "ability": "Battle cry", "id_card": 754, "manacost": 9, "name_card": "Denise Coleman MD"}
+{"races": "Totem", "attack": 11, "health": 10, "id_add": 11, "rarity": "Common", "ability": "Overkill", "id_card": 755, "manacost": 2, "name_card": "Natalie Hester"}
+{"races": "Beast", "attack": 14, "health": 12, "id_add": 2, "rarity": "Rare", "ability": "Mega windfury", "id_card": 756, "manacost": 14, "name_card": "Jeffery Dawson"}
+{"races": "Pirat", "attack": 12, "health": 16, "id_add": 13, "rarity": "Base", "ability": "Mega windfury", "id_card": 757, "manacost": 7, "name_card": "Christopher Gates"}
+{"races": "Elemental", "attack": 6, "health": 19, "id_add": 14, "rarity": "Base", "ability": "Overkill", "id_card": 758, "manacost": 24, "name_card": "Larry Wolfe"}
+{"races": "Murloc", "attack": 14, "health": 11, "id_add": 12, "rarity": "Base", "ability": "Lifesteal", "id_card": 759, "manacost": 23, "name_card": "Andrew Skinner"}
+{"races": "Demon", "attack": 9, "health": 9, "id_add": 15, "rarity": "Common", "ability": "Windfury", "id_card": 760, "manacost": 19, "name_card": "Eric Alvarez"}
+{"races": "Demon", "attack": 18, "health": 3, "id_add": 7, "rarity": "Common", "ability": "Battle cry", "id_card": 761, "manacost": 11, "name_card": "Paul Lynn"}
+{"races": "Beast", "attack": 16, "health": 8, "id_add": 8, "rarity": "Common", "ability": "Stealth", "id_card": 762, "manacost": 2, "name_card": "Andrew Mitchell"}
+{"races": "Demon", "attack": 7, "health": 18, "id_add": 7, "rarity": "Common", "ability": "Mega windfury", "id_card": 763, "manacost": 15, "name_card": "Crystal Gibson"}
+{"races": "Pirat", "attack": 5, "health": 11, "id_add": 1, "rarity": "Rare", "ability": "Stealth", "id_card": 764, "manacost": 15, "name_card": "John Collins"}
+{"races": "Pirat", "attack": 12, "health": 14, "id_add": 9, "rarity": "Common", "ability": "Taunt", "id_card": 765, "manacost": 20, "name_card": "John Baker"}
+{"races": "Pirat", "attack": 12, "health": 10, "id_add": 6, "rarity": "Rare", "ability": "Taunt", "id_card": 766, "manacost": 13, "name_card": "Dana Garcia"}
+{"races": "Beast", "attack": 11, "health": 7, "id_add": 8, "rarity": "Common", "ability": "Rush", "id_card": 767, "manacost": 21, "name_card": "Joshua Holmes"}
+{"races": "Murloc", "attack": 20, "health": 4, "id_add": 1, "rarity": "Common", "ability": "Windfury", "id_card": 768, "manacost": 12, "name_card": "Spencer Chan"}
+{"races": "Pirat", "attack": 9, "health": 4, "id_add": 7, "rarity": "Common", "ability": "Stealth", "id_card": 769, "manacost": 9, "name_card": "Herbert Mclaughlin"}
+{"races": "Murloc", "attack": 11, "health": 17, "id_add": 4, "rarity": "Epic", "ability": "Taunt", "id_card": 770, "manacost": 1, "name_card": "Anthony Mcdaniel"}
+{"races": "Totem", "attack": 11, "health": 6, "id_add": 4, "rarity": "Rare", "ability": "Non-target", "id_card": 771, "manacost": 12, "name_card": "Dr. James Grant"}
+{"races": "Pirat", "attack": 8, "health": 2, "id_add": 7, "rarity": "Rare", "ability": "Divine shield", "id_card": 772, "manacost": 1, "name_card": "Christina Scott"}
+{"races": "Beast", "attack": 18, "health": 6, "id_add": 2, "rarity": "Legendary", "ability": "Stealth", "id_card": 773, "manacost": 9, "name_card": "Stephanie Frazier"}
+{"races": "Dragon", "attack": 2, "health": 9, "id_add": 3, "rarity": "Common", "ability": "Overkill", "id_card": 774, "manacost": 23, "name_card": "Destiny Ross"}
+{"races": "Murloc", "attack": 2, "health": 12, "id_add": 10, "rarity": "Legendary", "ability": "Deathrattle", "id_card": 775, "manacost": 14, "name_card": "Riley Haas"}
+{"races": "Elemental", "attack": 15, "health": 7, "id_add": 12, "rarity": "Legendary", "ability": "Windfury", "id_card": 776, "manacost": 21, "name_card": "Rachel Walsh"}
+{"races": "Murloc", "attack": 10, "health": 2, "id_add": 3, "rarity": "Legendary", "ability": "Lifesteal", "id_card": 777, "manacost": 3, "name_card": "Ronald Blake"}
+{"races": "Dragon", "attack": 2, "health": 1, "id_add": 8, "rarity": "Legendary", "ability": "Divine shield", "id_card": 778, "manacost": 22, "name_card": "Miguel Vaughn"}
+{"races": "Demon", "attack": 2, "health": 15, "id_add": 13, "rarity": "Rare", "ability": "Mega windfury", "id_card": 779, "manacost": 6, "name_card": "Lori Morales"}
+{"races": "Mechanism", "attack": 16, "health": 12, "id_add": 10, "rarity": "Common", "ability": "Stealth", "id_card": 780, "manacost": 4, "name_card": "Michael Reed"}
+{"races": "Totem", "attack": 17, "health": 1, "id_add": 5, "rarity": "Base", "ability": "Non-target", "id_card": 781, "manacost": 19, "name_card": "Rachael Mitchell"}
+{"races": "Beast", "attack": 7, "health": 9, "id_add": 2, "rarity": "Base", "ability": "Divine shield", "id_card": 782, "manacost": 0, "name_card": "James Alexander"}
+{"races": "Mechanism", "attack": 14, "health": 4, "id_add": 3, "rarity": "Base", "ability": "Mega windfury", "id_card": 783, "manacost": 2, "name_card": "Ashley Watts"}
+{"races": "Dragon", "attack": 5, "health": 14, "id_add": 3, "rarity": "Common", "ability": "Mega windfury", "id_card": 784, "manacost": 12, "name_card": "Juan Weber"}
+{"races": "Murloc", "attack": 12, "health": 1, "id_add": 9, "rarity": "Base", "ability": "Windfury", "id_card": 785, "manacost": 6, "name_card": "Thomas Park"}
+{"races": "Beast", "attack": 1, "health": 18, "id_add": 8, "rarity": "Base", "ability": "Poisonous", "id_card": 786, "manacost": 0, "name_card": "Rachel Donaldson DDS"}
+{"races": "Murloc", "attack": 2, "health": 20, "id_add": 15, "rarity": "Base", "ability": "Overkill", "id_card": 787, "manacost": 19, "name_card": "Regina Jones"}
+{"races": "Beast", "attack": 15, "health": 17, "id_add": 10, "rarity": "Legendary", "ability": "Divine shield", "id_card": 788, "manacost": 9, "name_card": "Steven Marquez"}
+{"races": "Elemental", "attack": 19, "health": 4, "id_add": 9, "rarity": "Legendary", "ability": "Windfury", "id_card": 789, "manacost": 3, "name_card": "Robert Hunt"}
+{"races": "Mechanism", "attack": 14, "health": 9, "id_add": 13, "rarity": "Epic", "ability": "Windfury", "id_card": 790, "manacost": 12, "name_card": "John Patterson"}
+{"races": "Elemental", "attack": 6, "health": 18, "id_add": 11, "rarity": "Epic", "ability": "Non-target", "id_card": 791, "manacost": 21, "name_card": "John Holmes"}
+{"races": "Elemental", "attack": 12, "health": 5, "id_add": 8, "rarity": "Epic", "ability": "Non-target", "id_card": 792, "manacost": 2, "name_card": "Dale Cobb"}
+{"races": "Totem", "attack": 20, "health": 15, "id_add": 8, "rarity": "Epic", "ability": "Divine shield", "id_card": 793, "manacost": 21, "name_card": "Tracy Martin"}
+{"races": "Dragon", "attack": 10, "health": 1, "id_add": 5, "rarity": "Epic", "ability": "Battle cry", "id_card": 794, "manacost": 13, "name_card": "Chad Gray"}
+{"races": "Elemental", "attack": 19, "health": 14, "id_add": 11, "rarity": "Epic", "ability": "Windfury", "id_card": 795, "manacost": 25, "name_card": "William Davis"}
+{"races": "Murloc", "attack": 6, "health": 12, "id_add": 5, "rarity": "Legendary", "ability": "Overkill", "id_card": 796, "manacost": 4, "name_card": "Eric Taylor"}
+{"races": "Mechanism", "attack": 1, "health": 9, "id_add": 9, "rarity": "Epic", "ability": "Divine shield", "id_card": 797, "manacost": 23, "name_card": "Jill Perez"}
+{"races": "Demon", "attack": 18, "health": 16, "id_add": 6, "rarity": "Legendary", "ability": "Deathrattle", "id_card": 798, "manacost": 13, "name_card": "Amanda Doyle"}
+{"races": "Elemental", "attack": 9, "health": 13, "id_add": 4, "rarity": "Base", "ability": "Overkill", "id_card": 799, "manacost": 25, "name_card": "Stephen Callahan"}
+{"races": "Dragon", "attack": 6, "health": 6, "id_add": 10, "rarity": "Epic", "ability": "Mega windfury", "id_card": 800, "manacost": 0, "name_card": "Mark Hamilton"}
+{"races": "Totem", "attack": 20, "health": 12, "id_add": 4, "rarity": "Legendary", "ability": "Stealth", "id_card": 801, "manacost": 14, "name_card": "Linda Fry"}
+{"races": "Elemental", "attack": 10, "health": 14, "id_add": 11, "rarity": "Epic", "ability": "Deathrattle", "id_card": 802, "manacost": 9, "name_card": "Susan Fowler"}
+{"races": "Demon", "attack": 7, "health": 13, "id_add": 2, "rarity": "Base", "ability": "Non-target", "id_card": 803, "manacost": 4, "name_card": "Krystal Valdez"}
+{"races": "Beast", "attack": 14, "health": 16, "id_add": 9, "rarity": "Rare", "ability": "Battle cry", "id_card": 804, "manacost": 12, "name_card": "Jennifer Thornton"}
+{"races": "Pirat", "attack": 19, "health": 16, "id_add": 14, "rarity": "Rare", "ability": "Non-target", "id_card": 805, "manacost": 16, "name_card": "Shawn Parrish"}
+{"races": "Pirat", "attack": 15, "health": 15, "id_add": 13, "rarity": "Rare", "ability": "Overkill", "id_card": 806, "manacost": 20, "name_card": "David Novak"}
+{"races": "Beast", "attack": 8, "health": 6, "id_add": 14, "rarity": "Common", "ability": "Rush", "id_card": 807, "manacost": 20, "name_card": "John Shaw"}
+{"races": "Totem", "attack": 1, "health": 5, "id_add": 13, "rarity": "Epic", "ability": "Deathrattle", "id_card": 808, "manacost": 17, "name_card": "Jason Archer"}
+{"races": "Murloc", "attack": 10, "health": 17, "id_add": 6, "rarity": "Common", "ability": "Taunt", "id_card": 809, "manacost": 10, "name_card": "Gary Mccormick"}
+{"races": "Totem", "attack": 13, "health": 13, "id_add": 10, "rarity": "Epic", "ability": "Poisonous", "id_card": 810, "manacost": 10, "name_card": "Jacob Gonzalez"}
+{"races": "Murloc", "attack": 1, "health": 9, "id_add": 10, "rarity": "Rare", "ability": "Deathrattle", "id_card": 811, "manacost": 13, "name_card": "Megan Stark"}
+{"races": "Dragon", "attack": 11, "health": 14, "id_add": 4, "rarity": "Epic", "ability": "Non-target", "id_card": 812, "manacost": 17, "name_card": "Patrick Gillespie"}
+{"races": "Totem", "attack": 17, "health": 15, "id_add": 4, "rarity": "Legendary", "ability": "Battle cry", "id_card": 813, "manacost": 16, "name_card": "Miss Teresa Gonzalez DDS"}
+{"races": "Dragon", "attack": 1, "health": 13, "id_add": 11, "rarity": "Epic", "ability": "Divine shield", "id_card": 814, "manacost": 4, "name_card": "Erik Lozano"}
+{"races": "Pirat", "attack": 4, "health": 10, "id_add": 9, "rarity": "Epic", "ability": "Battle cry", "id_card": 815, "manacost": 17, "name_card": "Jason Madden"}
+{"races": "Murloc", "attack": 10, "health": 13, "id_add": 9, "rarity": "Rare", "ability": "Divine shield", "id_card": 816, "manacost": 24, "name_card": "Nathaniel Lynch"}
+{"races": "Beast", "attack": 9, "health": 1, "id_add": 12, "rarity": "Legendary", "ability": "Windfury", "id_card": 817, "manacost": 25, "name_card": "Sarah Turner"}
+{"races": "Totem", "attack": 11, "health": 12, "id_add": 8, "rarity": "Base", "ability": "Mega windfury", "id_card": 818, "manacost": 14, "name_card": "Teresa Jenkins"}
+{"races": "Pirat", "attack": 2, "health": 1, "id_add": 6, "rarity": "Rare", "ability": "Lifesteal", "id_card": 819, "manacost": 14, "name_card": "David Mccarthy"}
+{"races": "Totem", "attack": 4, "health": 14, "id_add": 11, "rarity": "Epic", "ability": "Overkill", "id_card": 820, "manacost": 9, "name_card": "Jennifer Sherman"}
+{"races": "Demon", "attack": 4, "health": 9, "id_add": 10, "rarity": "Base", "ability": "Windfury", "id_card": 821, "manacost": 8, "name_card": "Matthew Lee"}
+{"races": "Beast", "attack": 18, "health": 2, "id_add": 7, "rarity": "Base", "ability": "Deathrattle", "id_card": 822, "manacost": 5, "name_card": "Rachel Jacobs"}
+{"races": "Pirat", "attack": 3, "health": 15, "id_add": 15, "rarity": "Common", "ability": "Mega windfury", "id_card": 823, "manacost": 18, "name_card": "Anthony Ward"}
+{"races": "Pirat", "attack": 11, "health": 11, "id_add": 10, "rarity": "Legendary", "ability": "Lifesteal", "id_card": 824, "manacost": 25, "name_card": "Shirley French"}
+{"races": "Totem", "attack": 12, "health": 2, "id_add": 11, "rarity": "Common", "ability": "Rush", "id_card": 825, "manacost": 3, "name_card": "Dr. Ashley Clark"}
+{"races": "Totem", "attack": 18, "health": 20, "id_add": 15, "rarity": "Legendary", "ability": "Battle cry", "id_card": 826, "manacost": 19, "name_card": "Michael Ross"}
+{"races": "Elemental", "attack": 5, "health": 4, "id_add": 11, "rarity": "Rare", "ability": "Rush", "id_card": 827, "manacost": 18, "name_card": "John Richards"}
+{"races": "Elemental", "attack": 15, "health": 6, "id_add": 7, "rarity": "Common", "ability": "Battle cry", "id_card": 828, "manacost": 15, "name_card": "David Bean DDS"}
+{"races": "Demon", "attack": 9, "health": 10, "id_add": 6, "rarity": "Base", "ability": "Rush", "id_card": 829, "manacost": 9, "name_card": "Mr. Stephen Hunt"}
+{"races": "Pirat", "attack": 5, "health": 16, "id_add": 4, "rarity": "Common", "ability": "Mega windfury", "id_card": 830, "manacost": 6, "name_card": "Jason Martinez"}
+{"races": "Beast", "attack": 17, "health": 13, "id_add": 12, "rarity": "Epic", "ability": "Divine shield", "id_card": 831, "manacost": 0, "name_card": "Tracy Riggs"}
+{"races": "Dragon", "attack": 16, "health": 4, "id_add": 4, "rarity": "Legendary", "ability": "Deathrattle", "id_card": 832, "manacost": 1, "name_card": "Heidi Brown"}
+{"races": "Totem", "attack": 0, "health": 1, "id_add": 12, "rarity": "Epic", "ability": "Deathrattle", "id_card": 833, "manacost": 21, "name_card": "Wyatt Cruz"}
+{"races": "Murloc", "attack": 1, "health": 18, "id_add": 8, "rarity": "Rare", "ability": "Stealth", "id_card": 834, "manacost": 9, "name_card": "Christopher Irwin"}
+{"races": "Murloc", "attack": 8, "health": 11, "id_add": 7, "rarity": "Epic", "ability": "Stealth", "id_card": 835, "manacost": 2, "name_card": "Christopher Welch"}
+{"races": "Murloc", "attack": 4, "health": 20, "id_add": 9, "rarity": "Base", "ability": "Rush", "id_card": 836, "manacost": 15, "name_card": "Stacy Simon"}
+{"races": "Beast", "attack": 1, "health": 9, "id_add": 4, "rarity": "Epic", "ability": "Rush", "id_card": 837, "manacost": 22, "name_card": "Tyler Miller"}
+{"races": "Totem", "attack": 11, "health": 13, "id_add": 3, "rarity": "Legendary", "ability": "Windfury", "id_card": 838, "manacost": 6, "name_card": "Caitlin Waller"}
+{"races": "Mechanism", "attack": 13, "health": 14, "id_add": 9, "rarity": "Rare", "ability": "Taunt", "id_card": 839, "manacost": 8, "name_card": "Heather Henson"}
+{"races": "Dragon", "attack": 16, "health": 6, "id_add": 14, "rarity": "Rare", "ability": "Battle cry", "id_card": 840, "manacost": 11, "name_card": "Sabrina Young"}
+{"races": "Demon", "attack": 12, "health": 12, "id_add": 5, "rarity": "Epic", "ability": "Lifesteal", "id_card": 841, "manacost": 9, "name_card": "Kristen Maxwell"}
+{"races": "Murloc", "attack": 14, "health": 13, "id_add": 13, "rarity": "Epic", "ability": "Non-target", "id_card": 842, "manacost": 22, "name_card": "Patricia Hayes"}
+{"races": "Murloc", "attack": 16, "health": 11, "id_add": 9, "rarity": "Base", "ability": "Windfury", "id_card": 843, "manacost": 19, "name_card": "Angela Cooper"}
+{"races": "Beast", "attack": 18, "health": 19, "id_add": 9, "rarity": "Common", "ability": "Rush", "id_card": 844, "manacost": 7, "name_card": "Thomas Houston"}
+{"races": "Totem", "attack": 14, "health": 9, "id_add": 9, "rarity": "Common", "ability": "Windfury", "id_card": 845, "manacost": 2, "name_card": "Maria Brooks"}
+{"races": "Dragon", "attack": 9, "health": 18, "id_add": 14, "rarity": "Base", "ability": "Taunt", "id_card": 846, "manacost": 6, "name_card": "Carl Robles"}
+{"races": "Mechanism", "attack": 4, "health": 1, "id_add": 13, "rarity": "Rare", "ability": "Divine shield", "id_card": 847, "manacost": 3, "name_card": "Amanda Reynolds"}
+{"races": "Beast", "attack": 18, "health": 13, "id_add": 3, "rarity": "Base", "ability": "Stealth", "id_card": 848, "manacost": 6, "name_card": "Edward Schwartz"}
+{"races": "Demon", "attack": 9, "health": 17, "id_add": 3, "rarity": "Rare", "ability": "Divine shield", "id_card": 849, "manacost": 7, "name_card": "Paul Bridges"}
+{"races": "Pirat", "attack": 1, "health": 12, "id_add": 4, "rarity": "Base", "ability": "Battle cry", "id_card": 850, "manacost": 21, "name_card": "Tyler Reilly"}
+{"races": "Mechanism", "attack": 10, "health": 5, "id_add": 10, "rarity": "Rare", "ability": "Battle cry", "id_card": 851, "manacost": 23, "name_card": "Christopher Weber"}
+{"races": "Elemental", "attack": 19, "health": 16, "id_add": 13, "rarity": "Rare", "ability": "Divine shield", "id_card": 852, "manacost": 14, "name_card": "Damon Johnson"}
+{"races": "Murloc", "attack": 7, "health": 20, "id_add": 10, "rarity": "Legendary", "ability": "Stealth", "id_card": 853, "manacost": 4, "name_card": "Lisa Ortiz"}
+{"races": "Mechanism", "attack": 11, "health": 2, "id_add": 10, "rarity": "Rare", "ability": "Lifesteal", "id_card": 854, "manacost": 17, "name_card": "Craig Herring"}
+{"races": "Murloc", "attack": 19, "health": 17, "id_add": 5, "rarity": "Legendary", "ability": "Windfury", "id_card": 855, "manacost": 22, "name_card": "Timothy Myers"}
+{"races": "Totem", "attack": 20, "health": 5, "id_add": 6, "rarity": "Common", "ability": "Divine shield", "id_card": 856, "manacost": 16, "name_card": "Aimee Barnett DDS"}
+{"races": "Mechanism", "attack": 20, "health": 10, "id_add": 6, "rarity": "Epic", "ability": "Stealth", "id_card": 857, "manacost": 5, "name_card": "Brooke Lara"}
+{"races": "Murloc", "attack": 17, "health": 1, "id_add": 1, "rarity": "Epic", "ability": "Non-target", "id_card": 858, "manacost": 4, "name_card": "Matthew Smith"}
+{"races": "Murloc", "attack": 10, "health": 10, "id_add": 10, "rarity": "Legendary", "ability": "Divine shield", "id_card": 859, "manacost": 13, "name_card": "Haley Diaz"}
+{"races": "Elemental", "attack": 7, "health": 18, "id_add": 13, "rarity": "Legendary", "ability": "Poisonous", "id_card": 860, "manacost": 10, "name_card": "Adrienne Bailey"}
+{"races": "Pirat", "attack": 11, "health": 16, "id_add": 10, "rarity": "Base", "ability": "Rush", "id_card": 861, "manacost": 25, "name_card": "Lori Vargas"}
+{"races": "Demon", "attack": 13, "health": 15, "id_add": 15, "rarity": "Common", "ability": "Battle cry", "id_card": 862, "manacost": 5, "name_card": "Ms. Emily Mayer"}
+{"races": "Mechanism", "attack": 0, "health": 10, "id_add": 5, "rarity": "Base", "ability": "Mega windfury", "id_card": 863, "manacost": 20, "name_card": "Janice Myers"}
+{"races": "Pirat", "attack": 2, "health": 4, "id_add": 15, "rarity": "Base", "ability": "Stealth", "id_card": 864, "manacost": 0, "name_card": "Catherine Allen"}
+{"races": "Demon", "attack": 11, "health": 4, "id_add": 11, "rarity": "Rare", "ability": "Overkill", "id_card": 865, "manacost": 18, "name_card": "Melissa Hansen"}
+{"races": "Dragon", "attack": 8, "health": 15, "id_add": 10, "rarity": "Legendary", "ability": "Stealth", "id_card": 866, "manacost": 3, "name_card": "Charlene Aguirre"}
+{"races": "Demon", "attack": 3, "health": 6, "id_add": 15, "rarity": "Base", "ability": "Windfury", "id_card": 867, "manacost": 5, "name_card": "Nicholas Cruz"}
+{"races": "Elemental", "attack": 17, "health": 18, "id_add": 2, "rarity": "Common", "ability": "Divine shield", "id_card": 868, "manacost": 24, "name_card": "Chad King"}
+{"races": "Demon", "attack": 5, "health": 10, "id_add": 15, "rarity": "Epic", "ability": "Lifesteal", "id_card": 869, "manacost": 2, "name_card": "Alexis Barrett"}
+{"races": "Elemental", "attack": 18, "health": 17, "id_add": 13, "rarity": "Epic", "ability": "Overkill", "id_card": 870, "manacost": 4, "name_card": "Erika Nielsen"}
+{"races": "Demon", "attack": 18, "health": 19, "id_add": 10, "rarity": "Rare", "ability": "Poisonous", "id_card": 871, "manacost": 20, "name_card": "Denise Garcia"}
+{"races": "Dragon", "attack": 3, "health": 13, "id_add": 2, "rarity": "Legendary", "ability": "Battle cry", "id_card": 872, "manacost": 6, "name_card": "Kevin Clayton"}
+{"races": "Mechanism", "attack": 13, "health": 3, "id_add": 13, "rarity": "Epic", "ability": "Divine shield", "id_card": 873, "manacost": 18, "name_card": "Wanda Flores"}
+{"races": "Pirat", "attack": 6, "health": 6, "id_add": 12, "rarity": "Rare", "ability": "Overkill", "id_card": 874, "manacost": 21, "name_card": "Dana Burch"}
+{"races": "Mechanism", "attack": 14, "health": 12, "id_add": 7, "rarity": "Rare", "ability": "Stealth", "id_card": 875, "manacost": 2, "name_card": "Laura Taylor"}
+{"races": "Murloc", "attack": 2, "health": 17, "id_add": 9, "rarity": "Legendary", "ability": "Taunt", "id_card": 876, "manacost": 15, "name_card": "Mary Johnson"}
+{"races": "Murloc", "attack": 2, "health": 9, "id_add": 2, "rarity": "Rare", "ability": "Divine shield", "id_card": 877, "manacost": 25, "name_card": "Jeffrey Sparks"}
+{"races": "Murloc", "attack": 15, "health": 12, "id_add": 13, "rarity": "Base", "ability": "Overkill", "id_card": 878, "manacost": 23, "name_card": "Erica Fletcher"}
+{"races": "Mechanism", "attack": 15, "health": 5, "id_add": 1, "rarity": "Epic", "ability": "Mega windfury", "id_card": 879, "manacost": 2, "name_card": "Kaitlin Brooks"}
+{"races": "Beast", "attack": 8, "health": 14, "id_add": 6, "rarity": "Common", "ability": "Overkill", "id_card": 880, "manacost": 5, "name_card": "Eric Walker"}
+{"races": "Beast", "attack": 14, "health": 9, "id_add": 14, "rarity": "Common", "ability": "Mega windfury", "id_card": 881, "manacost": 4, "name_card": "Cynthia Flynn"}
+{"races": "Elemental", "attack": 2, "health": 4, "id_add": 4, "rarity": "Legendary", "ability": "Non-target", "id_card": 882, "manacost": 14, "name_card": "Roberta Hall"}
+{"races": "Dragon", "attack": 11, "health": 11, "id_add": 13, "rarity": "Legendary", "ability": "Poisonous", "id_card": 883, "manacost": 4, "name_card": "Yvette Johnson"}
+{"races": "Pirat", "attack": 14, "health": 14, "id_add": 2, "rarity": "Legendary", "ability": "Stealth", "id_card": 884, "manacost": 23, "name_card": "Melissa Alexander"}
+{"races": "Mechanism", "attack": 18, "health": 1, "id_add": 15, "rarity": "Base", "ability": "Battle cry", "id_card": 885, "manacost": 8, "name_card": "Rebecca Edwards"}
+{"races": "Dragon", "attack": 19, "health": 2, "id_add": 4, "rarity": "Legendary", "ability": "Mega windfury", "id_card": 886, "manacost": 8, "name_card": "Luke Shepherd"}
+{"races": "Beast", "attack": 6, "health": 14, "id_add": 8, "rarity": "Epic", "ability": "Mega windfury", "id_card": 887, "manacost": 8, "name_card": "Scott Roberts"}
+{"races": "Murloc", "attack": 17, "health": 14, "id_add": 9, "rarity": "Legendary", "ability": "Battle cry", "id_card": 888, "manacost": 17, "name_card": "Patricia Melton"}
+{"races": "Elemental", "attack": 17, "health": 5, "id_add": 14, "rarity": "Base", "ability": "Taunt", "id_card": 889, "manacost": 8, "name_card": "Kevin Chavez"}
+{"races": "Pirat", "attack": 1, "health": 4, "id_add": 2, "rarity": "Base", "ability": "Divine shield", "id_card": 890, "manacost": 1, "name_card": "Thomas Hart"}
+{"races": "Beast", "attack": 10, "health": 6, "id_add": 10, "rarity": "Rare", "ability": "Poisonous", "id_card": 891, "manacost": 11, "name_card": "Megan Singh"}
+{"races": "Mechanism", "attack": 19, "health": 8, "id_add": 1, "rarity": "Base", "ability": "Divine shield", "id_card": 892, "manacost": 22, "name_card": "Kelly Rangel"}
+{"races": "Beast", "attack": 14, "health": 13, "id_add": 7, "rarity": "Legendary", "ability": "Non-target", "id_card": 893, "manacost": 22, "name_card": "Anthony Velez"}
+{"races": "Demon", "attack": 5, "health": 19, "id_add": 3, "rarity": "Base", "ability": "Poisonous", "id_card": 894, "manacost": 12, "name_card": "Nicole George"}
+{"races": "Totem", "attack": 9, "health": 19, "id_add": 9, "rarity": "Common", "ability": "Battle cry", "id_card": 895, "manacost": 5, "name_card": "Steven Howard"}
+{"races": "Totem", "attack": 8, "health": 12, "id_add": 9, "rarity": "Common", "ability": "Divine shield", "id_card": 896, "manacost": 25, "name_card": "Darryl Roberts"}
+{"races": "Beast", "attack": 13, "health": 20, "id_add": 5, "rarity": "Base", "ability": "Divine shield", "id_card": 897, "manacost": 6, "name_card": "Jennifer Boyer"}
+{"races": "Totem", "attack": 16, "health": 13, "id_add": 10, "rarity": "Base", "ability": "Overkill", "id_card": 898, "manacost": 5, "name_card": "Raymond Dickerson"}
+{"races": "Elemental", "attack": 20, "health": 13, "id_add": 5, "rarity": "Rare", "ability": "Rush", "id_card": 899, "manacost": 18, "name_card": "Maria Evans"}
+{"races": "Murloc", "attack": 9, "health": 10, "id_add": 8, "rarity": "Legendary", "ability": "Non-target", "id_card": 900, "manacost": 13, "name_card": "Eric Stewart"}
+{"races": "Dragon", "attack": 0, "health": 3, "id_add": 15, "rarity": "Common", "ability": "Non-target", "id_card": 901, "manacost": 19, "name_card": "Linda Rodriguez"}
+{"races": "Beast", "attack": 19, "health": 19, "id_add": 10, "rarity": "Rare", "ability": "Rush", "id_card": 902, "manacost": 11, "name_card": "Bonnie Kramer"}
+{"races": "Demon", "attack": 6, "health": 3, "id_add": 15, "rarity": "Base", "ability": "Divine shield", "id_card": 903, "manacost": 1, "name_card": "Lucas Bradley"}
+{"races": "Murloc", "attack": 5, "health": 12, "id_add": 12, "rarity": "Rare", "ability": "Mega windfury", "id_card": 904, "manacost": 23, "name_card": "Allison Snow"}
+{"races": "Elemental", "attack": 0, "health": 8, "id_add": 13, "rarity": "Rare", "ability": "Deathrattle", "id_card": 905, "manacost": 10, "name_card": "Jonathan Walker"}
+{"races": "Murloc", "attack": 15, "health": 12, "id_add": 11, "rarity": "Legendary", "ability": "Overkill", "id_card": 906, "manacost": 20, "name_card": "Joshua Webb"}
+{"races": "Pirat", "attack": 11, "health": 6, "id_add": 12, "rarity": "Epic", "ability": "Non-target", "id_card": 907, "manacost": 24, "name_card": "Joseph Adams"}
+{"races": "Pirat", "attack": 20, "health": 4, "id_add": 7, "rarity": "Base", "ability": "Divine shield", "id_card": 908, "manacost": 17, "name_card": "Andrew Washington"}
+{"races": "Murloc", "attack": 10, "health": 4, "id_add": 11, "rarity": "Base", "ability": "Stealth", "id_card": 909, "manacost": 6, "name_card": "Amber Flores"}
+{"races": "Dragon", "attack": 5, "health": 8, "id_add": 1, "rarity": "Base", "ability": "Non-target", "id_card": 910, "manacost": 21, "name_card": "Sierra Bryan"}
+{"races": "Mechanism", "attack": 9, "health": 19, "id_add": 2, "rarity": "Legendary", "ability": "Lifesteal", "id_card": 911, "manacost": 15, "name_card": "Ashley Fisher"}
+{"races": "Mechanism", "attack": 0, "health": 20, "id_add": 3, "rarity": "Legendary", "ability": "Windfury", "id_card": 912, "manacost": 12, "name_card": "Jacob Rowland"}
+{"races": "Pirat", "attack": 12, "health": 7, "id_add": 8, "rarity": "Legendary", "ability": "Deathrattle", "id_card": 913, "manacost": 18, "name_card": "Melissa Dennis"}
+{"races": "Demon", "attack": 20, "health": 14, "id_add": 7, "rarity": "Base", "ability": "Taunt", "id_card": 914, "manacost": 17, "name_card": "Joseph Owens"}
+{"races": "Elemental", "attack": 19, "health": 6, "id_add": 3, "rarity": "Legendary", "ability": "Poisonous", "id_card": 915, "manacost": 6, "name_card": "Katherine Arnold"}
+{"races": "Demon", "attack": 1, "health": 9, "id_add": 11, "rarity": "Rare", "ability": "Lifesteal", "id_card": 916, "manacost": 21, "name_card": "Patrick Dodson"}
+{"races": "Mechanism", "attack": 19, "health": 19, "id_add": 3, "rarity": "Common", "ability": "Battle cry", "id_card": 917, "manacost": 2, "name_card": "Michelle Greer"}
+{"races": "Mechanism", "attack": 6, "health": 2, "id_add": 13, "rarity": "Base", "ability": "Poisonous", "id_card": 918, "manacost": 12, "name_card": "Samuel Thomas"}
+{"races": "Beast", "attack": 0, "health": 2, "id_add": 7, "rarity": "Rare", "ability": "Windfury", "id_card": 919, "manacost": 7, "name_card": "Stephen Andrews"}
+{"races": "Mechanism", "attack": 5, "health": 13, "id_add": 2, "rarity": "Rare", "ability": "Windfury", "id_card": 920, "manacost": 3, "name_card": "Erica Maldonado"}
+{"races": "Demon", "attack": 2, "health": 8, "id_add": 8, "rarity": "Epic", "ability": "Taunt", "id_card": 921, "manacost": 19, "name_card": "Jessica Haynes"}
+{"races": "Murloc", "attack": 1, "health": 9, "id_add": 6, "rarity": "Common", "ability": "Stealth", "id_card": 922, "manacost": 1, "name_card": "Andre Johnson"}
+{"races": "Dragon", "attack": 15, "health": 3, "id_add": 15, "rarity": "Epic", "ability": "Windfury", "id_card": 923, "manacost": 8, "name_card": "Taylor Thompson"}
+{"races": "Dragon", "attack": 7, "health": 14, "id_add": 13, "rarity": "Common", "ability": "Windfury", "id_card": 924, "manacost": 0, "name_card": "Teresa Harrison"}
+{"races": "Mechanism", "attack": 13, "health": 1, "id_add": 7, "rarity": "Base", "ability": "Non-target", "id_card": 925, "manacost": 8, "name_card": "Gerald Cummings"}
+{"races": "Mechanism", "attack": 2, "health": 7, "id_add": 14, "rarity": "Rare", "ability": "Battle cry", "id_card": 926, "manacost": 25, "name_card": "Zachary Jones"}
+{"races": "Mechanism", "attack": 7, "health": 3, "id_add": 4, "rarity": "Legendary", "ability": "Mega windfury", "id_card": 927, "manacost": 12, "name_card": "Daniel Neal"}
+{"races": "Demon", "attack": 3, "health": 5, "id_add": 5, "rarity": "Rare", "ability": "Mega windfury", "id_card": 928, "manacost": 13, "name_card": "Johnny Riggs"}
+{"races": "Totem", "attack": 9, "health": 4, "id_add": 14, "rarity": "Common", "ability": "Windfury", "id_card": 929, "manacost": 6, "name_card": "Sarah Baker"}
+{"races": "Mechanism", "attack": 7, "health": 7, "id_add": 8, "rarity": "Epic", "ability": "Battle cry", "id_card": 930, "manacost": 24, "name_card": "Samuel Perez"}
+{"races": "Mechanism", "attack": 14, "health": 3, "id_add": 3, "rarity": "Common", "ability": "Non-target", "id_card": 931, "manacost": 24, "name_card": "Karen Franklin"}
+{"races": "Mechanism", "attack": 10, "health": 6, "id_add": 12, "rarity": "Common", "ability": "Battle cry", "id_card": 932, "manacost": 23, "name_card": "Megan Bowen"}
+{"races": "Mechanism", "attack": 18, "health": 3, "id_add": 7, "rarity": "Epic", "ability": "Windfury", "id_card": 933, "manacost": 23, "name_card": "Mr. Joseph Stone"}
+{"races": "Pirat", "attack": 12, "health": 2, "id_add": 6, "rarity": "Base", "ability": "Lifesteal", "id_card": 934, "manacost": 20, "name_card": "Jason Nguyen"}
+{"races": "Murloc", "attack": 1, "health": 18, "id_add": 7, "rarity": "Epic", "ability": "Rush", "id_card": 935, "manacost": 23, "name_card": "Jason Bell"}
+{"races": "Murloc", "attack": 2, "health": 16, "id_add": 6, "rarity": "Epic", "ability": "Lifesteal", "id_card": 936, "manacost": 1, "name_card": "Blake Fisher"}
+{"races": "Beast", "attack": 11, "health": 13, "id_add": 12, "rarity": "Rare", "ability": "Stealth", "id_card": 937, "manacost": 20, "name_card": "Melody Estes"}
+{"races": "Pirat", "attack": 18, "health": 20, "id_add": 11, "rarity": "Common", "ability": "Lifesteal", "id_card": 938, "manacost": 15, "name_card": "Ryan Trevino"}
+{"races": "Totem", "attack": 1, "health": 18, "id_add": 8, "rarity": "Base", "ability": "Deathrattle", "id_card": 939, "manacost": 10, "name_card": "Yvonne Ford"}
+{"races": "Demon", "attack": 16, "health": 1, "id_add": 11, "rarity": "Rare", "ability": "Deathrattle", "id_card": 940, "manacost": 16, "name_card": "Cody Clark"}
+{"races": "Beast", "attack": 17, "health": 8, "id_add": 15, "rarity": "Epic", "ability": "Non-target", "id_card": 941, "manacost": 0, "name_card": "Caleb Malone"}
+{"races": "Beast", "attack": 0, "health": 13, "id_add": 14, "rarity": "Legendary", "ability": "Non-target", "id_card": 942, "manacost": 11, "name_card": "Robin Wagner"}
+{"races": "Dragon", "attack": 19, "health": 3, "id_add": 14, "rarity": "Base", "ability": "Taunt", "id_card": 943, "manacost": 18, "name_card": "Anita Smith"}
+{"races": "Totem", "attack": 3, "health": 17, "id_add": 14, "rarity": "Base", "ability": "Lifesteal", "id_card": 944, "manacost": 12, "name_card": "Anna Bailey"}
+{"races": "Beast", "attack": 1, "health": 12, "id_add": 3, "rarity": "Common", "ability": "Overkill", "id_card": 945, "manacost": 5, "name_card": "Elizabeth Nunez"}
+{"races": "Pirat", "attack": 14, "health": 18, "id_add": 5, "rarity": "Base", "ability": "Rush", "id_card": 946, "manacost": 18, "name_card": "Bruce Edwards"}
+{"races": "Beast", "attack": 7, "health": 19, "id_add": 14, "rarity": "Common", "ability": "Rush", "id_card": 947, "manacost": 12, "name_card": "Cindy Barnett"}
+{"races": "Mechanism", "attack": 20, "health": 1, "id_add": 15, "rarity": "Common", "ability": "Lifesteal", "id_card": 948, "manacost": 17, "name_card": "Diane White"}
+{"races": "Totem", "attack": 17, "health": 1, "id_add": 3, "rarity": "Epic", "ability": "Battle cry", "id_card": 949, "manacost": 24, "name_card": "Sherri Murray"}
+{"races": "Elemental", "attack": 14, "health": 13, "id_add": 7, "rarity": "Base", "ability": "Non-target", "id_card": 950, "manacost": 23, "name_card": "Jose Nelson"}
+{"races": "Dragon", "attack": 6, "health": 19, "id_add": 2, "rarity": "Epic", "ability": "Rush", "id_card": 951, "manacost": 0, "name_card": "Dr. Charles Moody MD"}
+{"races": "Dragon", "attack": 19, "health": 13, "id_add": 5, "rarity": "Epic", "ability": "Windfury", "id_card": 952, "manacost": 7, "name_card": "Travis Rivera"}
+{"races": "Totem", "attack": 20, "health": 20, "id_add": 1, "rarity": "Common", "ability": "Lifesteal", "id_card": 953, "manacost": 5, "name_card": "Shelly Thompson"}
+{"races": "Beast", "attack": 20, "health": 7, "id_add": 10, "rarity": "Epic", "ability": "Divine shield", "id_card": 954, "manacost": 22, "name_card": "Mary Winters"}
+{"races": "Beast", "attack": 12, "health": 2, "id_add": 14, "rarity": "Legendary", "ability": "Rush", "id_card": 955, "manacost": 0, "name_card": "Robert Ramirez"}
+{"races": "Mechanism", "attack": 5, "health": 9, "id_add": 9, "rarity": "Rare", "ability": "Divine shield", "id_card": 956, "manacost": 17, "name_card": "James Johnson"}
+{"races": "Totem", "attack": 2, "health": 15, "id_add": 12, "rarity": "Base", "ability": "Non-target", "id_card": 957, "manacost": 23, "name_card": "Timothy White"}
+{"races": "Totem", "attack": 16, "health": 6, "id_add": 7, "rarity": "Epic", "ability": "Rush", "id_card": 958, "manacost": 21, "name_card": "Todd Byrd"}
+{"races": "Demon", "attack": 5, "health": 17, "id_add": 4, "rarity": "Base", "ability": "Rush", "id_card": 959, "manacost": 17, "name_card": "Lisa Barnes"}
+{"races": "Totem", "attack": 19, "health": 2, "id_add": 9, "rarity": "Base", "ability": "Deathrattle", "id_card": 960, "manacost": 13, "name_card": "Lindsay Duke"}
+{"races": "Totem", "attack": 8, "health": 13, "id_add": 9, "rarity": "Rare", "ability": "Lifesteal", "id_card": 961, "manacost": 8, "name_card": "Jordan Smith"}
+{"races": "Mechanism", "attack": 18, "health": 8, "id_add": 8, "rarity": "Rare", "ability": "Non-target", "id_card": 962, "manacost": 24, "name_card": "Brandon Garcia"}
+{"races": "Beast", "attack": 0, "health": 15, "id_add": 2, "rarity": "Epic", "ability": "Non-target", "id_card": 963, "manacost": 7, "name_card": "Ronald Yates"}
+{"races": "Beast", "attack": 0, "health": 17, "id_add": 6, "rarity": "Rare", "ability": "Deathrattle", "id_card": 964, "manacost": 14, "name_card": "Tammy Day"}
+{"races": "Demon", "attack": 15, "health": 1, "id_add": 15, "rarity": "Epic", "ability": "Deathrattle", "id_card": 965, "manacost": 10, "name_card": "Sarah Arroyo"}
+{"races": "Totem", "attack": 18, "health": 3, "id_add": 10, "rarity": "Legendary", "ability": "Poisonous", "id_card": 966, "manacost": 4, "name_card": "John Richards"}
+{"races": "Dragon", "attack": 0, "health": 2, "id_add": 1, "rarity": "Rare", "ability": "Deathrattle", "id_card": 967, "manacost": 1, "name_card": "Douglas Walter"}
+{"races": "Dragon", "attack": 3, "health": 1, "id_add": 9, "rarity": "Epic", "ability": "Battle cry", "id_card": 968, "manacost": 12, "name_card": "Sharon Santana"}
+{"races": "Dragon", "attack": 9, "health": 19, "id_add": 3, "rarity": "Rare", "ability": "Windfury", "id_card": 969, "manacost": 16, "name_card": "Tracy Delgado"}
+{"races": "Murloc", "attack": 12, "health": 12, "id_add": 7, "rarity": "Legendary", "ability": "Deathrattle", "id_card": 970, "manacost": 8, "name_card": "Trevor Cooper"}
+{"races": "Totem", "attack": 12, "health": 8, "id_add": 10, "rarity": "Common", "ability": "Battle cry", "id_card": 971, "manacost": 18, "name_card": "Lauren Russell"}
+{"races": "Mechanism", "attack": 4, "health": 19, "id_add": 14, "rarity": "Rare", "ability": "Rush", "id_card": 972, "manacost": 15, "name_card": "Michael Walker"}
+{"races": "Pirat", "attack": 4, "health": 9, "id_add": 7, "rarity": "Epic", "ability": "Non-target", "id_card": 973, "manacost": 20, "name_card": "Amanda Abbott"}
+{"races": "Demon", "attack": 6, "health": 19, "id_add": 5, "rarity": "Rare", "ability": "Stealth", "id_card": 974, "manacost": 24, "name_card": "Jordan Choi"}
+{"races": "Pirat", "attack": 5, "health": 7, "id_add": 7, "rarity": "Base", "ability": "Lifesteal", "id_card": 975, "manacost": 0, "name_card": "Marie Martinez"}
+{"races": "Mechanism", "attack": 20, "health": 17, "id_add": 1, "rarity": "Base", "ability": "Windfury", "id_card": 976, "manacost": 2, "name_card": "Lisa Schneider"}
+{"races": "Elemental", "attack": 1, "health": 11, "id_add": 5, "rarity": "Rare", "ability": "Rush", "id_card": 977, "manacost": 20, "name_card": "Caitlin Stephens"}
+{"races": "Demon", "attack": 8, "health": 4, "id_add": 5, "rarity": "Legendary", "ability": "Overkill", "id_card": 978, "manacost": 24, "name_card": "Patricia Garcia"}
+{"races": "Demon", "attack": 0, "health": 7, "id_add": 6, "rarity": "Base", "ability": "Poisonous", "id_card": 979, "manacost": 5, "name_card": "Trevor Ray"}
+{"races": "Demon", "attack": 4, "health": 3, "id_add": 11, "rarity": "Epic", "ability": "Stealth", "id_card": 980, "manacost": 5, "name_card": "Megan Beck"}
+{"races": "Mechanism", "attack": 3, "health": 18, "id_add": 3, "rarity": "Epic", "ability": "Stealth", "id_card": 981, "manacost": 23, "name_card": "Amanda May"}
+{"races": "Mechanism", "attack": 5, "health": 20, "id_add": 6, "rarity": "Rare", "ability": "Divine shield", "id_card": 982, "manacost": 5, "name_card": "Adrian Curtis"}
+{"races": "Totem", "attack": 8, "health": 13, "id_add": 6, "rarity": "Base", "ability": "Deathrattle", "id_card": 983, "manacost": 1, "name_card": "Warren Garner"}
+{"races": "Beast", "attack": 5, "health": 3, "id_add": 4, "rarity": "Legendary", "ability": "Overkill", "id_card": 984, "manacost": 23, "name_card": "Tony Matthews"}
+{"races": "Demon", "attack": 8, "health": 18, "id_add": 9, "rarity": "Common", "ability": "Battle cry", "id_card": 985, "manacost": 25, "name_card": "Bailey Williams"}
+{"races": "Totem", "attack": 12, "health": 4, "id_add": 7, "rarity": "Common", "ability": "Non-target", "id_card": 986, "manacost": 1, "name_card": "Robert Thomas"}
+{"races": "Elemental", "attack": 14, "health": 9, "id_add": 2, "rarity": "Epic", "ability": "Lifesteal", "id_card": 987, "manacost": 23, "name_card": "Laura Cohen"}
+{"races": "Mechanism", "attack": 6, "health": 20, "id_add": 9, "rarity": "Legendary", "ability": "Windfury", "id_card": 988, "manacost": 25, "name_card": "Kimberly Leach"}
+{"races": "Murloc", "attack": 5, "health": 7, "id_add": 11, "rarity": "Epic", "ability": "Poisonous", "id_card": 989, "manacost": 9, "name_card": "Bradley Matthews"}
+{"races": "Dragon", "attack": 15, "health": 17, "id_add": 6, "rarity": "Legendary", "ability": "Stealth", "id_card": 990, "manacost": 19, "name_card": "Joe Mitchell"}
+{"races": "Murloc", "attack": 1, "health": 2, "id_add": 14, "rarity": "Common", "ability": "Taunt", "id_card": 991, "manacost": 13, "name_card": "Miss Carla Harper"}
+{"races": "Murloc", "attack": 7, "health": 18, "id_add": 5, "rarity": "Epic", "ability": "Rush", "id_card": 992, "manacost": 4, "name_card": "Jeremy Brady"}
+{"races": "Beast", "attack": 10, "health": 17, "id_add": 8, "rarity": "Epic", "ability": "Mega windfury", "id_card": 993, "manacost": 2, "name_card": "Cindy Jones"}
+{"races": "Dragon", "attack": 16, "health": 19, "id_add": 4, "rarity": "Common", "ability": "Windfury", "id_card": 994, "manacost": 5, "name_card": "Kyle Flores"}
+{"races": "Murloc", "attack": 7, "health": 1, "id_add": 10, "rarity": "Common", "ability": "Lifesteal", "id_card": 995, "manacost": 23, "name_card": "Shannon Duran"}
+{"races": "Demon", "attack": 8, "health": 2, "id_add": 13, "rarity": "Rare", "ability": "Overkill", "id_card": 996, "manacost": 10, "name_card": "Tonya Hernandez"}
+{"races": "Dragon", "attack": 1, "health": 6, "id_add": 7, "rarity": "Legendary", "ability": "Divine shield", "id_card": 997, "manacost": 23, "name_card": "Linda Williamson"}
+{"races": "Murloc", "attack": 5, "health": 12, "id_add": 11, "rarity": "Base", "ability": "Mega windfury", "id_card": 998, "manacost": 17, "name_card": "Erin Adkins"}
+{"races": "Dragon", "attack": 3, "health": 8, "id_add": 6, "rarity": "Legendary", "ability": "Non-target", "id_card": 999, "manacost": 2, "name_card": "Justin Blair"}
+{"races": "Mechanism", "attack": 8, "health": 19, "id_add": 14, "rarity": "Epic", "ability": "Stealth", "id_card": 1000, "manacost": 20, "name_card": "Theresa Kelley"}
