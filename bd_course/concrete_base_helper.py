@@ -7,5 +7,5 @@ class BaseChooser:
     def choose(connect_manager):
         if connect_manager.database_type == 'postgresql':
             return BaseCommandsPostgreSQL(connect_manager)
-        elif connect_manager.database_type == 'postgresql':
+        elif connect_manager.database_type == 'influxdb':
             return BaseCommandsInfluxDB(connect_manager)

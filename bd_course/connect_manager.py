@@ -14,6 +14,8 @@ class ConnectManager:
         self.database_type = self.connect_info['database']
         if self.database_type == 'postgresql':
             self.database, self.cursor = Connection.create_postgresql_connection(self.connect_info)
+        elif self.database_type == 'influxdb':
+            self.database, self.cursor = Connection.create_influxdb_connection(self.connect_info)
 
     def reconnect(self, new_connect_info):
         try:
@@ -23,6 +25,8 @@ class ConnectManager:
             self.database_type = self.connect_info['database']
             if self.database_type == 'postgresql':
                 self.database, self.cursor = Connection.create_postgresql_connection(self.connect_info)
+            elif self.database_type == 'influxdb':
+                self.database, self.cursor = Connection.create_influxdb_connection(self.connect_info)
         except:
             print("Cannot close current database connection")
 
@@ -39,6 +43,8 @@ class ConnectManager:
     def close_connection(self):
         if self.database_type == 'postgresql':
             self.database.close()
+        elif self.database_type == 'influxdb':
+            pass
 
     def __del__(self):
         try:
