@@ -1,5 +1,5 @@
-from query_tool import BaseCommandsPostgreSQL
-from query_tool import BaseCommandsInfluxDB
+from query_tool.query_tool import BaseCommandsPostgreSQL
+from query_tool.query_tool import BaseCommandsInfluxDB
 
 
 class BaseChooser:
