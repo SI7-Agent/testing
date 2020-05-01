@@ -1,5 +1,6 @@
+from admin_tools.admin_tool import AdminTool
 from concrete_base_helper import BaseChooser
-from connect_manager import ConnectManager
+from connect.connect_manager import ConnectManager
 from file_checker import FileChecker
 from robot import Robot
 
@@ -8,7 +9,7 @@ if __name__ == '__main__':
         my_connect = ConnectManager()
         my_base_commands = BaseChooser.choose(my_connect)
         try:
-            my_base_commands.create_tables()
+            AdminTool(my_connect).create_tables()
             Robot(my_base_commands).main_loop()
         except AttributeError:
             print("Unable to create connection/database\n")

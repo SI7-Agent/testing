@@ -93,7 +93,6 @@ class Robot:
         self.gender_net.setInput(blob)
         gender_preds = self.gender_net.forward()
         gender = gender_preds[0].argmax()
-        print(gender)
         return int(gender)
 
     def find_emote(self, frame):
