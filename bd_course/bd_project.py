@@ -9,7 +9,7 @@ if __name__ == '__main__':
         my_connect = ConnectManager()
         my_base_commands = BaseChooser.choose(my_connect)
         try:
-            AdminTool(my_connect).create_tables()
+            AdminTool(my_connect).admin_tool().create_tables()
             Robot(my_base_commands).main_loop()
         except AttributeError:
             print("Unable to create connection/database\n")

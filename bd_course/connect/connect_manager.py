@@ -86,13 +86,6 @@ class ConnectManager:
                 pass
         except:
             print('Can\'t close current connection...\n')
-            attempt = 3
-            while attempt or self.database:
-                try:
-                    self.database.close()
-                    attempt -= 1
-                except:
-                    print('Failed to close current connection\n')
         finally:
             if not self.database:
                 print('Connection is closed\n')

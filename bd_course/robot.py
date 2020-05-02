@@ -11,7 +11,9 @@ import os
 
 
 class Robot:
-    control = None
+    control_insert = None
+    control_select = None
+    control_update = None
     known_face_encodings = None
     known_face_metadata = None
     CLASSES = None
@@ -25,7 +27,9 @@ class Robot:
     camera = None
 
     def __init__(self, ctrl):
-        self.control = ctrl
+        self.control_insert = ctrl[0]
+        self.control_select = ctrl[1]
+        self.control_update = ctrl[2]
         self.known_face_encodings = []
         self.known_face_metadata = []
 
@@ -50,17 +54,17 @@ class Robot:
 
     def register_new_object(self, name, location):
         new_metadata = ConstructorObject().generator(location, type=name)
-        self.control.push_event(new_metadata)
+        self.control_insert.push_event(new_metadata)
 
     def register_new_face(self, face_encoding, face_image, location, gnd):
         new_metadata = ConstructorObject().generator(location, gnd=gnd, face_en=face_encoding, face_image=face_image)
 
         self.known_face_metadata.append(new_metadata)
-        self.control.push_face(new_metadata)
+        self.control_insert.push_face(new_metadata)
 
     def lookup_known_face(self, face_encoding):
         metadata = None
-        self.known_face_encodings, self.known_face_metadata = self.control.get_guy(params='face')
+        self.known_face_encodings, self.known_face_metadata = self.control_select.get_guy(params='face')
 
         if len(self.known_face_encodings) == 0:
             return metadata
@@ -122,7 +126,7 @@ class Robot:
                                                          face_location[0] * 2 + face_location[2] * 2)
             location = [str(location[i][0]) for i in range(3)]
             location = "; ".join(location)
-            self.control.push_event({"location": location})
+            self.control_insert.push_event({"location": location})
             metadata = self.lookup_known_face(face_encoding)
             face_image = self.get_face_from_image(face_location, small_frame)
             type_of_emote = -1
@@ -137,12 +141,12 @@ class Robot:
 
                     if metadata['emote'] != self.EMOTES_RU[type_of_emote]:
                         metadata['emote'] = self.EMOTES_RU[type_of_emote]
-                        self.control.push_recognition(metadata)
+                        self.control_insert.push_recognition(metadata)
 
                 type_of_emote = self.EMOTES_RU.index(metadata['emote'])
 
-                self.control.update_metadata(metadata)
-                self.control.push_event(metadata)
+                self.control_update.update_metadata(metadata)
+                self.control_insert.push_event(metadata)
             else:
                 face_label = "New visitor!"
                 gnd = self.find_gender(face_image)
