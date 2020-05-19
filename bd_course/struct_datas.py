@@ -1,4 +1,4 @@
-from datetime import datetime, timedelta
+from datetime import datetime
 
 import enum
 import faker
@@ -18,8 +18,8 @@ class DetectionType(enum.Enum):
 
 
 class ConstructorObject:
-    def generator(self, location, gnd=None, face_en=None, face_image=None, type='human'):
-        return self.generate_object(type, location) if (type != 'human') else self.generate_human(face_en, face_image, location, gnd)
+    def generator(self, location, gnd=None, face_en=None, face_image=None, type=DetectionType.human):
+        return self.generate_object(type, location) if (type != DetectionType.human) else self.generate_human(face_en, face_image, location, gnd)
 
     @staticmethod
     def generate_object(name, location):
