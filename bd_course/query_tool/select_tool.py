@@ -1,8 +1,6 @@
-from datetime import datetime, timedelta
 from query_tool.abstract_query_tool import Commands
 
 import pickle
-import psycopg2
 
 
 class SelectPostgreSQL(Commands):

@@ -1,5 +1,5 @@
 from admin_tools.admin_tool import AdminTool
-from datetime import datetime, timedelta
+from datetime import datetime
 from query_tool.abstract_query_tool import Commands
 
 import pickle
@@ -11,7 +11,7 @@ class InsertPostgreSQL(Commands):
         try:
             data_to_add = pickle.dumps(face_metadata)
 
-            self.connectmanager.cursor.execute("INSERT INTO people_id (id_people, name, face) VALUES (%s, %s, %s)",
+            self.connectmanager.cursor.execute("INSERT INTO people_id (id_people, name, face) VALUES (%s, %s, %s);",
                                                (str(self.currentid_human), face_metadata['name'], data_to_add))
 
             self.connectmanager.database.commit()
@@ -23,7 +23,7 @@ class InsertPostgreSQL(Commands):
     def push_event(self, metadata):
         admin_tool = AdminTool(self.connectmanager).admin_tool()
         try:
-            query = '''INSERT INTO events (id_event, name, first_detection, current_detection, location) VALUES (%s, %s, %s, %s, %s)'''
+            query = '''INSERT INTO events (id_event, name, first_detection, current_detection, location) VALUES (%s, %s, %s, %s, %s);'''
 
             try:
                 if len(metadata) > 1:
@@ -52,7 +52,7 @@ class InsertPostgreSQL(Commands):
 
     def push_recognition(self, metadata):
         try:
-            query = '''INSERT INTO recognitions (id_recognition, name, transaction_time) VALUES (%s, %s, %s)'''
+            query = '''INSERT INTO recognitions (id_recognition, name, transaction_time) VALUES (%s, %s, %s);'''
             string_data = metadata['name'] + ' поменял(а) свою эмоцию и стал(а) ' + metadata['emote']
 
             self.connectmanager.cursor.execute(query, (str(self.currentid_recognition), string_data, datetime.now()))

@@ -12,6 +12,10 @@ class Commands:
         self.connectmanager = cm
 
     @abstractmethod
+    def create_database(self):
+        pass
+
+    @abstractmethod
     def create_tables(self):
         pass
 
