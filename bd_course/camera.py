@@ -1,3 +1,5 @@
+from calibrate_camera import Calibrator
+
 import cv2
 import numpy as np
 import os
@@ -40,3 +42,10 @@ class Camera:
                          - self.tvec))
 
         return coords
+
+    def refresh(self):
+        self.read_world_config()
+
+    @staticmethod
+    def calibrate():
+        Calibrator().calibrate_camera()
