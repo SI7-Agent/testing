@@ -1,6 +1,7 @@
 from connect.create_connection import Connection
 
 import os
+import psycopg2
 
 
 class ConnectManager:
@@ -9,9 +10,9 @@ class ConnectManager:
     cursor = None
     connect_info = None
 
-    def __init__(self):
+    def __init__(self, config_name='connection.ini'):
         try:
-            self.connect_info = self.read_connection_config()
+            self.connect_info = self.read_connection_config(config_name)
             self.database_type = self.connect_info['database']
             if self.database_type == 'postgresql':
                 self.database, self.cursor = Connection.create_postgresql_connection(self.connect_info)
@@ -65,9 +66,9 @@ class ConnectManager:
                 print('Successful reconnect\n')
 
     @staticmethod
-    def read_connection_config():
+    def read_connection_config(config_name='connection.ini'):
         read_data = {}
-        connect = open(os.getcwd() + "\\configs\\connection.ini", 'r')
+        connect = open(os.getcwd() + "\\configs\\" + config_name, 'r')
         try:
             for i in connect:
                 meta = i.split('=')
