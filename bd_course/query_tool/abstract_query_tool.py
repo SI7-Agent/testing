@@ -3,10 +3,9 @@ from abc import abstractmethod
 
 class Commands:
     connectmanager = None
-    currentid_human = 1
-    currentid_event = 1
-    currentid_recognition = 1
-    currentid_log = 1
+    currentid_human = 0
+    currentid_event = 0
+    currentid_recognition = 0
 
     def __init__(self, cm):
         self.connectmanager = cm
@@ -17,6 +16,10 @@ class Commands:
 
     @abstractmethod
     def create_tables(self):
+        pass
+
+    @abstractmethod
+    def create_side_funcs(self):
         pass
 
     @abstractmethod
@@ -32,11 +35,19 @@ class Commands:
         pass
 
     @abstractmethod
+    def get_emotes_with_interval(self, interval, *args):
+        pass
+
+    @abstractmethod
     def push_recognition(self, metadata):
         pass
 
     @abstractmethod
     def get_recognition(self, params='*', filters=''):
+        pass
+
+    @abstractmethod
+    def get_object_with_interval(self, what_we_need, interval):
         pass
 
     @abstractmethod
