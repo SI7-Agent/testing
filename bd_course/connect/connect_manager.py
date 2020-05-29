@@ -1,4 +1,5 @@
 from connect.create_connection import Connection
+from logger import MyLogger
 
 import os
 import psycopg2
@@ -20,8 +21,9 @@ class ConnectManager:
                 self.database, self.cursor = Connection.create_influxdb_connection(self.connect_info)
 
             if not (self.database and self.cursor):
-                raise psycopg2.SqlclientUnableToEstablishSqlconnection
+                raise psycopg2.errors.SqlclientUnableToEstablishSqlconnection
         except:
+            MyLogger.info("Try to reconnect...")
             print('Try to reconnect...\n')
             for i in range(1, 4):
                 try:
@@ -30,12 +32,13 @@ class ConnectManager:
                     elif self.database_type == 'influxdb':
                         self.database, self.cursor = Connection.create_influxdb_connection(self.connect_info)
                 except:
+                    MyLogger.error("Can\'t connect")
                     print('Can\'t connect\n')
         finally:
             if not (self.database and self.cursor):
-                raise psycopg2.ConnectionFailure
+                raise psycopg2.errors.ConnectionFailure
             else:
-                print('Connect established\n')
+                MyLogger.info("Connect established")
 
     def reconnect(self, new_connect_info):
         try:
@@ -48,7 +51,8 @@ class ConnectManager:
             elif self.database_type == 'influxdb':
                 self.database, self.cursor = Connection.create_influxdb_connection(self.connect_info)
         except:
-            print("Can\'t close current database connection")
+            MyLogger.error("Can\'t close current database connection")
+            print("Can\'t close current database connection\n")
             for i in range(1, 4):
                 try:
                     self.close_connection()
@@ -58,11 +62,13 @@ class ConnectManager:
                     elif self.database_type == 'influxdb':
                         self.database, self.cursor = Connection.create_influxdb_connection(self.connect_info)
                 except:
+                    MyLogger.error("Can\'t reconnect")
                     print('Can\'t reconnect\n')
         finally:
             if not (self.database and self.cursor):
-                raise psycopg2.ConnectionFailure
+                raise psycopg2.errors.ConnectionFailure
             else:
+                MyLogger.info("Successful reconnect")
                 print('Successful reconnect\n')
 
     @staticmethod
@@ -74,7 +80,7 @@ class ConnectManager:
                 meta = i.split('=')
                 read_data[meta[0][:-1]] = meta[-1][1:-1]
         except:
-            print('Can\'t read config file\n')
+            MyLogger.error("Can\'t read config file")
         finally:
             connect.close()
             return read_data
@@ -86,10 +92,17 @@ class ConnectManager:
             elif self.database_type == 'influxdb':
                 pass
         except:
+            MyLogger.error("Can\'t close current database connection")
             print('Can\'t close current connection...\n')
         finally:
             if not self.database:
-                print('Connection is closed\n')
+                MyLogger.info("Connect is closed")
+
+    def is_connected(self):
+        if not (self.database or self.cursor):
+            return self.connect_info
+        else:
+            return None
 
     def __del__(self):
         self.close_connection()
