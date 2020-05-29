@@ -13,7 +13,6 @@ class AdminTool(Commands):
 
 class AdminPostgreSQL(AdminTool):
     def create_database(self):
-        side_connect = ConnectManager('connection_admin.ini')
         query = '''DO
                             $do$
                             DECLARE
@@ -30,12 +29,11 @@ class AdminPostgreSQL(AdminTool):
                               END IF;
                             END
                             $do$'''
-        host_server = 'port=' + self.connectmanager.connect_info['port'] + ' host=' + self.connectmanager.connect_info['host'] + ' user='
-        side_connect.cursor.execute(query, (self.connectmanager.connect_info['dbname'], self.connectmanager.connect_info['user'],
-                                            self.connectmanager.connect_info['password'], host_server))
-        side_connect.database.commit()
-        side_connect.__del__()
-        self.create_tables()
+        info = ConnectManager.read_connection_config()
+        host_server = 'port=' + info['port'] + ' host=' + info['host'] + ' user='
+        self.connectmanager.cursor.execute(query, (info['dbname'], info['user'],
+                                                   info['password'], host_server))
+        self.connectmanager.database.commit()
 
     def create_tables(self):
         self.connectmanager.cursor.execute('''DROP TABLE IF EXISTS people_id;''')
@@ -66,12 +64,65 @@ class AdminPostgreSQL(AdminTool):
 
         self.connectmanager.database.commit()
 
+    def create_side_funcs(self):
+        self.connectmanager.cursor.execute('''CREATE OR REPLACE FUNCTION get_object_with_intervals(what TEXT, from_time TIMESTAMP, to_time TIMESTAMP)
+                                            RETURNS TABLE (id_event INT, 
+                                                           name TEXT, 
+                                                           first_detection TIMESTAMP, 
+                                                           current_detection TIMESTAMP, 
+                                                           location TEXT) AS
+                                            $$
+                                                select * from events where 
+                                                        name like $1 and 
+                                                        $2 <= first_detection and 
+                                                        first_detection <= $3 
+                                            $$
+                                            language 'sql';''')
+
+        self.connectmanager.cursor.execute('''CREATE OR REPLACE FUNCTION get_emote_with_intervals(what TEXT, from_time TIMESTAMP, to_time TIMESTAMP)
+                                                    RETURNS TABLE (id_recognition INT, 
+                                                                   name TEXT, 
+                                                                   transaction_time TIMESTAMP) AS
+                                                    $$
+                                                        select * from recognitions where 
+                                                                name like $1 and 
+                                                                $2 <= transaction_time and 
+                                                                transaction_time <= $3 
+                                                    $$
+                                                    language 'sql';''')
+
+        self.connectmanager.cursor.execute('''CREATE OR REPLACE FUNCTION get_state_with_intervals(what TEXT, from_time TIMESTAMP, to_time TIMESTAMP)
+                                                            RETURNS TABLE (name TEXT,
+                                                                           description TEXT, 
+                                                                           transaction_time TIMESTAMP) AS
+                                                            $$
+                                                                SELECT * FROM logs WHERE 
+                                                                        name LIKE $1 AND 
+                                                                        $2 <= transaction_time AND 
+                                                                        transaction_time <= $3 
+                                                            $$
+                                                            LANGUAGE 'sql';''')
+
+        self.connectmanager.cursor.execute('''CREATE OR REPLACE FUNCTION get_groups_objects()
+                                                            RETURNS TABLE (time_to TIMESTAMP, name TEXT) AS
+                                                            $$
+                                                                SELECT to_timestamp(EXTRACT(epoch FROM now()) - 
+                                                                    FLOOR(((EXTRACT(epoch FROM now()) - 
+                                                                            EXTRACT(epoch FROM current_detection)) / 3600)) 
+                                                                                * 3600)::timestamp without time zone AS current_detection, "name"
+                                                                FROM events
+                                                                GROUP BY 
+                                                                    FLOOR(((EXTRACT(epoch FROM now()) - 
+                                                                            EXTRACT(epoch FROM current_detection)) / 3600)) * 3600, "name"
+                                                            $$
+                                                            LANGUAGE "sql";''')
+        self.connectmanager.database.commit()
+
     def push_log(self, table_name, exception_name):
         self.connectmanager.cursor.execute('''INSERT INTO logs (name, description, transaction_time) 
                                               VALUES (%s, %s, %s);''',
                                            (table_name, exception_name, datetime.now()))
         self.connectmanager.database.commit()
-        self.currentid_log += 1
 
 
 class AdminInfluxDB(AdminTool):
@@ -79,6 +130,9 @@ class AdminInfluxDB(AdminTool):
         pass
 
     def create_tables(self):
+        pass
+
+    def create_side_funcs(self):
         pass
 
     def push_log(self, table_name, exception_name):
