@@ -1,6 +1,8 @@
 from __future__ import print_function
-import numpy as np
+from logger import MyLogger
+
 import cv2
+import numpy as np
 import os
 import pickle
 
@@ -39,16 +41,19 @@ class Calibrator:
 
         сap.release()
         cv2.destroyAllWindows()
-        print("Run calibrateCamera:")
+        MyLogger.info("Run calibrateCamera:")
         ret, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(objpoints, imgpoints, gray.shape[::-1], None, None)
 
         np.save('mtx.npy', mtx)
         np.save('dist.npy', dist)
+        MyLogger.info("mtx.npy and dist.npy saved")
         self.save_calibr((ret, mtx, dist, rvecs, tvecs))
 
     @staticmethod
     def save_calibr(data):
         if os.path.exists(os.getcwd() + '\\configs\\camera.ini'):
             os.rename(os.getcwd() + '\\configs\\camera.ini', os.getcwd() + '\\configs\\camera.ini.bak')
+            MyLogger.info("\\configs\\camera.ini backed up")
         with open(os.getcwd() + '\\configs\\camera.ini', 'wb') as f:
             pickle.dump(data, f)
+        MyLogger.info("\\configs\\camera.ini saved")
