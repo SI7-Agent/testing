@@ -3,7 +3,8 @@ from concrete_base_helper import BaseChooser
 from connect.connect_manager import ConnectManager
 from console_interface.menu import Menu
 from file_checker import FileChecker
-from robot import Robot
+from logger import MyLogger
+from modules.concrete_system import MySystem
 
 import cv2
 import os
@@ -13,17 +14,22 @@ import shutil
 class ConsoleApplication:
     @staticmethod
     def start():
-        if FileChecker.check_files():
+        if (error := FileChecker.check_files()) > -1:
+            admin_connect = ConnectManager("connection_admin.ini")
+            AdminTool(admin_connect).admin_tool().create_database()
+
             my_connect = ConnectManager()
             my_base_commands = BaseChooser.choose(my_connect)
+            error = -1
             try:
-                AdminTool(my_connect).admin_tool().create_database()
-                system = Robot(my_base_commands)
+                AdminTool(my_connect).admin_tool().create_tables()
+                system = MySystem(my_base_commands)
                 menu_print = Menu()
                 while True:
                     menu_print.print_main_menu()
                     if (k := input("Your choice: ")) == "1":
-                        exit(0)
+                        error = 0
+                        break
                     elif k == "2":
                         while True:
                             menu_print.print_sub_menu_admin()
@@ -34,6 +40,7 @@ class ConsoleApplication:
                                         my_connect.cursor.execute(query + ';')
                                         my_connect.database.commit()
                                     except:
+                                        MyLogger.error("Query failed")
                                         print("Query failed")
                                 else:
                                     print("Query tries to do something else")
@@ -46,6 +53,7 @@ class ConsoleApplication:
                                         for i in data:
                                             print(i)
                                     except:
+                                        MyLogger.error("Query failed")
                                         print("Query failed")
                                 else:
                                     print("Query tries to do something else")
@@ -96,6 +104,12 @@ class ConsoleApplication:
                     else:
                         print("No such option")
             except AttributeError:
-                print("Unable to create connection/database\n")
+                MyLogger.critical("Unable to create connection/database")
+            finally:
+                if not error:
+                    MyLogger.info("Successfully closed")
+                    exit(error)
         else:
-            print("Unable to find configuration files\n")
+            MyLogger.warning("Unable to find configuration files")
+            MyLogger.info("App is over")
+            exit(error)
