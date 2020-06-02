@@ -3,6 +3,7 @@ from concrete_base_helper import BaseChooser
 from connect.connect_manager import ConnectManager
 from console_interface.menu import Menu
 from file_checker import FileChecker
+from vk_api import IntegrateWithVkVkLib
 from logger import MyLogger
 from modules.concrete_system import MySystem
 
@@ -75,29 +76,81 @@ class ConsoleApplication:
                             else:
                                 print("No such option")
                     elif k == "3":
-                        cam = cv2.VideoCapture(0)
                         while True:
-                            menu_print.print_sub_menu_check()
+                            menu_print.print_sub_menu_source()
                             if (k3 := input("Your choice: ")) == "1":
-                                ret, frame = cam.read()
-                                gnd = system.find_gender(frame)
-                                print("Found male") if not gnd else print("Found female")
+                                cam = cv2.VideoCapture(0)
+                                while True:
+                                    menu_print.print_sub_menu_check()
+                                    if (k4 := input("Your choice: ")) == "1":
+                                        ret, frame = cam.read()
+                                        gnd = system.find_gender(frame)
+                                        print("Found male") if not gnd else print("Found female")
+                                    elif k4 == "2":
+                                        ret, frame = cam.read()
+                                        emt = system.find_emote(frame)
+                                        print("Find ", system.EMOTES[emt])
+                                    elif k4 == "3":
+                                        ret, frame = cam.read()
+                                        pep = system.find_persons(frame)
+                                        for i in pep:
+                                            print("Face found at", (i[0], i[1]), (i[2], i[3]))
+                                    elif k4 == "4":
+                                        ret, frame = cam.read()
+                                        obj = system.find_objects(frame)
+                                        for i in obj:
+                                            print("Something found at", (i[1], i[2]), (i[3], i[4]))
+                                    elif k4 == "5":
+                                        cam.release()
+                                        break
+                                    else:
+                                        print("No such option")
+                                pass
                             elif k3 == "2":
-                                ret, frame = cam.read()
-                                emt = system.find_emote(frame)
-                                print("Find ", system.EMOTES[emt])
+                                try:
+                                    os.mkdir(os.getcwd() + "\\pic_folder")
+                                except FileExistsError:
+                                    pass
+
+                                IntegrateWithVkVkLib().get_images()
+                                target_names = []
+                                for name in os.listdir(os.getcwd()):
+                                    file_name, file_extension = os.path.splitext(name)
+                                    if (file_extension in ['.png', '.jpg']):
+                                        target_names.append(name)
+
+                                while True:
+                                    menu_print.print_sub_menu_check()
+                                    if (k5 := input("Your choice: ")) == "1":
+                                        for i in target_names:
+                                            frame = cv2.imread(os.getcwd() + "\\" + i)
+                                            gnd = system.find_gender(frame)
+                                            print("Found male") if not gnd else print("Found female")
+                                    elif k5 == "2":
+                                        for i in target_names:
+                                            frame = cv2.imread(os.getcwd() + "\\" + i)
+                                            emt = system.find_emote(frame)
+                                            print("Find ", system.EMOTES[emt])
+                                    elif k5 == "3":
+                                        for i in target_names:
+                                            frame = cv2.imread(os.getcwd() + "\\" + i)
+                                            pep = system.find_persons(frame)
+                                            for i in pep:
+                                                print("Face found at", (i[0], i[1]), (i[2], i[3]))
+                                    elif k5 == "4":
+                                        for i in target_names:
+                                            frame = cv2.imread(os.getcwd() + "\\" + i)
+                                            obj = system.find_objects(frame)
+                                            for i in obj:
+                                                print("Something found at", (i[1], i[2]), (i[3], i[4]))
+                                    elif k5 == "5":
+                                        os.chdir(os.getcwd() + "\\..")
+                                        shutil.rmtree(os.getcwd() + "\\pic_folder")
+                                        break
+                                    else:
+                                        print("No such option")
+                                pass
                             elif k3 == "3":
-                                ret, frame = cam.read()
-                                pep = system.find_persons(frame)
-                                for i in pep:
-                                    print("Face found at", (i[0], i[1]), (i[2], i[3]))
-                            elif k3 == "4":
-                                ret, frame = cam.read()
-                                obj = system.find_objects(frame)
-                                for i in obj:
-                                    print("Something found at", (i[1], i[2]), (i[3], i[4]))
-                            elif k3 == "5":
-                                cam.release()
                                 break
                             else:
                                 print("No such option")

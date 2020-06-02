@@ -24,3 +24,9 @@ class Menu:
         print("3.3. Predict human")
         print("3.4. Predict object")
         print("3.5. Up")
+
+    @staticmethod
+    def print_sub_menu_source():
+        print("1. Via camera")
+        print("2. Via vk")
+        print("3. Up")
