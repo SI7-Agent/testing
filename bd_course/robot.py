@@ -1,4 +1,5 @@
 from abc import abstractmethod
+from array_methods import ArrayMethods as np1
 from camera import Camera
 from datetime import datetime, timedelta
 from struct_datas import ConstructorObject
@@ -6,7 +7,6 @@ from struct_datas import ConstructorObject
 import cv2
 import face_recognition
 import keras.models
-import numpy as np
 import os
 
 
@@ -38,7 +38,7 @@ class Robot:
                            "Бутылка", "Автобус", "Автомобиль", "Кошка", "Стул",
                            "Корова", "Обеденный стол", "Собака", "Лошадь", "Мотоцикл",
                            "Человек", "Растение в горшке", "Овца", "Диван", "Поезд", "Телеэкран"]
-        self.COLORS = np.random.uniform(0, 255, size=(len(self.CLASSES), 3))
+        self.COLORS = np1.random(0, 255, size=(len(self.CLASSES), 3))
 
         self.EMOTES = ["Angry", "Disgust", "Scared", "Happy", "Sad", "Surprised", "Neutral"]
         self.EMOTES_RU = ["Злой(-ая)", "Чувствующий(-ая) отвращение", "Испуганный(-ая)",
@@ -76,7 +76,7 @@ class Robot:
             return metadata
 
         face_distances = face_recognition.face_distance(self.known_face_encodings, face_encoding)
-        best_match_index = np.argmin(face_distances)
+        best_match_index = np1.argmin(face_distances)
 
         if face_distances[best_match_index] < 0.65:
             metadata = self.known_face_metadata[best_match_index]

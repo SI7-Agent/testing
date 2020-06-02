@@ -1,7 +1,7 @@
+from array_methods import ArrayMethods as np1
 from robot import Robot
 
 import cv2
-import numpy as np
 
 
 class ObjectModule(Robot):
@@ -14,7 +14,7 @@ class ObjectModule(Robot):
             blob = cv2.dnn.blobFromImage(cv2.resize(frame, (300, 300)), 0.007843, (300, 300), 127.5)
             self.net.setInput(blob)
             detections = self.net.forward()
-            for i in np.arange(0, detections.shape[2]):
+            for i in np1.arange(0, detections.shape[2]):
                 confidence = detections[0, 0, i, 2]
 
                 if confidence > 0.2:
@@ -23,7 +23,7 @@ class ObjectModule(Robot):
                         continue
 
                     submassive = []
-                    box = detections[0, 0, i, 3:7] * np.array([w, h, w, h])
+                    box = detections[0, 0, i, 3:7] * np1.array([w, h, w, h])
                     (startX, startY, endX, endY) = box.astype("int")
 
                     label = "{}: {:.2f}%".format(self.CLASSES[idx],

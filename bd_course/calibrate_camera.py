@@ -1,8 +1,8 @@
 from __future__ import print_function
+from array_methods import ArrayMethods as np1
 from logger import MyLogger
 
 import cv2
-import numpy as np
 import os
 import pickle
 
@@ -11,8 +11,8 @@ class Calibrator:
     def calibrate_camera(self):
         criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 30, 0.001)
 
-        objp = np.zeros((9 * 6, 3), np.float32)
-        objp[:, :2] = np.mgrid[0:9, 0:6].T.reshape(-1, 2)
+        objp = np1.zeros(9 * 6, 3)
+        objp[:, :2] = np1.mgrid(0, 9, 0, 6).T.reshape(-1, 2)
 
         objpoints = []
         imgpoints = []
@@ -44,8 +44,8 @@ class Calibrator:
         MyLogger.info("Run calibrateCamera:")
         ret, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(objpoints, imgpoints, gray.shape[::-1], None, None)
 
-        np.save('mtx.npy', mtx)
-        np.save('dist.npy', dist)
+        np1.save('mtx.npy', mtx)
+        np1.save('dist.npy', dist)
         MyLogger.info("mtx.npy and dist.npy saved")
         self.save_calibr((ret, mtx, dist, rvecs, tvecs))
 

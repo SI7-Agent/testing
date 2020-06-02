@@ -1,8 +1,8 @@
+from array_methods import ArrayMethods as np1
 from robot import Robot
 
 import cv2
 import keras.preprocessing.image as preimage
-import numpy as np
 
 
 class EmoteModule(Robot):
@@ -13,9 +13,9 @@ class EmoteModule(Robot):
             roi = cv2.resize(roi, (64, 64))
             roi = roi.astype("float") / 255.0
             roi = preimage.img_to_array(roi)
-            roi = np.expand_dims(roi, axis=0)
+            roi = np1.expand_dims(roi, axis=0)
             predicted = self.model.predict(roi)
-            predicted_class = np.argmax(predicted[0])
+            predicted_class = np1.argmax(predicted[0])
 
             return int(predicted_class)
 

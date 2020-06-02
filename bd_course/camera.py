@@ -1,7 +1,7 @@
+from array_methods import ArrayMethods as np1
 from calibrate_camera import Calibrator
 
 import cv2
-import numpy as np
 import os
 import pickle
 
@@ -23,23 +23,22 @@ class Camera:
 
     @staticmethod
     def read_world_config():
-        img_corn = np.array([[0., 0.], [0., 150.], [150., 0.], [150., 150.]])
+        img_corn = np1.array([[0., 0.], [0., 150.], [150., 0.], [150., 150.]])
 
         with open(os.getcwd() + '\\configs\\coordinates_setup.ini', 'r') as file:
-            coordinates = np.array(
+            coordinates = np1.array(
                 [list(map(lambda x: float(x), row.strip().split(' '))) for row in file if row[0] != '#'])
 
         return coordinates, img_corn
 
     def calc_real_coordinates(self, x, z):
-        left_matrix = np.dot(np.dot(np.linalg.inv(self.rmtx), np.linalg.inv(self.mtx)),
-                             np.array([float(x), 1., float(z)]).transpose())
-        right_matrix = np.dot(np.linalg.inv(self.rmtx), self.tvec)
+        left_matrix = np1.dot(np1.dot(np1.inv(self.rmtx), np1.inv(self.mtx)),
+                              np1.array([float(x), 1., float(z)]).transpose())
+        right_matrix = np1.dot(np1.inv(self.rmtx), self.tvec)
         s = (self.y_const + right_matrix[1][0]) / left_matrix[1]
-        coords = np.dot(np.linalg.inv(self.rmtx),
-                        (s * np.dot(np.linalg.inv(self.mtx),
-                                    np.array([float(x), 1., float(z)]).transpose()).reshape(3, 1)
-                         - self.tvec))
+        coords = np1.dot(np1.inv(self.rmtx),
+                         (s * np1.dot(np1.inv(self.mtx),
+                                      np1.array([float(x), 1., float(z)]).transpose()).reshape(3, 1) - self.tvec))
 
         return coords
 
