@@ -6,7 +6,8 @@ import json
 import copy
 from easy_jwt import auth
 
-def get_filter_image(id, authorization, mark=None):  # noqa: E501
+def get_filter_image(type, picture):  # noqa: E501
+    authorization = connexion.request.headers['Authorization']
     """Return an image with special mark and id
 
      # noqa: E501
