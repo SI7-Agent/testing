@@ -1,0 +1,484 @@
+---
+swagger: "2.0"
+info:
+  description: "This is a server for object detection and image markering.  This is\
+    \ only testing project and i don't mind what i am doing. Believe that will be\
+    \ working"
+  version: "1.0.0"
+  title: "Object detection"
+  termsOfService: "http://swagger.io/terms/"
+  contact:
+    email: "kirilvasya@gmail.com"
+  license:
+    name: "NGinX"
+    url: "https://nginx.org/LICENSE"
+host: "localhost:3333"
+basePath: "/api/v1"
+tags:
+- name: "object"
+  description: "Everything about objects on image"
+- name: "human"
+  description: "Everything about humans on image"
+- name: "user"
+  description: "Operations about user"
+- name: "image"
+  description: "Everything about image"
+schemes:
+- "http"
+paths:
+  /object:
+    get:
+      tags:
+      - "object"
+      summary: "Return a list of available objects to detect"
+      operationId: "get_object_list"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "Authorization"
+        in: "header"
+        required: true
+        type: "string"
+      responses:
+        "200":
+          description: "Success"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/Object"
+        "401":
+          description: "Unauthorized"
+      x-swagger-router-controller: "controllers.object_controller"
+
+    post:
+      tags:
+      - "object"
+      summary: "Send a picture to process with object properties"
+      operationId: "process_object_image"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "picture"
+        description: "Picture to process"
+        required: true
+        schema:
+          $ref: "#/definitions/Picture"
+      - name: "Authorization"
+        in: "header"
+        required: true
+        type: "string"
+      responses:
+        "200":
+          description: "Success"
+          schema:
+            $ref: "#/definitions/Picture"
+        "401":
+          description: "Unauthorized"
+        "500":
+          description: "Server cant process"
+      x-swagger-router-controller: "controllers.object_controller"
+
+  /object/{mark}:
+    get:
+      tags:
+      - "object"
+      summary: "Return an image with special mark and id"
+      operationId: "get_filter_image"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "id"
+        in: "query"
+        description: "Filter id option"
+        required: true
+        type: "integer"
+      - name: "mark"
+        in: "path"
+        description: "Filter mark option"
+        required: false
+        type: "string"
+      - name: "Authorization"
+        in: "header"
+        required: true
+        type: "string"
+      responses:
+        "200":
+          description: "Success"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/ResultFilteredPicture"
+        "400":
+          description: "Invalid mark"
+        "401":
+          description: "Unauthorized"
+        "404":
+          description: "Cant find id or mark"
+      x-swagger-router-controller: "controllers.object_controller"
+
+  /human:
+    get:
+      tags:
+      - "human"
+      summary: "Return a list of available human objects to detect"
+      operationId: "get_human_list"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "Authorization"
+        in: "header"
+        required: true
+        type: "string"
+      responses:
+        "200":
+          description: "Success"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/Object"
+        "401":
+          description: "Unauthorized"
+      x-swagger-router-controller: "controllers.human_controller"
+
+    post:
+      tags:
+      - "human"
+      summary: "Send a picture to process with human properties"
+      operationId: "process_human_image"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "picture"
+        description: "Picture to process"
+        required: true
+        schema:
+          $ref: "#/definitions/Picture"
+      - name: "Authorization"
+        in: "header"
+        required: true
+        type: "string"
+      responses:
+        "200":
+          description: "Success"
+          schema:
+            $ref: "#/definitions/Picture"
+        "401":
+          description: "Unauthorized"
+        "500":
+          description: "Server cant process"
+      x-swagger-router-controller: "controllers.human_controller"
+
+  /human/{module}:
+    post:
+      tags:
+      - "human"
+      summary: "Process image with chosen human param"
+      operationId: "process_human_image_custom"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "module"
+        in: "path"
+        description: "The chosen human param. Available options are 'detection', 'emote', 'gender'"
+        required: true
+        type: "string"
+      - name: "Authorization"
+        in: "header"
+        required: true
+        type: "string"
+      - name: "processing"
+        in: "body"
+        required: true
+        schema:
+          $ref: "#/definitions/Picture"
+      responses:
+        "200":
+          description: "Success"
+          schema:
+            $ref: "#/definitions/Picture"
+        "400":
+          description: "Incorrect module param"
+        "401":
+          description: "Unauthorized"
+        "500":
+          description: "Server cant process"
+      x-swagger-router-controller: "controllers.human_controller"
+
+  /user/reg:
+    post:
+      tags:
+      - "user"
+      summary: "Create user"
+      operationId: "create_user"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "userdata"
+        description: "Created user object"
+        required: true
+        schema:
+          $ref: "#/definitions/User"
+      responses:
+        "200":
+          description: "Success"
+        "400":
+          description: "Bad data"
+      x-swagger-router-controller: "controllers.user_controller"
+
+  /user/login:
+    get:
+      tags:
+      - "user"
+      summary: "Logs user into the system"
+      operationId: "login"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "username"
+        in: "query"
+        description: "The user name for login"
+        required: true
+        type: "string"
+      - name: "password"
+        in: "query"
+        description: "The password for login in clear text"
+        required: true
+        type: "string"
+      responses:
+        "200":
+          description: "Success"
+          schema:
+            $ref: "#/definitions/UserToken"
+        "400":
+          description: "Invalid username/password supplied"
+      x-swagger-router-controller: "controllers.user_controller"
+
+  /user/logout:
+    get:
+      tags:
+      - "user"
+      summary: "Logs out current logged in user session"
+      operationId: "logout"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "Authorization"
+        in: "header"
+        required: true
+        type: "string"
+      responses:
+        "200":
+          description: "Success"
+        "401":
+          description: "Not authorized"
+      x-swagger-router-controller: "controllers.user_controller"
+
+  /user/{username}:
+    get:
+      tags:
+      - "user"
+      summary: "Get user by user name"
+      operationId: "get_unique_user"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "username"
+        in: "path"
+        description: "The name that needs to be fetched. "
+        required: true
+        type: "string"
+      - name: "Authorization"
+        in: "header"
+        required: true
+        type: "string"
+      responses:
+        "200":
+          description: "Success"
+          schema:
+            $ref: "#/definitions/User"
+        "401":
+          description: "Unauthorized"
+        "404":
+          description: "User not found"
+      x-swagger-router-controller: "controllers.user_controller"
+
+    delete:
+      tags:
+      - "user"
+      summary: "Delete user"
+      operationId: "delete_user"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "username"
+        in: "path"
+        description: "The name that needs to be deleted"
+        required: true
+        type: "string"
+      - name: "Authorization"
+        in: "header"
+        required: true
+        type: "string"
+      responses:
+        "200":
+          description: "Success"
+        "401":
+          description: "Unauthorized"
+        "404":
+          description: "User is not found"
+      x-swagger-router-controller: "controllers.user_controller"
+
+    patch:
+      tags:
+      - "user"
+      summary: "Updated user"
+      operationId: "patch_user_data"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "username"
+        in: "path"
+        description: "Name that need to be updated"
+        required: true
+        type: "string"
+      - in: "body"
+        name: "body"
+        description: "Updated user object"
+        required: true
+        schema:
+          $ref: "#/definitions/UserUpdate"
+      - name: "Authorization"
+        in: "header"
+        required: true
+        type: "string"
+      responses:
+        "400":
+          description: "Invalid user supplied"
+        "401":
+          description: "Unauthorized"
+        "404":
+          description: "User is not found"
+      x-swagger-router-controller: "controllers.user_controller"
+
+  /image:
+    get:
+      tags:
+      - "image"
+      summary: "Return a list of available objects to detect"
+      operationId: "get_image_list"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "Authorization"
+        in: "header"
+        required: true
+        type: "string"
+      responses:
+        "200":
+          description: "Success"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/Object"
+        "401":
+          description: "Unauthorized"
+      x-swagger-router-controller: "controllers.image_controller"
+
+    post:
+      tags:
+      - "image"
+      summary: "Send a picture to process"
+      operationId: "process_image"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "picture"
+        description: "Picture to process"
+        required: true
+        schema:
+          $ref: "#/definitions/Picture"
+      - name: "Authorization"
+        in: "header"
+        required: true
+        type: "string"
+      responses:
+        "200":
+          description: "Success"
+        "401":
+          description: "Unauthorized"
+        "500":
+          description: "Server cant process"
+      x-swagger-router-controller: "controllers.image_controller"
+
+definitions:
+  Object:
+    type: "object"
+    properties:
+      id:
+        type: "integer"
+        format: "int64"
+      value:
+        type: "string"
+        description: "Detection values"
+    example:
+      id: 0
+      value: "value"
+  Picture:
+    type: "object"
+    properties:
+      value:
+        type: "string"
+    example:
+      value: "value"
+  ResultFilteredPicture:
+    type: "object"
+    properties:
+      id:
+        type: "integer"
+        format: "int64"
+      class:
+        type: "string"
+        description: "Filtered class"
+      picture:
+        type: "string"
+        description: "Picture"
+    example:
+      id: 0
+      class: "class"
+      picture: "picture"
+  User:
+    type: "object"
+    properties:
+      username:
+        type: "string"
+      firstName:
+        type: "string"
+      lastName:
+        type: "string"
+      password:
+        type: "string"
+      gender:
+        type: "string"
+    example:
+      firstName: "firstName"
+      lastName: "lastName"
+      password: "password"
+      gender: "gender"
+      username: "username"
+  UserUpdate:
+    type: "object"
+    properties:
+      newusername:
+        type: "string"
+        description: "newusername must be equal to firstName, lastName, gender, password, username or here can be a combination of those keywords"
+  UserToken:
+    type: "object"
+    properties:
+      token:
+        type: "string"
+    example:
+      token: "token"

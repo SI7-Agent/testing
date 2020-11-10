@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="afa4b3da-5ac4-48d6-ac95-0739f2de39db" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jpF4WDWtFybPyatbEglOTDLrzt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.__main__">
+    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="swagger_server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/__main__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="swagger_server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="def12 (2)(x^2 - 9 root in interval)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="swagger_server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../passed/python" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../passed/python/def12 (2)(x^2 - 9 root in interval).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="grafik(sin x roots &amp; extremums)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="swagger_server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../passed/python" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../passed/python/grafik(sin x roots &amp; extremums).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="matr4(get determinant)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="swagger_server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../passed/python" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../passed/python/matr4(get determinant).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="paint" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="swagger_server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../passed/python" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../passed/python/paint.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.__main__" />
+      <item itemvalue="Python.def12 (2)(x^2 - 9 root in interval)" />
+      <item itemvalue="Python.grafik(sin x roots &amp; extremums)" />
+      <item itemvalue="Python.matr4(get determinant)" />
+      <item itemvalue="Python.paint" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.__main__" />
+        <item itemvalue="Python.paint" />
+        <item itemvalue="Python.matr4(get determinant)" />
+        <item itemvalue="Python.grafik(sin x roots &amp; extremums)" />
+        <item itemvalue="Python.def12 (2)(x^2 - 9 root in interval)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afa4b3da-5ac4-48d6-ac95-0739f2de39db" name="Default Changelist" comment="" />
+      <created>1604492934416</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604492934416</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="19" key="#Notifications" timestamp="1604497178918">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="233" y="19" key="#Notifications/0.0.1280.720@0.0.1280.720" timestamp="1604497178918" />
+    <state x="368" y="0" key="#__main__" timestamp="1604944613075">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="368" y="0" key="#__main__/0.0.1280.720@0.0.1280.720" timestamp="1604944613075" />
+    <state x="356" y="0" key="#back(get_graph_of_very_hard_func)" timestamp="1604924328882">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="356" y="0" key="#back(get_graph_of_very_hard_func)/0.0.1280.720@0.0.1280.720" timestamp="1604924328882" />
+    <state x="96" y="0" width="1089" height="720" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604944638889">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="96" y="0" width="1089" height="720" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1604944638889" />
+    <state x="356" y="0" key="#def12_(2)(x^2_-_9_root_in_interval)" timestamp="1604924455664">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="356" y="0" key="#def12_(2)(x^2_-_9_root_in_interval)/0.0.1280.720@0.0.1280.720" timestamp="1604924455664" />
+    <state x="356" y="0" key="#def9(division_by_4_every_square_by_click)" timestamp="1604924405544">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="356" y="0" key="#def9(division_by_4_every_square_by_click)/0.0.1280.720@0.0.1280.720" timestamp="1604924405544" />
+    <state x="356" y="0" key="#grafik(sin_x_roots_&amp;_extremums)" timestamp="1604924512578">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="356" y="0" key="#grafik(sin_x_roots_&amp;_extremums)/0.0.1280.720@0.0.1280.720" timestamp="1604924512578" />
+    <state x="356" y="0" key="#matr4(get_determinant)" timestamp="1604924867864">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="356" y="0" key="#matr4(get_determinant)/0.0.1280.720@0.0.1280.720" timestamp="1604924867864" />
+    <state x="356" y="0" key="#paint" timestamp="1604924906223">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="356" y="0" key="#paint/0.0.1280.720@0.0.1280.720" timestamp="1604924906223" />
+    <state width="525" height="618" key="DebuggerActiveHint" timestamp="1604608982612">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="525" height="618" key="DebuggerActiveHint/0.0.1280.720@0.0.1280.720" timestamp="1604608982612" />
+    <state width="1259" height="156" key="GridCell.Tab.0.bottom" timestamp="1605015930903">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="156" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1605015930903" />
+    <state width="1259" height="156" key="GridCell.Tab.0.center" timestamp="1605015930899">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="156" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1605015930899" />
+    <state width="1259" height="156" key="GridCell.Tab.0.left" timestamp="1605015930896">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="156" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1605015930896" />
+    <state width="1259" height="156" key="GridCell.Tab.0.right" timestamp="1605015930899">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="156" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1605015930899" />
+    <state width="1259" height="198" key="GridCell.Tab.1.bottom" timestamp="1604953318779">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="198" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1604953318779" />
+    <state width="1259" height="198" key="GridCell.Tab.1.center" timestamp="1604953318779">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="198" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1604953318779" />
+    <state width="1259" height="198" key="GridCell.Tab.1.left" timestamp="1604953318779">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="198" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1604953318779" />
+    <state width="1259" height="198" key="GridCell.Tab.1.right" timestamp="1604953318779">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="198" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1604953318779" />
+    <state x="142" y="3" key="SettingsEditor" timestamp="1604949177734">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="142" y="3" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1604949177734" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1604673793521">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1604673793521" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/object.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/user.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
