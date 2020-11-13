@@ -74,7 +74,7 @@ class ConnectManager:
     @staticmethod
     def read_connection_config(config_name='connection.ini'):
         read_data = {}
-        connect = open(os.getcwd() + "\\configs\\" + config_name, 'r')
+        connect = open(os.getcwd() + "/configs/" + config_name, 'r')
         try:
             for i in connect:
                 meta = i.split('=')
