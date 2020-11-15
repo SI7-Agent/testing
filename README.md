@@ -7,7 +7,8 @@ This server was generated with the [swagger-codegen](https://github.com/swagger-
 This example uses the [Connexion](https://github.com/zalando/connexion) library on top of Flask.
 
 ## Requirements
-Python 3.8+
+- Python 3 with list of modules in requirements.txt
+- Cuda 10.1 libs
 
 ## Usage
 To run the server, please execute the following from the root directory:
@@ -28,7 +29,7 @@ Your Swagger definition lives here:
 http://localhost:3333/api/v1/swagger.json
 ```
 
-ToDo:
+### ToDo:
 
 :negative_squared_cross_mark: configure nginx    
 :negative_squared_cross_mark: set up balance load    
@@ -77,7 +78,7 @@ ToDo:
     - Телеэкран :tv: :heavy_check_mark:		
 - Применение выборочных фильтров к изображению :heavy_check_mark:
 
-:heavy_check_mark: - протестировано и гарантировано работает
+:heavy_check_mark: - протестировано и гарантировано работает    
 :heavy_exclamation_mark: - работает, но не гарантировано 
 
 
