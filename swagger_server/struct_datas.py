@@ -38,10 +38,13 @@ class ConstructorObject:
 
     @staticmethod
     def generate_human(encode, image, location, gender):
-        if gender == 0:
-            name = faker.Faker('ru_RU').name_male()
+        if gender != "None":
+            if gender == 0:
+                name = faker.Faker('ru_RU').name_male()
+            else:
+                name = faker.Faker('ru_RU').name_female()
         else:
-            name = faker.Faker('ru_RU').name_female()
+            name = "Человек"
 
         return {
             "first_seen": datetime.now(),
