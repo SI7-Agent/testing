@@ -11,7 +11,7 @@ from modules.concrete_system import MySystemWeb
 class MyApplication:
     @staticmethod
     def start():
-	error = FileChecker.check_files()
+        error = FileChecker.check_files()
         if (error) > -1:
             admin_connect = ConnectManager("connection_admin.ini")
             AdminTool(admin_connect).admin_tool().create_database()
@@ -37,7 +37,7 @@ class MyApplication:
 class MyWebApplication:
     @staticmethod
     def start():
-	error = FileChecker.check_files()
+        error = FileChecker.check_files()
         if (error) > -1:
             admin_connect = ConnectManager("connection_admin.ini")
             AdminTool(admin_connect).admin_tool().create_database()
