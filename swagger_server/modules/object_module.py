@@ -83,6 +83,8 @@ class ObjectModuleWeb(Robot):
                     submassive["color"] = self.COLORS[idx]
                     predictions.append(submassive)
 
+                    self.register_new_object(self.CLASSES[idx], "None")
+
             return predictions
 
         return find_objects

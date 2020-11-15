@@ -99,6 +99,9 @@ class PeopleModuleWeb(Robot):
                 submassive["small"] = small_frame
                 predictions.append(submassive)
 
+                self.register_new_face("None", submassive["small"], "None", "None")
+                self.control_tool.push_event({"name":"Человек", "first_seen":"None", "location":"None", "emote":"None"})
+
             return predictions
 
         return find_persons
