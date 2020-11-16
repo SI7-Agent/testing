@@ -13,7 +13,8 @@ info:
     name: "NGinX"
     url: "https://nginx.org/LICENSE"
 host: "localhost:3333"
-basePath: "/api/v1"
+
+
 tags:
 - name: "object"
   description: "Everything about objects on image"
