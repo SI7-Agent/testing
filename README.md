@@ -20,13 +20,13 @@ python3 swagger_server/__main__.py
 and open your browser to here:
 
 ```
-http://localhost:3333/api/v1/ui/
+http://localhost:3333/ui/
 ```
 
 Your Swagger definition lives here:
 
 ```
-http://localhost:3333/api/v1/swagger.json
+http://localhost:3333/swagger.json
 ```
 
 ### ToDo:
