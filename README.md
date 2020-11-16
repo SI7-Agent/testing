@@ -31,7 +31,7 @@ http://localhost:3333/api/v1/swagger.json
 
 ### ToDo:
 
-:negative_squared_cross_mark: configure nginx    
+:white_check_mark: configure nginx    
 :negative_squared_cross_mark: set up balance load    
 :negative_squared_cross_mark: create beautiful (or not) web inteface app    
 
