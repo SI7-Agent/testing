@@ -170,15 +170,17 @@ Connection Times (ms)
 
 
 Percentage of the requests served within a certain time (ms)    
- 50%      16    
- 66%      17    
- 75%      18    
- 80%      19    
- 90%      21    
- 95%      25    
- 98%      32    
- 99%      36    
-100%    3034 (longest request)
+|	   %|					  Requests|
+| ----- | ---------------------------:| 
+|	 50%|							16| 
+|	 66%|							17| 
+|	 75%|							18| 
+|	 80%|							19| 
+|	 90%|							21| 
+|	 95%|							25|
+|	 98%|							32|
+|	 99%|							36| 
+|	100%|		3034 (longest request)|
 
 
 ### Testing with non-static request
@@ -214,15 +216,17 @@ Connection Times (ms)
 
 
 Percentage of the requests served within a certain time (ms)    
- 50%     272    
- 66%     368    
- 75%     520    
- 80%     531    
- 90%     562    
- 95%     613    
- 98%     701    
- 99%     750    
-100%    1125 (longest request)
+|	   %|					  Requests|
+| ----- | ---------------------------:| 
+|	 50%|  						   272|
+|	 66%|  						   368|
+|	 75%|						   520| 
+|	 80%|  						   531| 
+|	 90%|  						   562| 
+|	 95%|  						   613| 
+|	 98%|  						   701| 
+|	 99%|  						   750|
+|	100%|  	    1125 (longest request)|
 
 
 #### Unbalanced
@@ -253,15 +257,17 @@ Connection Times (ms)
 
 
 Percentage of the requests served within a certain time (ms)    
- 50%     167    
- 66%     174    
- 75%     178    
- 80%     182    
- 90%     221    
- 95%     299    
- 98%    1215    
- 99%    1524    
-100%   62051 (longest request)
+|	   %|					  Requests|
+| ----- | ---------------------------:| 
+|	 50%|					       167|
+|	 66%|     					   174|
+|	 75%|     					   178|
+|	 80%|					       182|
+|	 90%|    					   221|
+|	 95%|     					   299|
+|	 98%|    					  1215|
+|	 99%|    					  1524|
+|	100%|      62051 (longest request)|
 
 
 ### Testing with non-static database access request
@@ -297,15 +303,17 @@ Connection Times (ms)
 
 
 Percentage of the requests served within a certain time (ms)    
- 50%     424    
- 66%     572    
- 75%     746    
- 80%     781    
- 90%     857    
- 95%     947    
- 98%    1062    
- 99%    1130    
-100%    1807 (longest request)
+|	   %|					  Requests|
+| ----- | ---------------------------:| 
+|	 50%|    					   424|
+|	 66%|     					   572|
+|	 75%|   					   746|
+|	 80%|  						   781|
+|	 90%|						   857|
+|	 95%|  						   947|
+|	 98%| 						  1062|
+|	 99%|  						  1130|
+|	100%|  		1807 (longest request)|
 
 
 #### Unbalanced
@@ -336,15 +344,17 @@ Connection Times (ms)
 
 
 Percentage of the requests served within a certain time (ms)    
- 50%      20    
- 66%     238    
- 75%     267    
- 80%     287    
- 90%     375    
- 95%     570    
- 98%    1471    
- 99%    1778    
-100%   64057 (longest request)
+|	   %|					  Requests|
+| ----- | ---------------------------:| 
+|	 50%|					        20|
+|	 66%|    					   238|
+|	 75%|     					   267|
+|	 80%|     					   287|
+|	 90%|     					   375|
+|	 95%|     					   570|
+|	 98%|    					  1471|
+|	 99%|   					  1778|
+|	100%|      64057 (longest request)|
 
 
 ### Conclusion
