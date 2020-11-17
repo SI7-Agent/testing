@@ -9,24 +9,38 @@ This example uses the [Connexion](https://github.com/zalando/connexion) library 
 ## Requirements
 - Python 3 with list of modules in requirements.txt
 - Cuda 10.1 libs
+- PostgreSQL with server-based pgadmin4 on 5050 port 
+- Linux (if you want nginx support else you have to adapt it for other OS)
 
 ## Usage
-To run the server, please execute the following from the root directory:
+Run pgadmin4 as service with gunicorn (--chdir <your_path_to_installed_pgadmin>)
 
 ```
-python3 swagger_server/__main__.py
+sudo gunicorn --bind unix:/tmp/pgadmin4.sock
+			  --workers=1
+			  --threads=25
+			  --chdir lib/python2.7/site-packages/pgadmin4
+			  pgAdmin4:app
+```
+
+To run the server, please execute the following from the project root directory (by default runs at 3333 port):
+
+```
+python3 swagger_server/__main__.py [port]
 ```
 
 and open your browser to here:
 
 ```
-http://localhost:3333/ui/
+http://localhost:port/ui/    
+http://localhost/api/v1/ui/ (with nginx)
 ```
 
 Your Swagger definition lives here:
 
 ```
-http://localhost:3333/swagger.json
+http://localhost:port/swagger.json    
+http://localhost/api/v1 (with nginx)
 ```
 
 ### ToDo:
