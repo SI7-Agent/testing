@@ -340,3 +340,9 @@ Percentage of the requests served within a certain time (ms)
  99%    1778    
 100%   64057 (longest request)
 
+
+### Conclusion
+
+Load balance with miltithreaded python flask development server brings up to +100% more time to process.    
+Except cached static. It works almost without changes. Just about 5-7% for an unbalanced mode. 
+
