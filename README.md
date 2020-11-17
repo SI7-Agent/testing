@@ -32,7 +32,7 @@ http://localhost:3333/swagger.json
 ### ToDo:
 
 :white_check_mark: configure nginx    
-:negative_squared_cross_mark: set up balance load    
+:white_check_mark: set up balance load    
 :negative_squared_cross_mark: create beautiful (or not) web inteface app    
 
 ### Цель работы 
