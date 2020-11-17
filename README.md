@@ -136,11 +136,12 @@ ab -n 1000000 -c 200 localhost/img/image.jpg
 - Transfer rate:			287093.99 [Kbytes/sec] received
 
 Connection Times (ms)    
-			  min  mean[+/-sd] median   max    
-Connect:		0	 8  47.1      5    1040    
-Processing:     2   12   5.8	 11      93    
-Waiting:        0    6   3.9      5      82    
-Total:          5   20  47.6     16    1073
+|			  	| min|	 mean|	[+/-sd]|	median|		max|
+| ------------- | --:| -----:| -------:| --------:| ------:|
+|Connect:		|	0|		8|	   47.1|		 5|    1040|
+|Processing:	|	2|	   12|		5.8|		11|		 93|
+|Waiting:     	|	0|		6|		3.9|		 5|		 82|
+|Total:        	|	5|	   20|	   47.6|		16|	   1073|
 
 
 #### Unbalanced
@@ -160,11 +161,12 @@ Total:          5   20  47.6     16    1073
 - Transfer rate:			314572.48 [Kbytes/sec] received
 
 Connection Times (ms)    
-			  min  mean[+/-sd] median   max    
-Connect:		0	 7  44.7      5    3023    
-Processing:     1   11   4.4	 10      60    
-Waiting:        0    5   3.3      4      34    
-Total:          5   18  45.1     16    3034
+|			  	| min|	 mean|	[+/-sd]|	median|		max|
+| ------------- | --:| -----:| -------:| --------:| ------:|
+|Connect:		|	0|		7|	   44.7|		 5|    3023|
+|Processing:    |	1|	   11|	    4.4|		10|      60|
+|Waiting:       |	0|	    5|	    3.3|	     4|      34|
+|Total:         |	5|	   18|	   45.1|		16|    3034|
 
 
 Percentage of the requests served within a certain time (ms)    
@@ -203,11 +205,12 @@ ab -n 1000000 -c 200 localhost/api/v1/human
 - Transfer rate:			180.23 [Kbytes/sec] received
 
 Connection Times (ms)    
-			  min  mean[+/-sd] median   max    
-Connect:		0	 0   0.3      0      34    
-Processing:     6  363 147.2	272    1125    
-Waiting:        0  363 147.2    272    1125    
-Total:          7  363 147.2    272    1125
+|			  	| min|	 mean|	[+/-sd]|	median|		max|
+| ------------- | --:| -----:| -------:| --------:| ------:|
+|Connect:		|	0|		0|      0.3|      	 0|      34|
+|Processing:    |	6|    363|    147.2|	   272|    1125|
+|Waiting:       |	0|    363|    147.2|       272|    1125|
+|Total:         |	7|    363|    147.2|       272|    1125|
 
 
 Percentage of the requests served within a certain time (ms)    
@@ -241,11 +244,12 @@ Percentage of the requests served within a certain time (ms)
 - Transfer rate:			364.20 [Kbytes/sec] received
 
 Connection Times (ms)    
-			  min  mean[+/-sd] median   max    
-Connect:		0	 2  58.3      0   15392    
-Processing:     0  175 678.2	167   61029    
-Waiting:        0  174 678.3    167   61029    
-Total:          0  177 682.6    167   62051
+|			  	| min|	 mean|	[+/-sd]|	median|		max|
+| ------------- | --:| -----:| -------:| --------:| ------:|
+|Connect:		|	0|	 	2|     58.3|         0|   15392| 
+|Processing:    |	0|    175|    678.2|	   167|   61029|
+|Waiting:       |	0|    174|    678.3|       167|   61029| 
+|Total:         |	0|    177|    682.6|       167|   62051|
 
 
 Percentage of the requests served within a certain time (ms)    
@@ -284,11 +288,12 @@ ab -n 1000000 -c 200 localhost/api/v1/user/login?username=awesome_username&passw
 - Transfer rate:			117.17 [Kbytes/sec] received
 
 Connection Times (ms)    
-			  min  mean[+/-sd] median   max    
-Connect:		0	 0   0.4      0      58    
-Processing:     9  540 222.4	424    1807    
-Waiting:        0  540 222.4    424    1807    
-Total:         20  540 222.4    424    1807
+|			  	| min|	 mean|	[+/-sd]|	median|		max|
+| ------------- | --:| -----:| -------:| --------:| ------:|
+|Connect:		|	0| 	    0|      0.4|         0|      58|
+|Processing:    |	9|    540|    222.4|	   424|    1807| 
+|Waiting:       |	0|    540|    222.4|       424|    1807| 
+|Total:         |  20|    540|    222.4|       424|    1807|
 
 
 Percentage of the requests served within a certain time (ms)    
@@ -322,11 +327,12 @@ Percentage of the requests served within a certain time (ms)
 - Transfer rate:			276.22 [Kbytes/sec] received
 
 Connection Times (ms)    
-			  min  mean[+/-sd] median   max    
-Connect:		0	 3  74.6      0    7296    
-Processing:     0  219 704.7	 19   61059    
-Waiting:        0  219 704.7     19   61057    
-Total:          0  219 713.1     20   64057
+|			  	| min|	 mean|	[+/-sd]|	median|		max|
+| ------------- | --:| -----:| -------:| --------:| ------:|
+|Connect:		|	0|	    3|     74.6|         0|    7296| 
+|Processing:    |	0|    219|    704.7|	    19|   61059| 
+|Waiting:       |	0|    219|    704.7|        19|   61057| 
+|Total:         |	0|    219|    713.1|        20|   64057|
 
 
 Percentage of the requests served within a certain time (ms)    
