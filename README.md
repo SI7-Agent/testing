@@ -362,3 +362,7 @@ Percentage of the requests served within a certain time (ms)
 Load balance with miltithreaded python flask development server brings up to +100% more time to process.    
 Except cached static. It works almost without changes. Just about 5-7% for an unbalanced mode. 
 
+### Figma
+
+![UC](https://www.figma.com/file/CrSq0gyQrEUnbX3LUKMiuw/Untitled?node-id=0%3A1 "Макет приложения Figma")
+
