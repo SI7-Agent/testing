@@ -364,5 +364,5 @@ Except cached static. It works almost without changes. Just about 5-7% for an un
 
 ### Figma
 
-![UC](https://www.figma.com/file/CrSq0gyQrEUnbX3LUKMiuw/Untitled?node-id=0%3A1 "Макет приложения Figma")
+[Макет приложения Figma](https://www.figma.com/file/CrSq0gyQrEUnbX3LUKMiuw/Untitled?node-id=0%3A1)
 
