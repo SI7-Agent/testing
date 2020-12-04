@@ -69,6 +69,19 @@ class AdminPostgreSQL(AdminTool):
                                         gender TEXT NOT NULL,
                                         password TEXT NOT NULL);''')
 
+        self.connectmanager.cursor.execute('''CREATE TABLE IF NOT EXISTS pics
+                                        (id_pic INT PRIMARY KEY NOT NULL,
+                                        orig_picture TEXT NOT NULL,
+                                        mime TEXT NOT NULL);''')
+
+        self.connectmanager.cursor.execute('''CREATE TABLE IF NOT EXISTS pics_data
+                                        (id_data INT PRIMARY KEY NOT NULL,
+                                        id_dependent INT NOT NULL,
+                                        label TEXT NOT NULL,
+                                        gender TEXT NOT NULL,
+                                        emote TEXT NOT NULL,
+                                        location TEXT NOT NULL);''')
+
         self.connectmanager.database.commit()
 
     def create_side_funcs(self):
