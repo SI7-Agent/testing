@@ -16,46 +16,19 @@ host: "localhost:3333"
 
 
 tags:
-- name: "object"
-  description: "Everything about objects on image"
-- name: "human"
-  description: "Everything about humans on image"
-- name: "user"
+- name: "Users"
   description: "Operations about user"
-- name: "image"
+- name: "Images"
   description: "Everything about image"
 schemes:
 - "http"
 paths:
-  /object:
-    get:
-      tags:
-      - "object"
-      summary: "Return a list of available objects to detect"
-      operationId: "get_object_list"
-      produces:
-      - "application/json"
-      parameters:
-      - name: "Authorization"
-        in: "header"
-        required: true
-        type: "string"
-      responses:
-        "200":
-          description: "Success"
-          schema:
-            type: "array"
-            items:
-              $ref: "#/definitions/Object"
-        "401":
-          description: "Unauthorized"
-      x-swagger-router-controller: "controllers.object_controller"
-
+  /images:
     post:
       tags:
-      - "object"
-      summary: "Send a picture to process with object properties"
-      operationId: "process_object_image"
+      - "Images"
+      summary: "Send a picture to process"
+      operationId: "process_image2"
       produces:
       - "application/json"
       parameters:
@@ -73,62 +46,105 @@ paths:
         "200":
           description: "Success"
           schema:
+            $ref: "#/definitions/Processid"
+        "401":
+          description: "Unauthorized"
+        "500":
+          description: "Server cant process"
+      x-swagger-router-controller: "controllers.image_controller"
+
+  /images/{id}:
+    get:
+      tags:
+      - "Images"
+      summary: "Get a picture's orig props by id"
+      operationId: "get_image_by_id"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "id"
+        in: "path"
+        type: "integer"
+        description: "id of pic"
+        required: true
+      - name: "Authorization"
+        in: "header"
+        required: true
+        type: "string"
+      responses:
+        "200":
+          description: "Success"
+          schema:
             $ref: "#/definitions/Picture"
         "401":
           description: "Unauthorized"
         "500":
           description: "Server cant process"
-      x-swagger-router-controller: "controllers.object_controller"
+      x-swagger-router-controller: "controllers.image_controller"
 
-  /object/{type}:
-    post:
+  /images/{id}/detections:
+    get:
       tags:
-      - "object"
-      summary: "Return an image with special mark and id"
-      operationId: "get_filter_image"
+      - "Images"
+      summary: "Return detections of image with id"
+      operationId: "get_detections_from_image"
       produces:
       - "application/json"
       parameters:
+      - name: "id"
+        in: "path"
+        type: "integer"
+        description: "id of pic"
+        required: true
       - name: "type"
-        in: "path"
-        description: "Filter mark option"
-        required: true
+        in: "query"
+        description: "type of object. available types are 'human' and object names - can be acquired by get /images/params?filter=objects"
+        required: false
         type: "string"
       - name: "Authorization"
         in: "header"
         required: true
         type: "string"
-      - in: "body"
-        name: "picture"
-        description: "Picture to process"
-        required: true
-        schema:
-          $ref: "#/definitions/Picture"
+      - name: "emotion"
+        in: "query"
+        description: "filter by emotion. can be acquired by get /images/params?filter=emotion"
+        required: false
+        type: "string"
+      - name: "gender"
+        in: "query"
+        description: "filter by gender. can be acquired by get /images/params?filter=gender"
+        required: false
+        type: "string"
       responses:
         "200":
           description: "Success"
           schema:
-            $ref: "#/definitions/Picture"
+            $ref: "#/definitions/PictureDetections"
         "400":
-          description: "Invalid module"
+          description: "Invalid query params"
         "401":
           description: "Unauthorized"
         "500":
           description: "Server cant process"
-      x-swagger-router-controller: "controllers.object_controller"
+      x-swagger-router-controller: "controllers.image_controller"
 
-  /human:
+  /images/params:
     get:
       tags:
-      - "human"
-      summary: "Return a list of available human objects to detect"
-      operationId: "get_human_list"
+      - "Images"
+      summary: "Return a list of available parameteres to detect"
+      operationId: "get_list"
       produces:
       - "application/json"
       parameters:
       - name: "Authorization"
         in: "header"
         required: true
+        type: "string"
+      - name: "filter"
+        in: "query"
+        required: false
+        description: "filter options for various scenarios. can be set 'gender', 'emotion', 'objects'"
         type: "string"
       responses:
         "200":
@@ -139,77 +155,12 @@ paths:
               $ref: "#/definitions/Object"
         "401":
           description: "Unauthorized"
-      x-swagger-router-controller: "controllers.human_controller"
+      x-swagger-router-controller: "controllers.image_controller"
 
+  /users:
     post:
       tags:
-      - "human"
-      summary: "Send a picture to process with human properties"
-      operationId: "process_human_image"
-      produces:
-      - "application/json"
-      parameters:
-      - in: "body"
-        name: "picture"
-        description: "Picture to process"
-        required: true
-        schema:
-          $ref: "#/definitions/Picture"
-      - name: "Authorization"
-        in: "header"
-        required: true
-        type: "string"
-      responses:
-        "200":
-          description: "Success"
-          schema:
-            $ref: "#/definitions/Picture"
-        "401":
-          description: "Unauthorized"
-        "500":
-          description: "Server cant process"
-      x-swagger-router-controller: "controllers.human_controller"
-
-  /human/{module}:
-    post:
-      tags:
-      - "human"
-      summary: "Process image with chosen human param"
-      operationId: "process_human_image_custom"
-      produces:
-      - "application/json"
-      parameters:
-      - name: "module"
-        in: "path"
-        description: "The chosen human param. Available options are 'detection', 'emote', 'gender'"
-        required: true
-        type: "string"
-      - name: "Authorization"
-        in: "header"
-        required: true
-        type: "string"
-      - name: "processing"
-        in: "body"
-        required: true
-        schema:
-          $ref: "#/definitions/Picture"
-      responses:
-        "200":
-          description: "Success"
-          schema:
-            $ref: "#/definitions/Picture"
-        "400":
-          description: "Incorrect module param"
-        "401":
-          description: "Unauthorized"
-        "500":
-          description: "Server cant process"
-      x-swagger-router-controller: "controllers.human_controller"
-
-  /user/reg:
-    post:
-      tags:
-      - "user"
+      - "Users"
       summary: "Create user"
       operationId: "create_user"
       produces:
@@ -228,10 +179,10 @@ paths:
           description: "Bad data"
       x-swagger-router-controller: "controllers.user_controller"
 
-  /user/login:
+  /users/login:
     get:
       tags:
-      - "user"
+      - "Users"
       summary: "Logs user into the system"
       operationId: "login"
       produces:
@@ -256,10 +207,10 @@ paths:
           description: "Invalid username/password supplied"
       x-swagger-router-controller: "controllers.user_controller"
 
-  /user/logout:
+  /users/logout:
     get:
       tags:
-      - "user"
+      - "Users"
       summary: "Logs out current logged in user session"
       operationId: "logout"
       produces:
@@ -276,10 +227,10 @@ paths:
           description: "Not authorized"
       x-swagger-router-controller: "controllers.user_controller"
 
-  /user/{username}:
+  /users/{username}:
     get:
       tags:
-      - "user"
+      - "Users"
       summary: "Get user by user name"
       operationId: "get_unique_user"
       produces:
@@ -307,7 +258,7 @@ paths:
 
     delete:
       tags:
-      - "user"
+      - "Users"
       summary: "Delete user"
       operationId: "delete_user"
       produces:
@@ -333,7 +284,7 @@ paths:
 
     patch:
       tags:
-      - "user"
+      - "Users"
       summary: "Updated user"
       operationId: "patch_user_data"
       produces:
@@ -363,58 +314,21 @@ paths:
           description: "User is not found"
       x-swagger-router-controller: "controllers.user_controller"
 
-  /image:
-    get:
-      tags:
-      - "image"
-      summary: "Return a list of available objects to detect"
-      operationId: "get_image_list"
-      produces:
-      - "application/json"
-      parameters:
-      - name: "Authorization"
-        in: "header"
-        required: true
-        type: "string"
-      responses:
-        "200":
-          description: "Success"
-          schema:
-            type: "array"
-            items:
-              $ref: "#/definitions/Object"
-        "401":
-          description: "Unauthorized"
-      x-swagger-router-controller: "controllers.image_controller"
-
-    post:
-      tags:
-      - "image"
-      summary: "Send a picture to process"
-      operationId: "process_image"
-      produces:
-      - "application/json"
-      parameters:
-      - in: "body"
-        name: "picture"
-        description: "Picture to process"
-        required: true
-        schema:
-          $ref: "#/definitions/Picture"
-      - name: "Authorization"
-        in: "header"
-        required: true
-        type: "string"
-      responses:
-        "200":
-          description: "Success"
-        "401":
-          description: "Unauthorized"
-        "500":
-          description: "Server cant process"
-      x-swagger-router-controller: "controllers.image_controller"
-
 definitions:
+  Processid:
+    type: "object"
+    properties:
+      id:
+        type: "integer"
+  OrigPicture:
+    type: "object"
+    properties:
+      id:
+        type: "integer"
+        format: "int64"
+      mime:
+        type: "string"
+        description: "mime type of orig"
   Object:
     type: "object"
     properties:
@@ -434,22 +348,27 @@ definitions:
         type: "string"
     example:
       value: "value"
-  ResultFilteredPicture:
-    type: "object"
-    properties:
-      id:
-        type: "integer"
-        format: "int64"
-      class:
-        type: "string"
-        description: "Filtered class"
-      picture:
-        type: "string"
-        description: "Picture"
-    example:
-      id: 0
-      class: "class"
-      picture: "picture"
+  PictureDetections:
+    type: "array"
+    items:
+      type: "object"
+      properties:
+        base64:
+          type: "string"
+        type:  
+          type: "string"
+        emotion:
+          type: "string"
+        gender:
+          type: "string"
+        location:
+          type: "string"
+      example:
+        base64: "data:image/png;base64,"
+        type: "Human"
+        emote: "Happy"
+        gender: "Man"
+        location: "176;472;380;264"
   User:
     type: "object"
     properties:
