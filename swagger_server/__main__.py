@@ -4,6 +4,7 @@ import sys
 from flask_cors import CORS
 from app import MyWebApplication
 from flask_cors import CORS
+from connexion.decorators.uri_parsing import AlwaysMultiURIParser
 
 worker = MyWebApplication().start()
 
@@ -20,7 +21,8 @@ def main():
     except:
         port = 3333
 
-    app = connexion.App('Object detection', specification_dir='./swagger/')
+    options = {'uri_parsing_class': AlwaysMultiURIParser}
+    app = connexion.App('Object detection', specification_dir='./swagger/', options=options)
     app.app.json_encoder = encoder.JSONEncoder
     app.add_api('swagger.yaml', arguments={'title': 'Object detection'})
     CORS(app.app)
