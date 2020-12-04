@@ -48,15 +48,20 @@ def image_copy(img):
 def put_on_cv_image(img, boxes):
     if len(boxes) > 0:
         for i in boxes:
-            if i["left"] is not None:
-                cv2.rectangle(img, (i["left"], i["top"]), (i["right"], i["bottom"]), i["color"], 2)
+            #rectangle_detection
+            cv2.rectangle(img, (i["left"], i["top"]), (i["right"], i["bottom"]), i["color"], 2)
 
-            if i["label"] != "":
-                y = i["top"] - 15 if i["top"] - 15 > 15 else i["top"] + 15
-                cv2.putText(img, i["label"], (i["right"] + 6, y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, i["color"], 2)
+            #type_of_object
+            y = i["top"] - 15 if i["top"] - 15 > 15 else i["top"] + 15
+            cv2.putText(img, i["label"], (i["right"] + 6, y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, i["color"], 2)
 
-            if "emote" in i.keys():
+            
+            if i["emote"] != "None":
                 y = i["bottom"] - 6 if i["bottom"] - 6 > 6 else i["bottom"] + 6
                 cv2.putText(img, i["emote"], (i["right"] + 6, y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, i["color"], 2)
+
+            if i["gender"] != "None":
+                y = i["top"] - 15 if i["top"] - 15 > 15 else i["top"] + 15
+                cv2.putText(img, i["emote"], (i["left"] + 6, y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, i["color"], 2)
 
     return img
