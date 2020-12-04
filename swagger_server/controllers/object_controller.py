@@ -6,57 +6,114 @@ import json
 import copy
 from easy_jwt import auth
 
-def get_filter_image(type, picture):  # noqa: E501
+
+def get_filter_image(type, picture):
     authorization = connexion.request.headers['Authorization']
-    """Return an image with special mark and id
+    type = type.split(",")
 
-     # noqa: E501
+    if auth.verify_token(authorization):
+        for i in type:
+            if i not in worker.CLASSES:
+                return "Incorrect type param", 400
 
-    :param id: Filter id option
-    :type id: int
-    :param authorization: 
-    :type authorization: str
-    :param mark: Filter mark option
-    :type mark: str
+        try:
+            image = processing['value']
+            mimetype = image[:22]
 
-    :rtype: List[ResultFilteredPicture]
-    """
-    return 'idi nahui'
+            img = convert_img64_to_imgarray(image)
+            orig_img = image_copy(img)
+
+            objects = worker.find_objects(orig_img)
+
+            for i in objects:
+                if i["label"] in type:
+                    i["status"] = "detection"
+            img = put_on_cv_image(img, objects)
+
+            for i in objects:
+                if i["label"] in type:
+                    i["status"] = "label"
+            img = put_on_cv_image(img, objects)
+
+            base64img = convert_imgarray_to_img64(img)
+
+            return json.dumps({"value": mimetype + base64img}), 200
+
+        except:
+            return "Server cant process", 500
+
+    else:
+        return "Unauthorized", 401
 
 
 def get_object_list():
     authorization = connexion.request.headers['Authorization']
-    """Return a list of available objects to detect
 
-     # noqa: E501
-
-    :param authorization: 
-    :type authorization: str
-
-    :rtype: List[Object]
-    """
-    if authorization == "aa":
+    if auth.verify_token(authorization):
         list = copy.deepcopy(worker.CLASSES)
         for i in range(len(list)):
             list[i] = json.dumps({"id": i, "value": list[i]})
     else:
         return "Not authorized", 401
-    return list
+
+    return list, 200
+
+
+def process_object_image_with_id(id, picture):
+    authorization = connexion.request.headers['Authorization']
+    
+    if auth.verify_token(authorization):
+        try:
+            img = picture['value']
+            mimetype = img[:22]
+
+            img = convert_img64_to_imgarray(img)
+            persons = worker.find_objects(img)
+
+
+            if id > len(persons):
+                return "Not found", 404
+                
+            id_person = persons[id-1]
+            
+            base64img = convert_imgarray_to_img64(worker.get_face_from_image(face_loc, id_person["small"]))
+
+            return json.dumps({"value": mimetype + base64img, "name": id_person["label"], "top y": id_person["top"], "right x": id_person["right"], "bottom y": id_person["bottom"], "left x": id_person["left"]}), 200
+
+        except:
+            return "Server cant process", 500
+    else:
+        return "Unauthorized", 401
+
+
 
 
 def process_object_image(picture):
     authorization = connexion.request.headers['Authorization']
-    """Send a picture to process with object properties
 
-     # noqa: E501
+    if auth.verify_token(authorization):
+        try:
+            img = picture['value']
+            mimetype = img[:22]
 
-    :param picture: Picture to process
-    :type picture: dict | bytes
-    :param authorization: 
-    :type authorization: str
+            img = convert_img64_to_imgarray(img)
+            objects = worker.find_objects(img)
 
-    :rtype: Picture
-    """
-    if connexion.request.is_json:
-        picture = Picture.from_dict(connexion.request.get_json())  # noqa: E501
-    return 'do some magic!'
+            for i in objects:
+                face_loc = int(i["top"] / 4), int(i["right"] / 4), int(i["bottom"] / 4), int(i["left"] / 4)
+                i["status"] = "detection"
+            img = put_on_cv_image(img, objects)
+
+            for i in objects:
+                i["status"] = "label"
+            img = put_on_cv_image(img, objects)
+
+            base64img = convert_imgarray_to_img64(img)
+
+            return json.dumps({"value": mimetype + base64img}), 200
+
+        except:
+            return "Server cant process", 500
+
+    else:
+        return "Unauthorized", 401
