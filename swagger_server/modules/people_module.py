@@ -84,7 +84,7 @@ class PeopleModuleWeb(Robot):
             face_locations = face_recognition.face_locations(small_frame)
 
             for (top, right, bottom, left) in face_locations:
-                submassive = {"left": None, "top": None, "right": None, "bottom": None, "label": "", "color": None, "small": None}
+                submassive = {"left": None, "top": None, "right": None, "bottom": None, "label": "", "color": None, "small": None, "status": None}
 
                 top *= 4
                 right *= 4
@@ -100,7 +100,7 @@ class PeopleModuleWeb(Robot):
                 predictions.append(submassive)
 
                 self.register_new_face("None", submassive["small"], "None", "None")
-                self.control_tool.push_event({"name":"Человек", "first_seen":"None", "location":"None", "emote":"None"})
+                self.control_tool.push_event({"name":"Человек", "first_seen": datetime.now(), "location":"None", "emote":"None"})
 
             return predictions
 

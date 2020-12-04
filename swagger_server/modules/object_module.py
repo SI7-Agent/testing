@@ -68,19 +68,17 @@ class ObjectModuleWeb(Robot):
                     if self.CLASSES[idx] == "Person":
                         continue
 
-                    submassive = {"left": 0, "top": 0, "right": 0, "bottom": 0, "label": "", "color": None}
+                    submassive = {"left": 0, "top": 0, "right": 0, "bottom": 0, "label": "", "color": None, "chance": 0, "status": None}
                     box = detections[0, 0, i, 3:7] * np1.array([w, h, w, h])
                     (startX, startY, endX, endY) = box.astype("int")
 
-                    label = "{}: {:.2f}%".format(self.CLASSES[idx],
-                                                 confidence * 100)
-
-                    submassive["label"] = label
+                    submassive["label"] = self.CLASSES[idx]
                     submassive["left"] = startX
                     submassive["top"] = startY
                     submassive["right"] = endX
                     submassive["bottom"] = endY
                     submassive["color"] = self.COLORS[idx]
+                    submassive["chance"] = confindece * 100
                     predictions.append(submassive)
 
                     self.register_new_object(self.CLASSES[idx], "None")
