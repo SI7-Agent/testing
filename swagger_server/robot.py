@@ -98,6 +98,17 @@ class Robot:
 
         return face_image
 
+    @staticmethod
+    def get_object_from_image(object_location, frame):
+        top, right, bottom, left = object_location
+
+        small_frame = cv2.resize(frame, (0, 0), fx=0.25, fy=0.25)
+        
+        object_image = small_frame[int(top/4):int(bottom/4), int(left/4):int(right/4)]
+        object_image = cv2.resize(object_image, (150, 150))
+
+        return object_image
+
     @abstractmethod
     def find_gender(self, frame):
         pass
