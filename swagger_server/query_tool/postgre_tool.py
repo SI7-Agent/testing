@@ -10,6 +10,54 @@ import psycopg2
 
 
 class PostgreSQLTool(Commands):
+    def push_picture_data(self, metadata):
+        self.connectmanager.cursor.execute("select * from pics;")
+        id_pics = len(self.connectmanager.cursor.fetchall())
+
+        self.connectmanager.cursor.execute("select * from pics_data;")
+        id_pics_data = len(self.connectmanager.cursor.fetchall()) + 1
+
+
+        query = '''INSERT INTO pics_data (id_data, id_dependent, label, gender, emote, location) VALUES (%s, %s, %s, %s, %s, %s);'''
+
+        self.connectmanager.cursor.execute(query, (str(id_pics_data), str(id_pics), metadata["label"], metadata["gender"], metadata["emote"], metadata["location"]))
+
+        self.connectmanager.database.commit()
+        AdminTool(self.connectmanager).admin_tool().push_log('pics_data', 'Data insert succeeded')
+        MyLogger.info("Data insert succeeded")
+        
+    def get_picture_props(self, params='*', filters=';'):
+        query = 'SELECT ' + params + ' FROM pics_data join pics on pics_data.id_dependent = pics.id_pic ' + filters
+
+        self.connectmanager.cursor.execute(query)
+        metadatas = self.connectmanager.cursor.fetchall()
+
+        return metadatas
+
+    def push_picture(self, orig_picture, mime):
+       id_pics = None
+       try:
+           self.connectmanager.cursor.execute("select * from pics;")
+           id_pics = len(self.connectmanager.cursor.fetchall()) + 1
+
+           self.connectmanager.cursor.execute("INSERT INTO pics (id_pic, orig_picture, mime) VALUES (%s, %s, %s);",
+                                               (str(id_pics), orig_picture, mime))
+
+           self.connectmanager.database.commit()
+           AdminTool(self.connectmanager).admin_tool().push_log('pics', 'Pic load succeeded')
+           MyLogger.info("Pic load succeeded")
+       except psycopg2.errors.NotNullViolation:
+           AdminTool(self.connectmanager).admin_tool().push_log('pics', 'Pics failed. NULL restriction')
+           MyLogger.error("Pics failed. NULL restriction")
+       except psycopg2.errors.UniqueViolation:
+           AdminTool(self.connectmanager).admin_tool().push_log('pics', 'Pics failed. Unique restriction')
+           MyLogger.critical("Pics failed. Unique restriction")
+       except:
+           AdminTool(self.connectmanager).admin_tool().push_log('pics', 'Pics failed. Undefined error')
+           MyLogger.critical("Pics failed. Undefined error")
+       finally:
+           return id_pics
+
     def push_face(self, face_metadata):
         try:
             self.currentid_human += 1
