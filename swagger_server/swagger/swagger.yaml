@@ -128,7 +128,7 @@ paths:
           description: "Server cant process"
       x-swagger-router-controller: "controllers.image_controller"
 
-  /images/params:
+  /types:
     get:
       tags:
       - "Images"
