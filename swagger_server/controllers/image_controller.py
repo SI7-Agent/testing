@@ -88,12 +88,13 @@ def get_detections_from_image(id, type="", emotion="", gender=""):
                 return "Not found", 404
 
             result = []
-            my_img_pr = convert_img64_to_imgarray(metadata[0][8]+metadata[0][7])
+            mime = metadata[0][8]
+            my_img_pr = convert_img64_to_imgarray(mime+metadata[0][7])
             for i in metadata:
                 loc = list(map(lambda x: int(x), i[5].split(";")))
                 mini_img = worker.get_object_from_image(loc, my_img_pr)
                 base64 = convert_imgarray_to_img64(mini_img)
-                result.append(json.dumps({"base64": base64, "gender": i[3], "location": i[5], "type": i[2], "emote": i[4]}))
+                result.append(json.dumps({"base64": mime+base64, "gender": i[3], "location": i[5], "type": i[2], "emote": i[4]}))
             
             return result, 200 
         except:
