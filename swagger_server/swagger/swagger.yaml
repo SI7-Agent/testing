@@ -57,7 +57,7 @@ paths:
     get:
       tags:
       - "Images"
-      summary: "Get a picture's orig props by id"
+      summary: "Get a processed picture by id"
       operationId: "get_image_by_id"
       produces:
       - "application/json"
