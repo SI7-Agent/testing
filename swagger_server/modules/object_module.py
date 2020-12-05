@@ -78,7 +78,7 @@ class ObjectModuleWeb(Robot):
                     submassive["right"] = endX
                     submassive["bottom"] = endY
                     submassive["color"] = self.COLORS[idx]
-                    submassive["chance"] = confindece * 100
+                    submassive["chance"] = confidence * 100
                     predictions.append(submassive)
 
                     self.register_new_object(self.CLASSES[idx], "None")
