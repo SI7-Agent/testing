@@ -5,7 +5,7 @@ from models.user import User
 from models.user_token import UserToken
 from models.user_update import UserUpdate
 import util
-import json
+from flask import jsonify
 from easy_jwt import auth
 from __main__ import worker
 
@@ -49,14 +49,14 @@ def get_unique_user(username):
     else:
         return "Unauthorized", 401
 
-    return json.dumps(user), 200
+    return jsonify(username=user.username, last_name=user.last_name, first_name=user.first_name, password=user.password, gender=user.gender), 200
 
 
 def login(username, password):
     check = worker.control_tool.login_guy(username, password)
     if check == 200:
         token = auth.create_token(username)
-        return json.dumps({"token": token}), 200
+        return jsonify(token=token)
 
     elif check == 400:
         return "Invalid login/password", 400

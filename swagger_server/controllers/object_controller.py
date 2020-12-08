@@ -2,7 +2,7 @@ import connexion
 
 from models.picture import Picture
 from __main__ import worker
-import json
+from flask import jsonify
 import copy
 from easy_jwt import auth
 
@@ -37,7 +37,7 @@ def get_filter_image(type, picture):
 
             base64img = convert_imgarray_to_img64(img)
 
-            return json.dumps({"value": mimetype + base64img}), 200
+            return jsonify(value=mimetype + base64img), 200
 
         except:
             return "Server cant process", 500
@@ -52,11 +52,11 @@ def get_object_list():
     if auth.verify_token(authorization):
         list = copy.deepcopy(worker.CLASSES)
         for i in range(len(list)):
-            list[i] = json.dumps({"id": i, "value": list[i]})
+            list[i] = {"id":i, "value":list[i]}
+			
+        return jsonify(list), 200
     else:
         return "Not authorized", 401
-
-    return list, 200
 
 
 def process_object_image_with_id(id, picture):
@@ -70,7 +70,6 @@ def process_object_image_with_id(id, picture):
             img = convert_img64_to_imgarray(img)
             persons = worker.find_objects(img)
 
-
             if id > len(persons):
                 return "Not found", 404
                 
@@ -78,14 +77,12 @@ def process_object_image_with_id(id, picture):
             
             base64img = convert_imgarray_to_img64(worker.get_face_from_image(face_loc, id_person["small"]))
 
-            return json.dumps({"value": mimetype + base64img, "name": id_person["label"], "top y": id_person["top"], "right x": id_person["right"], "bottom y": id_person["bottom"], "left x": id_person["left"]}), 200
+            return jsonify(value=mimetype + base64img, name=id_person["label"], top y=id_person["top"], right x=id_person["right"], bottom y=id_person["bottom"], left x=id_person["left"]), 200
 
         except:
             return "Server cant process", 500
     else:
         return "Unauthorized", 401
-
-
 
 
 def process_object_image(picture):
@@ -110,7 +107,7 @@ def process_object_image(picture):
 
             base64img = convert_imgarray_to_img64(img)
 
-            return json.dumps({"value": mimetype + base64img}), 200
+            return jsonify(value=mimetype + base64img), 200
 
         except:
             return "Server cant process", 500

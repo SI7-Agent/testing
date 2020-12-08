@@ -6,6 +6,7 @@ from models.object import Object
 from models.picture import Picture
 import util
 import copy
+from flask import jsonify
 from easy_jwt import auth
 from __main__ import worker
 from image_tools import convert_img64_to_imgarray, convert_imgarray_to_img64, put_on_cv_image, image_copy, convert_imgarray_to_file
@@ -19,11 +20,11 @@ def get_human_list():
         list.append("Male")
         list.append("Female")
         for i in range(len(list)):
-            list[i] = json.dumps({"id": i, "value": list[i]})
+            list[i] = {"id":i, "value":list[i]}
+			
+        return jsonify(list)	
     else:
         return "Unauthorized", 401
-
-    return list
 
 
 def process_human_image_with_id(picture, id):
@@ -48,7 +49,7 @@ def process_human_image_with_id(picture, id):
             id_person = persons[id-1]
             base64img = convert_imgarray_to_img64(worker.get_face_from_image(face_loc, id_person["small"]))
 
-            return json.dumps({"value": mimetype + base64img, "emote": id_person["emote"], "gender": id_person["label"]}), 200
+            return jsonify(value=mimetype + base64img, emote=id_person["emote"], gender=id_person["label"]), 200
 
         except:
             return "Server cant process", 500
@@ -83,7 +84,7 @@ def process_human_image(picture):
             img = put_on_cv_image(img, persons)
             base64img = convert_imgarray_to_img64(img)
 
-            return json.dumps({"value": mimetype + base64img}), 200
+            return jsonify(value=mimetype + base64img), 200
 
         except:
             return "Server cant process", 500
@@ -144,7 +145,7 @@ def process_human_image_custom(module, processing):
 
             base64img = convert_imgarray_to_img64(img)
 
-            return json.dumps({"value": mimetype + base64img}), 200
+            return jsonify(value=mimetype + base64img), 200
 
         except:
             return "Server cant process", 500
