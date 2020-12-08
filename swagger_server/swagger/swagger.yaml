@@ -28,7 +28,7 @@ paths:
       tags:
       - "Images"
       summary: "Send a picture to process"
-      operationId: "process_image2"
+      operationId: "process_image"
       produces:
       - "application/json"
       parameters:
