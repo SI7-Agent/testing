@@ -62,6 +62,6 @@ def put_on_cv_image(img, boxes):
 
             if i["gender"] != "None":
                 y = i["top"] - 15 if i["top"] - 15 > 15 else i["top"] + 15
-                cv2.putText(img, i["emote"], (i["left"] + 6, y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, i["color"], 2)
+                cv2.putText(img, i["gender"], (i["left"] + 6, y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, i["color"], 2)
 
     return img
