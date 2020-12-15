@@ -338,6 +338,9 @@ definitions:
       value:
         type: "string"
         description: "Detection values"
+      tag:
+        type: "string"
+        description: "Type of detection"
     example:
       id: 0
       value: "value"
