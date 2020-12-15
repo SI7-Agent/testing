@@ -60,6 +60,13 @@ def get_detections_from_image(id, type="", emotion="", gender=""):
                 return "Invalid query params", 400
             if "" not in gender and "Human" not in type:
                 return "Invalid query params", 400
+			
+            human_flag = False
+            if "Human" in type:
+                human_flag = True
+                if type.index("Human") != 0:
+                    type.remove("Human")
+                    type = ["Human"] + type
             
             data = "where pics.id_pic="+str(id)
             if type[0] != "":
@@ -79,7 +86,13 @@ def get_detections_from_image(id, type="", emotion="", gender=""):
                             data = data[:-4] + ")"
                         data += ")"
                     else:
-                        data += " or pics_data.label = '"+t+"'"
+                        if human_flag:
+                            data += " or pics_data.label = '"+t+"'"
+                        else:
+                            if type.index(t) == 0:
+                                data += "pics_data.label = '"+t+"'"
+                            else:
+                                data += " or pics_data.label = '"+t+"'"
                 data += ")"
                 
             metadata = worker.control_tool.get_picture_props(filters=data)
@@ -109,22 +122,31 @@ def get_list(filter=None):
     if auth.verify_token(authorization):
         list = []
         if filter is None:
-            list = copy.deepcopy(worker.CLASSES)
-            list.append("Human")
-            list += worker.EMOTES
-            list.append("Male")
-            list.append("Female")
+            for i in worker.CLASSES:
+                if i != "Person":
+                    list.append([i, "object"])
+            list.append(["Human", "object"])
+            for i in worker.EMOTES:
+                list.append([i, "emotion"])
+            list.append(["Male", "gender"])
+            list.append(["Female", "gender"])
+			
         elif filter == "gender":
-            list = ["Male", "Female"]
+            list.append(["Male", "gender"])
+            list.append(["Female", "gender"])
+			
         elif filter == "emotion":
-            list = copy.deepcopy(worker.EMOTES)
+            for i in worker.EMOTES:
+                list.append([i, "emotion"])
+				
         elif filter == "objects":
-            list = copy.deepcopy(worker.CLASSES)
-            list.append("Human")
+            for i in worker.CLASSES:
+                if i != "Person":
+                    list.append([i, "object"])
+            list.append(["Human", "object"])
 
-        list = [jsonify(id=i, value=list[i]) for i in range(len(list))]
-
-        return list
+        list = [{"id":i, "value":list[i][0], "tag":list[i][1]} for i in range(len(list))]
+        return jsonify(list), 200
     else:
         return "Unauthorized", 401    
 
