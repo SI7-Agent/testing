@@ -1,0 +1,45 @@
+<div class="out-box">
+  <div class="registration-div-sign">Registration</div>
+  <div class="registration-div">
+    <div class="text-box">
+      <div>Login:</div>
+      <label>
+        <input [(ngModel)]="login" class="text-field" type="text">
+      </label>
+    </div>
+
+    <div class="text-box">
+      <div>Password:</div>
+      <label>
+        <input [(ngModel)]="password" class="text-field" type="password">
+      </label>
+    </div>
+
+    <div class="text-box">
+      <div>First Name:</div>
+      <label>
+        <input [(ngModel)]="firstName" class="text-field" type="text">
+      </label>
+    </div>
+
+    <div class="text-box">
+      <div>Last Name:</div>
+      <label>
+        <input [(ngModel)]="lastName" class="text-field" type="text">
+      </label>
+    </div>
+
+    <div class="radio-box">
+      <div>Gender:</div>
+      <input [(ngModel)]="gender" name="gnd" type="radio" value="Male" class="radio">
+      <div class="radio-label">Male</div>
+      <input [(ngModel)]="gender" name="gnd" type="radio" value="Female" class="radio">
+      <div class="radio-label">Female</div>
+    </div>
+
+    <div class="button-box">
+      <button class="profile-set-button green-button" (click)="register()">Submit</button>
+      <button class="profile-set-button yellow-button" routerLink="/login">Back</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+<app-mini-nav-bar></app-mini-nav-bar>
+<app-load-bar *ngIf="notLoaded"></app-load-bar>
+<div class="out-box" *ngIf="!notLoaded">
+  <div class="cam-div">
+    <canvas #canvas class="canvas-back" width="640" height="480"></canvas>
+  </div>
+  <div class="process-button-box">
+    <button class="process-button green-button" (click)="sendToProcess();">Process</button>
+    <button class="process-button yellow-button" routerLink="/takephoto">Take New Photo</button>
+  </div>
+</div>

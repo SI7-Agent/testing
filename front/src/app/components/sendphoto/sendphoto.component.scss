@@ -1,0 +1,62 @@
+.out-box {
+  width:100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cam-div {
+  text-align: center;
+  margin: 0px auto;
+  top: 0px;
+  position: relative;
+  border: #076D05;
+}
+
+.canvas-back {
+  background-color: black;
+}
+
+.process-button-box {
+  width: 82%;
+  height: 13.5%;
+}
+
+.process-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 7px;
+  position: relative;
+  width: 76%;
+  height: 55%;
+  left: 12%;
+  flex: none;
+  order: 1;
+  align-self: unset;
+  flex-grow: 1;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.green-button{
+  background: #53DE31;
+}
+
+.green-button:hover{
+  background: #076D05;
+  color: white;
+}
+
+.yellow-button{
+  background: #F7DE05;
+}
+
+.yellow-button:hover{
+  background: #DAA622;
+  color: white;
+}

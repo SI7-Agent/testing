@@ -1,0 +1,25 @@
+<div class="out-box">
+  <div class="login-div-sign">Log In</div>
+  <div class="login-div">
+    <div class="text-box">
+      <div>Login:</div>
+<!--      <app-textfield textType="text"></app-textfield>-->
+      <label>
+        <input [(ngModel)]="login" class="text-field" type="text">
+      </label>
+    </div>
+
+    <div class="text-box">
+      <div>Password:</div>
+<!--      <app-textfield textType="password"></app-textfield>-->
+      <label>
+        <input [(ngModel)]="password" class="text-field" type="password">
+      </label>
+    </div>
+
+    <div class="button-box">
+      <button class="profile-set-button green-button" (click)="check_auth()">Log IN</button>
+      <button class="profile-set-button yellow-button" routerLink="/register">Registration</button>
+    </div>
+  </div>
+</div>
