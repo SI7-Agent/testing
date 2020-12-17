@@ -1,0 +1,25 @@
+<div class="out-box">
+  <div class="filter-box">
+    <app-filter-element *ngFor="let label of filterNames"
+                        [name]="label.label"
+                        [tag]="label.tag"
+                        (updateFilters)="doSearch($event)">
+      <div class="text-infilter">
+        {{label.label}}
+      </div>
+    </app-filter-element>
+  </div>
+
+  <div class="images-box">
+    <div class="main-image">
+      <img [src]="fullPhoto" width="387" height="295" alt="">
+    </div>
+
+    <div class="cards-box" *ngIf="smthFound">
+      <app-recognition-card *ngFor="let card of detections" [miniImg]="card">
+      </app-recognition-card>
+    </div>
+  </div>
+
+  <button class="result-button green-button" routerLink="/main">Return to Main Page</button>
+</div>

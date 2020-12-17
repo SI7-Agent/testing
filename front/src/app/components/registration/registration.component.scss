@@ -1,0 +1,162 @@
+.out-box{
+  width:100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.registration-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px 20px 15px;
+
+  position: absolute;
+  left: 24.32%;
+  right: 24.38%;
+  top: 12.46%;
+  bottom: 7.93%;
+  border: 3px solid #076D05;
+  box-sizing: border-box;
+}
+
+.registration-div-sign{
+  position: absolute;
+  left: 40.36%;
+  right: 40.42%;
+  top: 6.48%;
+  bottom: 89.44%;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #030303;
+}
+
+.text-box{
+  display: flex;
+  flex-direction: column;
+  position: static;
+  width: 92%;
+  height: 13%;
+  left: 30px;
+  top: 25px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+  padding: 0px 10px 10px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.radio-box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: static;
+  width: 92%;
+  height: 10%;
+  flex: none;
+  flex-grow: 0;
+  padding: 0px 10px 10px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.button-box{
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px;
+  position: static;
+  width: 92%;
+  height: 17%;
+  left: 30px;
+  top: 25px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+  padding-bottom: 10px;
+  margin-left: 5px;
+}
+
+.text-field{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 100px 10px 20px;
+  position: static;
+  width: 100%;
+  height: 56%;
+  left: 7px;
+  top: 69px;
+  background: #FFFFFF;
+  border: 3px solid #076D05;
+  box-sizing: border-box;
+  border-radius: 5px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+.radio-label{
+  margin-right: 15px;
+}
+
+.radio{
+  width: 30px;
+  height: 30px;
+  border: 2px solid #076D05;
+}
+
+.radio:hover{
+
+}
+
+.radio:active{
+
+}
+
+.profile-set-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 10px;
+  position: static;
+  width: 100%;
+  height: 50%;
+  left: 10px;
+  top: 12px;
+  border-radius: 4px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+  border: none;
+  margin-top: 5px;
+  outline: none;
+}
+
+.green-button{
+  background: #53DE31;
+}
+
+.green-button:hover{
+  background: #076D05;
+  color: white;
+}
+
+.yellow-button{
+  background: #F7DE05;
+}
+
+.yellow-button:hover{
+  background: #DAA622;
+  color: white;
+}

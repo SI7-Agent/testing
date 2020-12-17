@@ -1,0 +1,12 @@
+<app-mini-nav-bar></app-mini-nav-bar>
+<div class="out-box">
+  <div class="div-sign">Webcam</div>
+  <div class="cam-div">
+      <webcam [height]="480" [width]="640" [trigger]="triggerObservable"
+              (imageCapture)="handleImage($event)" *ngIf="showWebcam" [videoOptions]="videoOptions"
+              (initError)="handleInitError($event)" imageType = 'image/png'></webcam>
+  </div>
+  <div class="action-button-box">
+    <button class="action-button yellow-button" (click)="makePhoto();">Take Photo</button>
+  </div>
+</div>

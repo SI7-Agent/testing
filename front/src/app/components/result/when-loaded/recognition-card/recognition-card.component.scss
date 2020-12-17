@@ -1,0 +1,23 @@
+.card-box {
+  width: 392px;
+  height:33.6vh;
+
+  border: 3px solid #076D05;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mini-img {
+  width: 100px;
+  height: 100px;
+
+  margin-left: 20px;
+}
+
+.text-labels {
+  margin-left: 20px;
+}
