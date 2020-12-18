@@ -18,7 +18,6 @@ export class FilterElementComponent implements OnInit {
   onChange(event: any): void {
     let data = {
       value: this.name,
-      // status: event.target.checked
       status: event.checked
     }
     this.updateFilters.emit(data);

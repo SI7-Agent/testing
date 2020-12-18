@@ -15,7 +15,7 @@ export class MiniNavBarComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  logout() {
+  logOut() {
     this.userService.logOut();
     this.router.navigate(['/login']);
   }

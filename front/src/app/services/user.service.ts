@@ -11,8 +11,7 @@ export class UserService {
 
   constructor(private http: HttpClient) { }
 
-  getLoginToken(login: string, password: string): Observable<Token>
-  {
+  getLoginToken(login: string, password: string): Observable<Token> {
     let paramsList = new HttpParams();
     paramsList = paramsList.append('username', login);
     paramsList = paramsList.append('password', password);

@@ -1,4 +1,4 @@
-.out-box{
+.out-box {
   width:100%;
   height: 100vh;
   display: flex;
@@ -7,7 +7,7 @@
   flex-direction: column;
 }
 
-.profile-div{
+.profile-div {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -20,7 +20,7 @@
   bottom: 18.61%;
 }
 
-.profile-div-sign{
+.profile-div-sign {
   position: absolute;
   width: 369px;
   height: 44px;
@@ -29,7 +29,7 @@
   text-align: center;
 }
 
-.inbox-div-sign{
+.inbox-div-sign {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -42,7 +42,7 @@
   margin: auto;
 }
 
-.inbox-current-div{
+.inbox-current-div {
   position: static;
   width: 46%;
   height: 94%;
@@ -60,7 +60,7 @@
   margin-left: 10px;
 }
 
-.inbox{
+.inbox {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -71,7 +71,7 @@
   justify-content: center;
 }
 
-.in-current-titles{
+.in-current-titles {
   display: flex;
   flex-direction: column;
   margin-right: 20px;
@@ -80,13 +80,13 @@
   margin-left: 20px;
 }
 
-.in-change-values{
+.in-change-values {
   width: 50%;
   margin-left: 10px;
   height: 65%;
 }
 
-.inbox-change-div{
+.inbox-change-div {
   position: static;
   width: 46%;
   height: 94%;
@@ -104,7 +104,7 @@
   margin-left: 3%;
 }
 
-.text-field{
+.text-field {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -122,7 +122,7 @@
   margin-top: 6px;
 }
 
-.radio-box{
+.radio-box {
   display: flex;
   flex-direction: row;
   flex-grow: 0;
@@ -130,7 +130,7 @@
   top: 58%;
 }
 
-.button-box{
+.button-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -144,7 +144,7 @@
   top: 81%;
 }
 
-.profile-set-button{
+.profile-set-button {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -165,20 +165,20 @@
   outline: none;
 }
 
-.green-button{
+.green-button {
   background: #53DE31;
 }
 
-.green-button:hover{
+.green-button:hover {
   background: #076D05;
   color: white;
 }
 
-.yellow-button{
+.yellow-button {
   background: #F7DE05;
 }
 
-.yellow-button:hover{
+.yellow-button:hover {
   background: #DAA622;
   color: white;
 }

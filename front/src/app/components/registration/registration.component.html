@@ -30,11 +30,16 @@
     </div>
 
     <div class="radio-box">
-      <div>Gender:</div>
-      <input [(ngModel)]="gender" name="gnd" type="radio" value="Male" class="radio">
-      <div class="radio-label">Male</div>
-      <input [(ngModel)]="gender" name="gnd" type="radio" value="Female" class="radio">
-      <div class="radio-label">Female</div>
+      <div class="text-label">Gender:</div>
+      <mat-radio-group aria-label="Gender">
+        <mat-radio-button value="Male" (change)="onChangeGender($event)">Male</mat-radio-button>
+        <mat-radio-button value="Female" (change)="onChangeGender($event)">Female</mat-radio-button>
+      </mat-radio-group>
+<!--      <div>Gender:</div>-->
+<!--      <input [(ngModel)]="gender" name="gnd" type="radio" value="Male" class="radio">-->
+<!--      <div class="radio-label">Male</div>-->
+<!--      <input [(ngModel)]="gender" name="gnd" type="radio" value="Female" class="radio">-->
+<!--      <div class="radio-label">Female</div>-->
     </div>
 
     <div class="button-box">

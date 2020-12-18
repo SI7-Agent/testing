@@ -1,4 +1,4 @@
-.out-box{
+.out-box {
   width:100%;
   height: 100vh;
   display: flex;
@@ -7,7 +7,7 @@
   flex-direction: column;
 }
 
-.registration-div{
+.registration-div {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,7 +23,7 @@
   box-sizing: border-box;
 }
 
-.registration-div-sign{
+.registration-div-sign {
   position: absolute;
   left: 40.36%;
   right: 40.42%;
@@ -36,7 +36,7 @@
   color: #030303;
 }
 
-.text-box{
+.text-box {
   display: flex;
   flex-direction: column;
   position: static;
@@ -53,7 +53,13 @@
   margin-top: 10px;
 }
 
-.radio-box{
+.text-label {
+  position: relative;
+  left: -1.5%;
+  margin-right: 5px;
+}
+
+.radio-box {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -67,10 +73,9 @@
   margin-top: 10px;
 }
 
-.button-box{
+.button-box {
   display: flex;
   flex-direction: column;
-  padding: 0px 10px;
   position: static;
   width: 92%;
   height: 17%;
@@ -80,11 +85,11 @@
   order: 0;
   align-self: stretch;
   flex-grow: 1;
-  padding-bottom: 10px;
+  padding: 0px 10px 10px;
   margin-left: 5px;
 }
 
-.text-field{
+.text-field {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -104,25 +109,7 @@
   flex-grow: 1;
 }
 
-.radio-label{
-  margin-right: 15px;
-}
-
-.radio{
-  width: 30px;
-  height: 30px;
-  border: 2px solid #076D05;
-}
-
-.radio:hover{
-
-}
-
-.radio:active{
-
-}
-
-.profile-set-button{
+.profile-set-button {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -143,20 +130,20 @@
   outline: none;
 }
 
-.green-button{
+.green-button {
   background: #53DE31;
 }
 
-.green-button:hover{
+.green-button:hover {
   background: #076D05;
   color: white;
 }
 
-.yellow-button{
+.yellow-button {
   background: #F7DE05;
 }
 
-.yellow-button:hover{
+.yellow-button:hover {
   background: #DAA622;
   color: white;
 }

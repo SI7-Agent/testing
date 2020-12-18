@@ -1,7 +1,5 @@
 import {Component, OnInit, ViewChild} from '@angular/core';
 import {ActivatedRoute, Router} from '@angular/router';
-import {HttpClient} from '@angular/common/http';
-import {UserService} from '../../services/user.service';
 import {PictureService} from '../../services/picture.service';
 
 @Component({
