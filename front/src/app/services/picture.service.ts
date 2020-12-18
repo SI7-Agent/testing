@@ -1,9 +1,7 @@
 import { Injectable } from '@angular/core';
 import {HttpClient, HttpHeaders, HttpParams} from '@angular/common/http';
 import {environment} from '../../environments/environment';
-import {Observable} from 'rxjs';
 import {Picture} from '../models/picture.model';
-import {User} from '../models/user.model';
 import {Id} from '../models/id.modell';
 import {Type} from '../models/type.model';
 import {ImageDetection} from '../models/image-detection.model';
