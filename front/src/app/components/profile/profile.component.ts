@@ -60,6 +60,7 @@ export class ProfileComponent implements OnInit {
         if (this.username !== '') {
           localStorage.setItem('object-detection-current-user', this.username);
         }
+
         this.userService.getUser(localStorage.getItem('object-detection-current-user'))
           .subscribe(currentUser => {
             this.currentFirstName = currentUser.firstName;

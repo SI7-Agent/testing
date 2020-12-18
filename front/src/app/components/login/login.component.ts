@@ -17,8 +17,8 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  check_auth(){
-    if (this.login !== '' && this.password !== ''){
+  checkAuth() {
+    if (this.login !== '' && this.password !== '') {
       this.userService.getLoginToken(this.login, this.password)
         .subscribe(token => {
           localStorage.setItem('object-detection-token', <string> token['token']);
@@ -29,7 +29,7 @@ export class LoginComponent implements OnInit {
           alert(error.status + ': ' + error.error);
         });
     }
-    else{
+    else {
       alert('Some fields are empty');
     }
   }

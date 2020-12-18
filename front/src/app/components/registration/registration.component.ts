@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {UserService} from '../../services/user.service';
 import {ActivatedRoute, Router} from '@angular/router';
-import {HttpErrorResponse} from '@angular/common/http';
-import {User} from '../../models/user.model';
 
 @Component({
   selector: 'app-registration',
@@ -36,8 +34,8 @@ export class RegistrationComponent implements OnInit {
         "gender": this.gender
       };
 
-      await this.userService.register(newPerson).subscribe(
-        new_user => {
+      await this.userService.register(newPerson)
+        .subscribe(new_user => {
           this.userService.getLoginToken(newPerson.username, newPerson.password)
             .subscribe(token => {
                 localStorage.setItem('object-detection-token', <string> token['token']);
@@ -52,8 +50,12 @@ export class RegistrationComponent implements OnInit {
             alert(error.status + ': ' + error.error);
       });
     }
-    else{
+    else {
         alert('Some fields are empty');
     }
+  }
+
+  onChangeGender(event: any) {
+    this.gender = event.value;
   }
 }

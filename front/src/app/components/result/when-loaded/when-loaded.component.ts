@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Type} from '../../../models/type.model';
 import {PictureService} from '../../../services/picture.service';
-import {FilterElementComponent} from './filter-element/filter-element.component';
 import {ImageDetection} from '../../../models/image-detection.model';
 
 @Component({
@@ -34,7 +32,8 @@ export class WhenLoadedComponent implements OnInit {
           this.filterNames.push({label: item.value, tag: item.tag});
           this.currentStates.push({value: item.value, tag: item.tag, status: false});
         });
-      }, error => {
+      },
+        error => {
         alert(error.status + ': ' + error.error);
       });
 
@@ -47,11 +46,13 @@ export class WhenLoadedComponent implements OnInit {
           .subscribe(detections => {
             this.smthFound = true;
             this.detections = detections;
-          }, error => {
+          },
+              error => {
             this.smthFound = false;
             alert(error.status + ': ' + error.error);
           });
-      }, error => {
+      },
+          error => {
         alert('Error while getting picture');
       });
   }
