@@ -23,8 +23,8 @@ import { LoadBarComponent } from './components/elements/load-bar/load-bar.compon
 import { WhenLoadedComponent } from './components/result/when-loaded/when-loaded.component';
 import { RecognitionCardComponent } from './components/result/when-loaded/recognition-card/recognition-card.component';
 import { FilterElementComponent } from './components/result/when-loaded/filter-element/filter-element.component';
-import {MatCheckboxModule} from '@angular/material/checkbox';
-import {MatRadioModule} from '@angular/material/radio';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatRadioModule } from '@angular/material/radio';
 
 @NgModule({
   declarations: [
@@ -41,7 +41,6 @@ import {MatRadioModule} from '@angular/material/radio';
     WhenLoadedComponent,
     RecognitionCardComponent,
     FilterElementComponent
-    // TextFieldComponent
   ],
   imports: [
     WebcamModule,
