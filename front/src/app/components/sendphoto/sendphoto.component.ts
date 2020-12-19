@@ -67,7 +67,7 @@ export class SendPhotoComponent implements OnInit {
     this.pictureService.sendPicture({'value': this.photo})
       .subscribe(id => {
         localStorage.setItem('object-detection-id-process', id.id.toString());
-        this.router.navigate(['/result']);
+        this.router.navigate(['/results/'+id.id.toString()]);
       },
         error => {
           alert(error.status + ': ' + error.error);
