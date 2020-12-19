@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {PictureService} from '../../../services/picture.service';
 import {ImageDetection} from '../../../models/image-detection.model';
+import {ActivatedRoute} from '@angular/router';
 
 @Component({
   selector: 'app-when-loaded',
@@ -10,6 +11,7 @@ import {ImageDetection} from '../../../models/image-detection.model';
 export class WhenLoadedComponent implements OnInit {
   fullPhoto: string = ''
   smthFound: boolean = true;
+  id: number = parseInt(<string> localStorage.getItem('object-detection-id-process'));
 
   filterNames: {label: string, tag: string}[] = [];
   currentStates: {value: string, tag:string, status: boolean}[] = [];
@@ -19,12 +21,14 @@ export class WhenLoadedComponent implements OnInit {
   private objects: string | undefined;
   private genders: string | undefined;
 
-  constructor(private pictureService: PictureService) { }
+  constructor(private pictureService: PictureService, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
     this.emotions = '';
     this.objects = '';
     this.genders = '';
+    // @ts-ignore
+    this.id = +this.route.snapshot.paramMap.get('id');
 
     this.pictureService.getTypes()
       .subscribe(types => {
@@ -37,11 +41,11 @@ export class WhenLoadedComponent implements OnInit {
         alert(error.status + ': ' + error.error);
       });
 
-    this.pictureService.getFullDetections(parseInt(<string> localStorage.getItem('object-detection-id-process')))
+    this.pictureService.getFullDetections(this.id)
       .subscribe(photo => {
         this.fullPhoto = photo.value;
 
-        this.pictureService.getDetections(parseInt(<string> localStorage.getItem('object-detection-id-process')),
+        this.pictureService.getDetections(this.id,
           '', '', '')
           .subscribe(detections => {
             this.smthFound = true;
@@ -78,7 +82,7 @@ export class WhenLoadedComponent implements OnInit {
       }
     });
 
-    this.pictureService.getDetections(parseInt(<string> localStorage.getItem('object-detection-id-process')),
+    this.pictureService.getDetections(this.id,
       this.objects, this.emotions, this.genders)
       .subscribe(detections => {
         this.smthFound = true;

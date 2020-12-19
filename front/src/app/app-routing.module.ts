@@ -15,7 +15,7 @@ const routes: Routes = [
   { path: 'main', component: MainComponent },
   { path: 'takephoto', component: TakePhotoComponent },
   { path: 'sendphoto', component: SendPhotoComponent },
-  { path: 'result', component: ResultComponent },
+  { path: 'results/:id', component: ResultComponent },
   { path: '**', redirectTo: 'main' },
 ];
 
