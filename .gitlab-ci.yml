@@ -12,7 +12,7 @@ deploy-dev:
         - apt-get -yq install software-properties-common
         - add-apt-repository -y ppa:deadsnakes/ppa
         - apt-get update -qy
-        - apt-get install -y python-dev python-pip
+        - apt-get install -y python-dev python3-pip
         - pip install -r requirements.txt
         - pip3 install --user pytest
         - pytest
