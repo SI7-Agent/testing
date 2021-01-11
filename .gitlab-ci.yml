@@ -1,13 +1,13 @@
 image: ubuntu
 
 stages:
-- test
+    - test
 
 deploy-dev:
 stage: test
 only:
-- web
+    - web
 script:
-- pip install --user -r requirements.txt 
-- pip install --user pytest
-- pytest
+    - pip install --user -r requirements.txt 
+    - pip install --user pytest
+    - pytest
