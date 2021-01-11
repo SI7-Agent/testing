@@ -8,7 +8,7 @@ deploy-dev:
     only:
         - web
     script:
-        - apt install pip
+        - apt-get install python3.8
         - pip install --user -r requirements.txt 
         - pip install --user pytest
         - pytest
