@@ -4,10 +4,11 @@ stages:
     - test
 
 deploy-dev:
-stage: test
-only:
-    - web
-script:
-    - pip install --user -r requirements.txt 
-    - pip install --user pytest
-    - pytest
+    stage: 
+        - test
+    only:
+        - web
+    script:
+        - pip install --user -r requirements.txt 
+        - pip install --user pytest
+        - pytest
