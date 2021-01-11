@@ -8,6 +8,9 @@ deploy-dev:
     only:
         - web
     script:
+        - apt-get install software-properties-common
+        - add-apt-repository ppa:deadsnakes/ppa
+        - apt-get update
         - apt-get install python3.8
         - pip install --user -r requirements.txt 
         - pip install --user pytest
