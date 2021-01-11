@@ -4,8 +4,7 @@ stages:
     - test
 
 deploy-dev:
-    stage: 
-        - test
+    stage: test
     only:
         - web
     script:
