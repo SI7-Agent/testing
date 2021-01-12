@@ -23,10 +23,18 @@ stages:
 #   - pip install -U pip
 #   - pip --cache-dir=.pip install -r tests_requires.txt
 
+variables:
+    PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+cache:
+    paths:
+        - .cache/pip
+
+
 deploy-dev:
     stage: test
     tags:
-    - docker
+        - docker
     image: orgoro/dlib-opencv-python
     only:
         - web
