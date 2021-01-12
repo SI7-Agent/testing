@@ -1,6 +1,11 @@
 #image: nefrock/docker-mega-net-cpu
 
-image: ubuntu
+# image: ubuntu
+
+tags:
+    - docker
+
+image: orgoro/dlib-opencv-python
 
 stages:
     - test
