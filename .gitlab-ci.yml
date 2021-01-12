@@ -12,9 +12,6 @@ stages:
 #   - pip install -U pip
 #   - pip --cache-dir=.pip install -r tests_requires.txt
 
-services:
-  - postgres
-
 variables:
     PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
     POSTGRES_DB: testing_database
@@ -27,27 +24,22 @@ cache:
         - .cache/pip
 
 before_script:
-    #- apt-get install -y postgresql postgresql-client libpq-dev
     #- pip3 install -r requirements.txt
-    #- export PYTHONPATH="$PYTHONPATH:./swagger_server"
+    - export PYTHONPATH="$PYTHONPATH:./swagger_server"
     #- python -c "import sys;print(sys.path)"
-    - export PGPASSWORD=$POSTGRES_PASSWORD
-    - apt-get install -y postgresql postgresql-client libpq-dev
-    - psql -c "CREATE DATABASE test_db;" -U postgres
-    - psql -c "create table test (id_people INT PRIMARY KEY NOT NULL,
-                      name TEXT NOT NULL,
-                      face BYTEA NOT NULL);"
-    - psql -c "select * from test;"
-    #- psql -h "postgres" -U "$POSTGRES_USER" -d "$POSTGRES_DB" -c "SELECT 'OK' AS status;"
 
 unit-test-jwt:
     stage: unit_test
     tags:
         - docker
     image: orgoro/dlib-opencv-python
+    services:
+        - postgres:latest
     only:
         - web
     script:
+        - export PGPASSWORD=$POSTGRES_PASSWORD
+        - psql -h "postgres" -U "$POSTGRES_USER" -d "$POSTGRES_DB" -c "SELECT 'OK' AS status;"
         - pytest -v swagger_server/tests/test_jwt.py
         
 #unit-test-modules:
