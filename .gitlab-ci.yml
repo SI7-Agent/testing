@@ -14,6 +14,15 @@ stages:
 #         - pip3 install --user pytest
 #         - pip3 list
 
+# cache:
+#   paths:
+#     - .pip
+#
+# before_script:
+#   - mkdir -p .pip
+#   - pip install -U pip
+#   - pip --cache-dir=.pip install -r tests_requires.txt
+
 deploy-dev:
     stage: test
     tags:
@@ -23,7 +32,6 @@ deploy-dev:
         - web
     script:
         - pip3 install -r requirements.txt
-        - pip3 install pytest
         - pip3 list
         - pwd
         - ls -l
