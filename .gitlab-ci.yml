@@ -27,11 +27,13 @@ cache:
         - .cache/pip
 
 before_script:
-    - pip3 install -r requirements.txt
-    - export PYTHONPATH="$PYTHONPATH:./swagger_server"
-    - python -c "import sys;print(sys.path)"
+    #- apt-get install -y postgresql postgresql-client libpq-dev
+    #- pip3 install -r requirements.txt
+    #- export PYTHONPATH="$PYTHONPATH:./swagger_server"
+    #- python -c "import sys;print(sys.path)"
     - export PGPASSWORD=$POSTGRES_PASSWORD
-    - psql -h "postgres" -U "$POSTGRES_USER" -d "$POSTGRES_DB" -c "SELECT 'OK' AS status;"
+    - psql -c "CREATE DATABASE test_db;" -U postgres
+    #- psql -h "postgres" -U "$POSTGRES_USER" -d "$POSTGRES_DB" -c "SELECT 'OK' AS status;"
 
 unit-test-jwt:
     stage: unit_test
