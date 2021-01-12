@@ -8,4 +8,4 @@ class BaseChooser:
         if connect_manager.database_type == 'postgresql':
             return PostgreSQLUserTool(connect_manager)
         elif connect_manager.database_type == 'influxdb':
-            return InfluxDBTool
+            return InfluxDBTool(connect_manager)
