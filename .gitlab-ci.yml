@@ -2,11 +2,6 @@
 
 # image: ubuntu
 
-tags:
-    - docker
-
-image: orgoro/dlib-opencv-python
-
 stages:
     - test
 
@@ -21,6 +16,9 @@ stages:
 
 deploy-dev:
     stage: test
+    tags:
+    - docker
+    image: orgoro/dlib-opencv-python
     only:
         - web
     script:
