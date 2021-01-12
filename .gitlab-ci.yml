@@ -1,18 +1,7 @@
-#image: nefrock/docker-mega-net-cpu
-
-# image: ubuntu
-
 stages:
-    - test
-
-# test-dev:
-#     stage: test
-#     only:
-#         - web
-#     script:
-#         - pip3 install -r requirements.txt
-#         - pip3 install --user pytest
-#         - pip3 list
+    - unittest
+    - integratetest
+    - e2etest
 
 # cache:
 #   paths:
@@ -30,26 +19,73 @@ cache:
     paths:
         - .cache/pip
 
+before_script:
+    - pip3 install -r requirements.txt
+    - pip3 list
+    - pwd
+    - ls -l
+    - export PYTHONPATH="$PYTHONPATH:./swagger_server"
+    - python -c "import sys;print(sys.path)"
 
-deploy-dev:
-    stage: test
+unit-test-jwt:
+    stage: unittest
     tags:
         - docker
     image: orgoro/dlib-opencv-python
     only:
         - web
     script:
-        - pip3 install -r requirements.txt
-        - pip3 list
-        - pwd
-        - ls -l
-        - export PYTHONPATH="$PYTHONPATH:./swagger_server"
-        - python -c "import sys;print(sys.path)"
         - pytest swagger_server/tests/test_jwt.py
-        # - apt-get -yq update
-        # - apt-get -yq install software-properties-common
-        # - add-apt-repository -y ppa:deadsnakes/ppa
-        # - apt-get update -qy
-        # - apt-get install -y python-dev python3-pip
-        # - apt-get install -y cmake
-        # - pytest
+        
+#unit-test-modules:
+#    stage: unittest
+#    tags:
+#        - docker
+#    image: orgoro/dlib-opencv-python
+#    only:
+#        - web
+#    script:
+#        - pytest swagger_server/tests/test_module.py
+#        
+#unit-test-data:
+#    stage: unittest
+#    tags:
+#        - docker
+#    image: orgoro/dlib-opencv-python
+#    only:
+#        - web
+#    script:
+#        - pytest swagger_server/tests/test_data_access.py
+
+integrate-test-mocking:
+    stage: integratetest
+    tags:
+        - docker
+    image: orgoro/dlib-opencv-python
+    only:
+        - web
+    script:
+        #- pytest swagger_server/tests/test_int_mocking.py
+        - pytest swagger_server/tests/test_jwt.py
+        
+integrate-test-no-mocking:
+    stage: integratetest
+    tags:
+        - docker
+    image: orgoro/dlib-opencv-python
+    only:
+        - web
+    script:
+        #- pytest swagger_server/tests/test_int_no_mocking.py
+        - pytest swagger_server/tests/test_jwt.py
+        
+e2e-test:
+    stage: e2etest
+    tags:
+        - docker
+    image: orgoro/dlib-opencv-python
+    only:
+        - web
+    script:
+        #- pytest swagger_server/tests/test_e2e.py
+        - pytest swagger_server/tests/test_jwt.py
