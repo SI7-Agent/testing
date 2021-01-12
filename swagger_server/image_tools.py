@@ -54,13 +54,12 @@ def put_on_cv_image(img, boxes):
             #type_of_object
             y = i["top"] - 15 if i["top"] - 15 > 15 else i["top"] + 15
             cv2.putText(img, i["label"], (i["right"] + 6, y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, i["color"], 2)
-
             
-            if i["emote"] != "None":
+            if "emote" in i.keys() and i["emote"] != "None":
                 y = i["bottom"] - 6 if i["bottom"] - 6 > 6 else i["bottom"] + 6
                 cv2.putText(img, i["emote"], (i["right"] + 6, y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, i["color"], 2)
 
-            if i["gender"] != "None":
+            if "gender" in i.keys() and i["gender"] != "None":
                 y = i["top"] - 15 if i["top"] - 15 > 15 else i["top"] + 15
                 cv2.putText(img, i["gender"], (i["left"] + 6, y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, i["color"], 2)
 
