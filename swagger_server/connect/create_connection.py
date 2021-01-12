@@ -1,6 +1,12 @@
 import psycopg2
 
 
+class ConnectionException(Exception):
+    """
+    Dummy Class :)
+    """
+
+
 class Connection:
     @staticmethod
     def create_postgresql_connection(connect_info):
@@ -10,9 +16,12 @@ class Connection:
         host = connect_info['host']
         port = connect_info['port']
 
-        database = psycopg2.connect(dbname=dbname, user=user,
-                                    password=password, host=host, port=port)
-        cursor = database.cursor()
+        try:
+            database = psycopg2.connect(dbname=dbname, user=user,
+                                        password=password, host=host, port=port)
+            cursor = database.cursor()
+        except psycopg2.OperationalError as err:
+            raise ConnectionException(err)
 
         return database, cursor
 
