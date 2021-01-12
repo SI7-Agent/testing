@@ -1,4 +1,3 @@
-from datetime import datetime
 import jwt
 
 
@@ -14,8 +13,7 @@ class JWT:
 
     def verify_token(self, token):
         try:
-            jwt.decode(token, self.__secret, algorithms=[self.__algorithm])
-            return True
+            return jwt.decode(token, self.__secret, algorithms=[self.__algorithm])
         except:
             return False
 
