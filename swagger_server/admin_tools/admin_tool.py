@@ -12,7 +12,7 @@ class AdminTool(Commands):
 
 
 class AdminPostgreSQL(AdminTool):
-    def create_database(self):
+    def create_database(self, config=None):
         query = '''DO
                             $do$
                             DECLARE
@@ -29,7 +29,10 @@ class AdminPostgreSQL(AdminTool):
                               END IF;
                             END
                             $do$'''
-        info = ConnectManager.read_connection_config()
+        if config is None:
+            info = ConnectManager.read_connection_config()
+        else:
+            info = config
         host_server = 'port=' + info['port'] + ' host=' + info['host'] + ' user='
         self.connectmanager.cursor.execute(query, (info['dbname'], info['user'],
                                                    info['password'], host_server))
