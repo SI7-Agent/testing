@@ -25,6 +25,10 @@ deploy-dev:
         - pip3 install -r requirements.txt
         - pip3 install pytest
         - pip3 list
+        - pwd
+        - ls -l
+        - export PYTHONPATH="$PYTHONPATH:."
+        - python -c "import sys;print(sys.path)"
         - pytest swagger_server/tests/test_jwt.py
         # - apt-get -yq update
         # - apt-get -yq install software-properties-common
