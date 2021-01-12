@@ -1,4 +1,4 @@
-image: dkruglov/mm
+image: nefrock/docker-mega-net-cpu
 
 #image: ubuntu
 
@@ -12,6 +12,7 @@ test-dev:
     script:
         - pip3 install -r requirements.txt
         - pip3 install --user pytest
+        - pip3 list
 
 # deploy-dev:
 #     stage: test
