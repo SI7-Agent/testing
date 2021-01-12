@@ -1,29 +1,30 @@
-image: nefrock/docker-mega-net-cpu
+#image: nefrock/docker-mega-net-cpu
 
-#image: ubuntu
+image: ubuntu
 
 stages:
     - test
 
-test-dev:
-    stage: test
-    only:
-        - web
-    script:
-        - pip3 install -r requirements.txt
-        - pip3 install --user pytest
-        - pip3 list
-
-# deploy-dev:
+# test-dev:
 #     stage: test
 #     only:
 #         - web
 #     script:
-#         - apt-get -yq update
-#         - apt-get -yq install software-properties-common
-#         - add-apt-repository -y ppa:deadsnakes/ppa
-#         - apt-get update -qy
-#         - apt-get install -y python-dev python3-pip
 #         - pip3 install -r requirements.txt
 #         - pip3 install --user pytest
-#         - pytest
+#         - pip3 list
+
+deploy-dev:
+    stage: test
+    only:
+        - web
+    script:
+        - apt-get -yq update
+        - apt-get -yq install software-properties-common
+        - add-apt-repository -y ppa:deadsnakes/ppa
+        - apt-get update -qy
+        - apt-get install -y python-dev python3-pip
+        - apt-get install cmake
+        - pip3 install -r requirements.txt
+        - pip3 install --user pytest
+        - pytest
