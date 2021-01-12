@@ -10,21 +10,21 @@ from modules.people_module import PeopleModuleWeb
 
 @pytest.fixture()
 def human_env():
-    os.chdir('C:/Users/Asus/Desktop/testing')
+    os.chdir("..")
     human_module = PeopleModuleWeb(None)
     return human_module
 
 
 @pytest.fixture()
 def object_env():
-    os.chdir('C:/Users/Asus/Desktop/testing')
+    os.chdir("..")
     object_module = ObjectModuleWeb(None)
     return object_module
 
 
 @pytest.fixture()
 def gender_env():
-    os.chdir('C:/Users/Asus/Desktop/testing')
+    os.chdir("..")
     human_module = PeopleModuleWeb(None)
     gender_module = GenderModule(None)
     return [human_module, gender_module]
@@ -32,7 +32,7 @@ def gender_env():
 
 @pytest.fixture()
 def emote_env():
-    os.chdir('C:/Users/Asus/Desktop/testing')
+    os.chdir("..")
     human_module = PeopleModuleWeb(None)
     emote_module = EmoteModule(None)
     return [human_module, emote_module]
@@ -40,13 +40,13 @@ def emote_env():
 
 
 def test_human_module_one_ok(human_env):
-    frame = cv2.imread('C:/Users/Asus/Desktop/testing/tests/test_pics/human_one_ok.png')
+    frame = cv2.imread('tests/test_pics/human_one_ok.png')
     test_values = human_env.detect_persons(frame)
     assert(len(test_values) == 1)
 
 
 def test_human_module_many_ok(human_env):
-    frame = cv2.imread('C:/Users/Asus/Desktop/testing/tests/test_pics/human_2+_ok.png')
+    frame = cv2.imread('tests/test_pics/human_2+_ok.png')
     test_values = human_env.detect_persons(frame)
     assert(len(test_values) == 3)
 
@@ -58,14 +58,14 @@ def test_human_module_bad(human_env):
 
 
 def test_human_module_zero(human_env):
-    frame = cv2.imread('C:/Users/Asus/Desktop/testing/tests/test_pics/human_no.png')
+    frame = cv2.imread('tests/test_pics/human_no.png')
     test_values = human_env.detect_persons(frame)
     assert(len(test_values) == 0)
 # ====================================
 
 
 def test_object_module_one_ok(object_env):
-    frame = cv2.imread('C:/Users/Asus/Desktop/testing/tests/test_pics/object_one_ok.jpg')
+    frame = cv2.imread('tests/test_pics/object_one_ok.jpg')
     test_values = object_env.detect_objects(frame)
     assert(len(test_values) == 1 and test_values[0]["label"] == "Cat")
     # assert(len(test_values) == 1)
@@ -73,7 +73,7 @@ def test_object_module_one_ok(object_env):
 
 
 def test_object_module_many_ok(object_env):
-    frame = cv2.imread('C:/Users/Asus/Desktop/testing/tests/test_pics/object_2+_ok.jpg')
+    frame = cv2.imread('tests/test_pics/object_2+_ok.jpg')
     test_values = object_env.detect_objects(frame)
     assert(len(test_values) == 2 and test_values[0]["label"] == "Cat" and test_values[1]["label"] == "Dog")
     # assert(len(test_values) == 2)
@@ -88,14 +88,14 @@ def test_object_module_bad(object_env):
 
 
 def test_object_module_zero(object_env):
-    frame = cv2.imread('C:/Users/Asus/Desktop/testing/tests/test_pics/object_no.png')
+    frame = cv2.imread('tests/test_pics/object_no.png')
     test_values = object_env.detect_objects(frame)
     assert(len(test_values) == 0)
 # ====================================
 
 
 def test_gender_module_ok(gender_env):
-    frame = cv2.imread('C:/Users/Asus/Desktop/testing/tests/test_pics/human_one_ok.png')
+    frame = cv2.imread('tests/test_pics/human_one_ok.png')
     human_face = gender_env[0].detect_persons(frame)
     face_loc = int(human_face[0]["top"] / 4), \
                int(human_face[0]["right"] / 4), \
@@ -114,7 +114,7 @@ def test_gender_module_bad(gender_env):
 
 
 def test_emote_module_ok(emote_env):
-    frame = cv2.imread('C:/Users/Asus/Desktop/testing/tests/test_pics/human_one_ok.png')
+    frame = cv2.imread('tests/test_pics/human_one_ok.png')
     human_face = emote_env[0].detect_persons(frame)
     face_loc = int(human_face[0]["top"] / 4), \
                int(human_face[0]["right"] / 4), \
