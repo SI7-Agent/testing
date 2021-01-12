@@ -32,9 +32,12 @@ before_script:
     #- export PYTHONPATH="$PYTHONPATH:./swagger_server"
     #- python -c "import sys;print(sys.path)"
     - export PGPASSWORD=$POSTGRES_PASSWORD
-    - apt-get install -y locate
-    - locate psql
+    - apt-get install -y postgresql postgresql-client libpq-dev
     - psql -c "CREATE DATABASE test_db;" -U postgres
+    - psql -c "create table test (id_people INT PRIMARY KEY NOT NULL,
+                      name TEXT NOT NULL,
+                      face BYTEA NOT NULL);"
+    - psql -c "select * from test;"
     #- psql -h "postgres" -U "$POSTGRES_USER" -d "$POSTGRES_DB" -c "SELECT 'OK' AS status;"
 
 unit-test-jwt:
