@@ -27,7 +27,7 @@ deploy-dev:
         - pip3 list
         - pwd
         - ls -l
-        - export PYTHONPATH="$PYTHONPATH:."
+        - export PYTHONPATH="$PYTHONPATH:./swagger_server"
         - python -c "import sys;print(sys.path)"
         - pytest swagger_server/tests/test_jwt.py
         # - apt-get -yq update
