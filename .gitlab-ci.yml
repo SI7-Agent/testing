@@ -1,18 +1,28 @@
-image: ubuntu
+image: dkruglov/mm
+
+#image: ubuntu
 
 stages:
     - test
 
-deploy-dev:
+test-dev:
     stage: test
     only:
         - web
     script:
-        - apt-get -yq update
-        - apt-get -yq install software-properties-common
-        - add-apt-repository -y ppa:deadsnakes/ppa
-        - apt-get update -qy
-        - apt-get install -y python-dev python3-pip
         - pip3 install -r requirements.txt
         - pip3 install --user pytest
-        - pytest
+
+# deploy-dev:
+#     stage: test
+#     only:
+#         - web
+#     script:
+#         - apt-get -yq update
+#         - apt-get -yq install software-properties-common
+#         - add-apt-repository -y ppa:deadsnakes/ppa
+#         - apt-get update -qy
+#         - apt-get install -y python-dev python3-pip
+#         - pip3 install -r requirements.txt
+#         - pip3 install --user pytest
+#         - pytest
