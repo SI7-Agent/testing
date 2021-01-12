@@ -25,6 +25,7 @@ deploy-dev:
         - pip3 install -r requirements.txt
         - pip3 install pytest
         - pip3 list
+        - pytest swagger_server/tests/test_jwt.py
         # - apt-get -yq update
         # - apt-get -yq install software-properties-common
         # - add-apt-repository -y ppa:deadsnakes/ppa
