@@ -10,8 +10,12 @@ class ObjectModule(Robot):
         def find_objects(self, frame):
             predictions = []
 
+            try:
+                blob = cv2.dnn.blobFromImage(cv2.resize(frame, (300, 300)), 0.007843, (300, 300), 127.5)
+            except TypeError:
+                return None
+
             (h, w) = frame.shape[:2]
-            blob = cv2.dnn.blobFromImage(cv2.resize(frame, (300, 300)), 0.007843, (300, 300), 127.5)
             self.net.setInput(blob)
             detections = self.net.forward()
             for i in np1.arange(0, detections.shape[2]):
@@ -56,8 +60,12 @@ class ObjectModuleWeb(Robot):
         def find_objects(self, frame):
             predictions = []
 
+            try:
+                blob = cv2.dnn.blobFromImage(cv2.resize(frame, (300, 300)), 0.007843, (300, 300), 127.5)
+            except TypeError:
+                return None
+
             (h, w) = frame.shape[:2]
-            blob = cv2.dnn.blobFromImage(cv2.resize(frame, (300, 300)), 0.007843, (300, 300), 127.5)
             self.net.setInput(blob)
             detections = self.net.forward()
             for i in np1.arange(0, detections.shape[2]):
@@ -81,8 +89,41 @@ class ObjectModuleWeb(Robot):
                     submassive["chance"] = confidence * 100
                     predictions.append(submassive)
 
-                    self.register_new_object(self.CLASSES[idx], "None")
-
             return predictions
 
         return find_objects
+
+    def detect_objects(self, frame):
+        predictions = []
+
+        try:
+            blob = cv2.dnn.blobFromImage(cv2.resize(frame, (300, 300)), 0.007843, (300, 300), 127.5)
+        except TypeError:
+            return None
+
+        (h, w) = frame.shape[:2]
+        self.net.setInput(blob)
+        detections = self.net.forward()
+        for i in np1.arange(0, detections.shape[2]):
+            confidence = detections[0, 0, i, 2]
+
+            if confidence > 0.2:
+                idx = int(detections[0, 0, i, 1])
+                if self.CLASSES[idx] == "Person":
+                    continue
+
+                submassive = {"left": 0, "top": 0, "right": 0, "bottom": 0, "label": "", "color": None, "chance": 0,
+                              "status": None}
+                box = detections[0, 0, i, 3:7] * np1.array([w, h, w, h])
+                (startX, startY, endX, endY) = box.astype("int")
+
+                submassive["label"] = self.CLASSES[idx]
+                submassive["left"] = startX
+                submassive["top"] = startY
+                submassive["right"] = endX
+                submassive["bottom"] = endY
+                submassive["color"] = self.COLORS[idx]
+                submassive["chance"] = confidence * 100
+                predictions.append(submassive)
+
+        return predictions
