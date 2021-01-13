@@ -113,14 +113,14 @@ class BuildData:
 @pytest.fixture()
 def access_env():
     if os.getcwd() != '/builds/SI7-Agent/web/swagger_server':
-        os.chdir("tests")
+        os.chdir("./tests")
         my_connect = connect.connect_manager.ConnectManager("test_create_database.ini")
         my_base_commands = BaseChooser.choose(my_connect)
         return my_base_commands
 
 
 def test_make_connection_ok_classic():
-    os.chdir('tests')
+    os.chdir("./tests")
 
     cm = connect.connect_manager.ConnectManager('test_connection_ok.ini')
     d, c = cm.database, cm.cursor
@@ -140,7 +140,7 @@ def test_make_connection_ok_mocking(mocker):
 
 
 def test_make_connection_bad_classic():
-    os.chdir('tests')
+    os.chdir("./tests")
 
     with pytest.raises(psycopg2.errors.ConnectionFailure) as c:
         connect.connect_manager.ConnectManager('test_connection_bad.ini')
