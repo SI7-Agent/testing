@@ -177,7 +177,6 @@ def test_make_connection_bad_mocking(mocker):
 
 
 def test_create_database(mocker):
-    print(os.getcwd())
     if os.getcwd() != '/builds/SI7-Agent/web/swagger_server':
         mocker.patch('connect.connect_manager.ConnectManager.read_connection_config', return_value=BuildData().build_config_ok().to_dict())
         admin_connect = connect.connect_manager.ConnectManager()
@@ -193,16 +192,16 @@ def test_create_database(mocker):
         assert True
 
 
-# def test_push_picture(access_env):
-#     if os.getcwd() != '/builds/SI7-Agent/web/swagger_server':
-#         push_data = BuildData().build_picture_testing()
-#         exp_id = access_env.push_picture(push_data.picture, push_data.mime)
-#
-#         assert(exp_id > 0)
-#     else:
-#         assert True
-#
-#
+def test_push_picture(access_env):
+    if os.getcwd() != '/builds/SI7-Agent/web/swagger_server':
+        push_data = BuildData().build_picture_testing()
+        exp_id = access_env.push_picture(push_data.picture, push_data.mime)
+
+        assert(exp_id > 0)
+    else:
+        assert True
+
+
 # def test_get_picture_by_id_ok(access_env):
 #     if os.getcwd() == '/builds/SI7-Agent/web/swagger_server':
 #         test_id = 3
