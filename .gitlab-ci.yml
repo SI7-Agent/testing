@@ -29,7 +29,7 @@ unit-test:
     script:
         - pytest -v swagger_server/tests/test_jwt.py
         #- pytest -v swagger_server/tests/test_data_access.py
-        - pytest -v swagger_server/tests/test_module.py
+        - pytest -v swagger_server/tests/test_modules.py
 
 integrate-test:
     stage: integrate_test
