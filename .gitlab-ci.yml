@@ -41,7 +41,7 @@ integrate-test:
         - web
     script:
         - cd /builds/SI7-Agent/web/swagger_server
-        - pytest tests/test_int_mocking.py
+        - pytest -v tests/test_int_mocking.py
         - pytest -v tests/test_int_no_mocking.py
         
 e2e-test:
