@@ -10,6 +10,8 @@ from modules.people_module import PeopleModuleWeb
 
 @pytest.fixture()
 def human_env():
+    if os.getcwd() == '/builds/SI7-Agent/web':
+        os.chdir('/builds/SI7-Agent/web/swagger_server/tests')
     os.chdir("..")
     human_module = PeopleModuleWeb(None)
     return human_module
@@ -17,6 +19,8 @@ def human_env():
 
 @pytest.fixture()
 def object_env():
+    if os.getcwd() == '/builds/SI7-Agent/web':
+        os.chdir('/builds/SI7-Agent/web/swagger_server/tests')
     os.chdir("..")
     object_module = ObjectModuleWeb(None)
     return object_module
@@ -24,6 +28,8 @@ def object_env():
 
 @pytest.fixture()
 def gender_env():
+    if os.getcwd() == '/builds/SI7-Agent/web':
+        os.chdir('/builds/SI7-Agent/web/swagger_server/tests')
     os.chdir("..")
     human_module = PeopleModuleWeb(None)
     gender_module = GenderModule(None)
@@ -32,6 +38,8 @@ def gender_env():
 
 @pytest.fixture()
 def emote_env():
+    if os.getcwd() == '/builds/SI7-Agent/web':
+        os.chdir('/builds/SI7-Agent/web/swagger_server/tests')
     os.chdir("..")
     human_module = PeopleModuleWeb(None)
     emote_module = EmoteModule(None)
