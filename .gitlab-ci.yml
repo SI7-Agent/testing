@@ -28,9 +28,9 @@ unit-test:
         - web
     script:
         - cd /builds/SI7-Agent/web/swagger_server
-        - pytest -v swagger_server/tests/test_jwt.py
+        - pytest -v tests/test_jwt.py
         #- pytest -v swagger_server/tests/test_data_access.py
-        - pytest -v swagger_server/tests/test_modules.py
+        - pytest -v tests/test_modules.py
 
 integrate-test:
     stage: integrate_test
@@ -40,8 +40,9 @@ integrate-test:
     only:
         - web
     script:
-        - pytest swagger_server/tests/test_int_mocking.py
-        - pytest -v swagger_server/tests/test_int_no_mocking.py
+        - cd /builds/SI7-Agent/web/swagger_server
+        - pytest tests/test_int_mocking.py
+        - pytest -v tests/test_int_no_mocking.py
         
 e2e-test:
     stage: e2e_test
@@ -51,4 +52,5 @@ e2e-test:
     only:
         - web
     script:
-        - pytest -v swagger_server/tests/test_e2e.py
+        - cd /builds/SI7-Agent/web/swagger_server
+        - pytest -v tests/test_e2e.py
