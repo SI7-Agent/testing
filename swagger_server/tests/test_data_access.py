@@ -126,6 +126,8 @@ class BuildData:
         test_connect_manager.set_cursor(True)
         test_connect_manager.set_database(True)
 
+        return test_connect_manager
+
 
 @pytest.fixture()
 def access_env():
@@ -156,24 +158,24 @@ def test_make_connection_ok_mocking(mocker):
     assert (d is not None and c is not None)
 
 
-# def test_make_connection_bad_classic():
-#     os.chdir("./tests")
-#
-#     with pytest.raises(psycopg2.errors.ConnectionFailure) as c:
-#         connect.connect_manager.ConnectManager('test_connection_bad.ini')
-#
-#     assert(c)
-#
-#
-# def test_make_connection_bad_mocking(mocker):
-#     mocker.patch('connect.connect_manager.ConnectManager.read_connection_config', return_value=BuildData().build_config_bad().to_dict())
-#
-#     with pytest.raises(psycopg2.errors.ConnectionFailure) as c:
-#         connect.connect_manager.ConnectManager()
-#
-#     assert(c)
-#
-#
+def test_make_connection_bad_classic():
+    os.chdir("./tests")
+
+    with pytest.raises(psycopg2.errors.ConnectionFailure) as c:
+        connect.connect_manager.ConnectManager('test_connection_bad.ini')
+
+    assert(c)
+
+
+def test_make_connection_bad_mocking(mocker):
+    mocker.patch('connect.connect_manager.ConnectManager.read_connection_config', return_value=BuildData().build_config_bad().to_dict())
+
+    with pytest.raises(psycopg2.errors.ConnectionFailure) as c:
+        connect.connect_manager.ConnectManager()
+
+    assert(c)
+
+
 # def test_create_database(mocker):
 #     if os.getcwd() != '/builds/SI7-Agent/web/swagger_server':
 #         mocker.patch('connect.connect_manager.ConnectManager.read_connection_config', return_value=BuildData().build_config_ok().to_dict())
