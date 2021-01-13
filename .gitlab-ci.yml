@@ -27,7 +27,7 @@ unit-test:
     only:
         - web
     script:
-        - pip3 install sqlite3 psycopg2-binary pytest
+        - pip3 install psycopg2-binary pytest
         - cd /builds/SI7-Agent/web/swagger_server
 #        - pytest -v tests/test_jwt.py
         - pytest -v tests/test_data_access.py
