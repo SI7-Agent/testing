@@ -12,6 +12,9 @@ stages:
 #   - pip install -U pip
 #   - pip --cache-dir=.pip install -r tests_requires.txt
 
+services:
+  - postgres:latest
+
 variables:
     PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
     POSTGRES_DB: testing_database
@@ -24,45 +27,25 @@ cache:
         - .cache/pip
 
 before_script:
-    #- pip3 install -r requirements.txt
+    - pip3 install -r requirements.txt
     - export PYTHONPATH="$PYTHONPATH:./swagger_server"
-    #- python -c "import sys;print(sys.path)"
+    - python -c "import sys;print(sys.path)"
+    - export PGPASSWORD=$POSTGRES_PASSWORD
+    #- psql -h "postgres" -U "$POSTGRES_USER" -d "$POSTGRES_DB" -c "SELECT 'OK' AS status;"
 
-unit-test-jwt:
+unit-test:
     stage: unit_test
     tags:
         - docker
     image: orgoro/dlib-opencv-python
-    services:
-        - postgres:latest
     only:
         - web
     script:
-        - export PGPASSWORD=$POSTGRES_PASSWORD
-        - psql -h "postgres" -U "$POSTGRES_USER" -d "$POSTGRES_DB" -c "SELECT 'OK' AS status;"
         - pytest -v swagger_server/tests/test_jwt.py
-        
-#unit-test-modules:
-#    stage: unit_test
-#    tags:
-#        - docker
-#    image: orgoro/dlib-opencv-python
-#    only:
-#        - web
-#    script:
-#        - pytest -v swagger_server/tests/test_module.py
-#        
-#unit-test-data:
-#    stage: unit_test
-#    tags:
-#        - docker
-#    image: orgoro/dlib-opencv-python
-#    only:
-#        - web
-#    script:
-#        - pytest -v swagger_server/tests/test_data_access.py
+        #- pytest -v swagger_server/tests/test_data_access.py
+        - pytest -v swagger_server/tests/test_module.py
 
-integrate-test-mocking:
+integrate-test:
     stage: integrate_test
     tags:
         - docker
@@ -70,19 +53,8 @@ integrate-test-mocking:
     only:
         - web
     script:
-        #- pytest swagger_server/tests/test_int_mocking.py
-        - pytest -v swagger_server/tests/test_jwt.py
-        
-integrate-test-no-mocking:
-    stage: integrate_test
-    tags:
-        - docker
-    image: orgoro/dlib-opencv-python
-    only:
-        - web
-    script:
-        #- pytest -v swagger_server/tests/test_int_no_mocking.py
-        - pytest -v swagger_server/tests/test_jwt.py
+        - pytest swagger_server/tests/test_int_mocking.py
+        - pytest -v swagger_server/tests/test_int_no_mocking.py
         
 e2e-test:
     stage: e2e_test
@@ -92,5 +64,4 @@ e2e-test:
     only:
         - web
     script:
-        #- pytest -v swagger_server/tests/test_e2e.py
-        - pytest -v swagger_server/tests/test_jwt.py
+        - pytest -v swagger_server/tests/test_e2e.py
