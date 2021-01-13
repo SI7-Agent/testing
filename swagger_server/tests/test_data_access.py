@@ -203,7 +203,7 @@ def test_push_picture(access_env):
 
 
 def test_get_picture_by_id_ok(access_env):
-    if os.getcwd() == '/builds/SI7-Agent/web/swagger_server':
+    if os.getcwd() != '/builds/SI7-Agent/web/swagger_server':
         test_id = 3
         test_values = access_env.get_picture_props(filters='WHERE pics.id_pic='+str(test_id))
 
@@ -213,7 +213,7 @@ def test_get_picture_by_id_ok(access_env):
 
 
 def test_get_picture_by_id_zero(access_env):
-    if os.getcwd() == '/builds/SI7-Agent/web/swagger_server':
+    if os.getcwd() != '/builds/SI7-Agent/web/swagger_server':
         test_id = 100000
         test_values = access_env.get_picture_props(filters='WHERE pics.id_pic='+str(test_id))
         assert(test_values == [])
