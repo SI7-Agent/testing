@@ -162,6 +162,7 @@ def test_make_connection_bad_classic():
 
     with pytest.raises(psycopg2.errors.ConnectionFailure) as c:
         connect.connect_manager.ConnectManager('test_connection_bad.ini')
+    os.chdir('..')
 
     assert(c)
 
