@@ -148,7 +148,7 @@ def test_make_connection_ok_mocking(mocker):
     print(os.getcwd())
     mocker.patch('connect.connect_manager.ConnectManager.read_connection_config', return_value=BuildData().build_config_ok().to_dict())
     if os.getcwd() == '/builds/SI7-Agent/web/swagger_server':
-        mocker.patch('connect.connect_manager.ConnectManager', return_value=BuildData.build_connectmanager_dummy())
+        mocker.patch('connect.connect_manager.ConnectManager', return_value=BuildData().build_connectmanager_dummy())
 
     cm = connect.connect_manager.ConnectManager()
     d, c = cm.database, cm.cursor
