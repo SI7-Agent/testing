@@ -1,6 +1,7 @@
 import os
 import pytest
 import psycopg2
+import sqlite3
 
 from admin_tools.admin_tool import AdminTool
 from concrete_base_helper import BaseChooser
@@ -113,19 +114,18 @@ class BuildData:
 @pytest.fixture()
 def access_env():
     if os.getcwd() != '/builds/SI7-Agent/web/swagger_server':
-        os.chdir("./tests")
+        os.chdir("C:/Users/Asus/Desktop/git_for_gitlab/swagger_server/tests")
         my_connect = connect.connect_manager.ConnectManager("test_create_database.ini")
         my_base_commands = BaseChooser.choose(my_connect)
         return my_base_commands
 
 
 def test_make_connection_ok_classic():
-    os.chdir("./tests")
+    connection = sqlite3.connect(':memory:')
 
-    cm = connect.connect_manager.ConnectManager('test_connection_ok.ini')
-    d, c = cm.database, cm.cursor
+    c = connection.cursor
 
-    assert (d is not None and c is not None)
+    assert (c is not None)
 
 
 def test_make_connection_ok_mocking(mocker):
