@@ -3,28 +3,14 @@ stages:
     - integrate_test
     - e2e_test
 
-# cache:
-#   paths:
-#     - .pip
-#
-# before_script:
-#   - mkdir -p .pip
-#   - pip install -U pip
-#   - pip --cache-dir=.pip install -r tests_requires.txt
-
 services:
   - postgres:latest
 
 variables:
-    PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
     POSTGRES_DB: testing_database
     POSTGRES_USER: postgres
     POSTGRES_PASSWORD: "rocketman1"
     POSTGRES_HOST_AUTH_METHOD: trust
-
-cache:
-    paths:
-        - .cache/pip
 
 before_script:
     - pip3 install -r requirements.txt
