@@ -147,7 +147,6 @@ def test_make_connection_ok_classic():
 
 
 def test_make_connection_ok_mocking(mocker):
-    print(os.getcwd())
     mocker.patch('connect.connect_manager.ConnectManager.read_connection_config', return_value=BuildData().build_config_ok().to_dict())
     if os.getcwd() == '/builds/SI7-Agent/web/swagger_server':
         mocker.patch('connect.connect_manager.ConnectManager', return_value=BuildData().build_connectmanager_dummy())
@@ -176,22 +175,23 @@ def test_make_connection_bad_mocking(mocker):
     assert(c)
 
 
-# def test_create_database(mocker):
-#     if os.getcwd() != '/builds/SI7-Agent/web/swagger_server':
-#         mocker.patch('connect.connect_manager.ConnectManager.read_connection_config', return_value=BuildData().build_config_ok().to_dict())
-#         admin_connect = connect.connect_manager.ConnectManager()
-#         AdminTool(admin_connect).admin_tool().create_database(config=BuildData().build_config_testing().to_dict())
-#         mocker.patch('connect.connect_manager.ConnectManager.read_connection_config', return_value=BuildData().build_config_testing().to_dict())
-#         my_connect = connect.connect_manager.ConnectManager()
-#         my_base_commands = BaseChooser.choose(my_connect)
-#         AdminTool(my_connect).admin_tool().create_tables()
-#
-#         assert(my_base_commands.connectmanager.database is not None and my_base_commands.connectmanager.cursor is not None)
-#
-#     else:
-#         assert True
-#
-#
+def test_create_database(mocker):
+    print(os.getcwd())
+    if os.getcwd() != '/builds/SI7-Agent/web/swagger_server':
+        mocker.patch('connect.connect_manager.ConnectManager.read_connection_config', return_value=BuildData().build_config_ok().to_dict())
+        admin_connect = connect.connect_manager.ConnectManager()
+        AdminTool(admin_connect).admin_tool().create_database(config=BuildData().build_config_testing().to_dict())
+        mocker.patch('connect.connect_manager.ConnectManager.read_connection_config', return_value=BuildData().build_config_testing().to_dict())
+        my_connect = connect.connect_manager.ConnectManager()
+        my_base_commands = BaseChooser.choose(my_connect)
+        AdminTool(my_connect).admin_tool().create_tables()
+
+        assert(my_base_commands.connectmanager.database is not None and my_base_commands.connectmanager.cursor is not None)
+
+    else:
+        assert True
+
+
 # def test_push_picture(access_env):
 #     if os.getcwd() != '/builds/SI7-Agent/web/swagger_server':
 #         push_data = BuildData().build_picture_testing()
