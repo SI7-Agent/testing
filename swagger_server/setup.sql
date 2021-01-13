@@ -52,4 +52,4 @@ INSERT INTO pics VALUES(2, '1111', '2222');
 INSERT INTO pics VALUES(3, 'unical_picture', 'unical_mime');
 
 INSERT INTO pics_data VALUES(1, 3, 'some_label', 'None', 'None', 'None');
-INSERT INTO pics VALUES(2, 3, 'some_label2', 'None', 'None', 'None');
+INSERT INTO pics_data VALUES(2, 3, 'some_label2', 'None', 'None', 'None');
