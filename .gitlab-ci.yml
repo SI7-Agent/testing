@@ -13,7 +13,7 @@ variables:
     POSTGRES_HOST_AUTH_METHOD: trust
 
 before_script:
-#    - pip3 install -r requirements.txt
+    - pip3 install -r requirements.txt
     - export PYTHONPATH="$PYTHONPATH:./swagger_server"
     - python -c "import sys;print(sys.path)"
     - export PGPASSWORD=$POSTGRES_PASSWORD
@@ -27,11 +27,10 @@ unit-test:
     only:
         - web
     script:
-        - pip3 install psycopg2-binary pytest pytest_mock
         - cd /builds/SI7-Agent/web/swagger_server
-#        - pytest -v tests/test_jwt.py
+        - pytest -v tests/test_jwt.py
         - pytest -rP tests/test_data_access.py
- #       - pytest -v tests/test_modules.py
+        - pytest -v tests/test_modules.py
 
 integrate-test:
     stage: integrate_test
