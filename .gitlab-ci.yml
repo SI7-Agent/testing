@@ -30,7 +30,7 @@ unit-test:
         - pip3 install psycopg2-binary pytest pytest_mock
         - cd /builds/SI7-Agent/web/swagger_server
 #        - pytest -v tests/test_jwt.py
-        - pytest -v tests/test_data_access.py
+        - pytest -rP tests/test_data_access.py
  #       - pytest -v tests/test_modules.py
 
 integrate-test:
