@@ -6,6 +6,7 @@ from modules.emote_module import EmoteModule
 from modules.gender_module import GenderModule
 from modules.object_module import ObjectModuleWeb
 from modules.people_module import PeopleModuleWeb
+from pytest_mock import mocker
 
 
 @pytest.fixture()

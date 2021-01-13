@@ -4,4 +4,3 @@ cache
 *.crt
 .idea
 *.log
-configs
