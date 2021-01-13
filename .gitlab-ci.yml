@@ -29,7 +29,7 @@ unit-test:
     script:
         - cd /builds/SI7-Agent/web/swagger_server
         - pytest -v tests/test_jwt.py
-        #- pytest -v swagger_server/tests/test_data_access.py
+        - pytest -v swagger_server/tests/test_data_access.py
         - pytest -v tests/test_modules.py
 
 integrate-test:
