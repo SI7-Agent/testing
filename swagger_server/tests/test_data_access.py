@@ -11,6 +11,17 @@ from pytest_mock import mocker
 
 
 class BuildData:
+    class ConnectManager:
+        def __init__(self):
+            self.cursor = None
+            self.database = None
+
+        def set_cursor(self, c):
+            self.cursor = c
+
+        def set_database(self, d):
+            self.database = d
+
     class Picture:
         def __init__(self):
             self.picture = None
@@ -110,6 +121,11 @@ class BuildData:
 
         return test_picture
 
+    def build_connectmanager_dummy(self):
+        test_connect_manager = self.ConnectManager()
+        test_connect_manager.set_cursor(True)
+        test_connect_manager.set_database(True)
+
 
 @pytest.fixture()
 def access_env():
@@ -132,7 +148,7 @@ def test_make_connection_ok_mocking(mocker):
     print(os.getcwd())
     mocker.patch('connect.connect_manager.ConnectManager.read_connection_config', return_value=BuildData().build_config_ok().to_dict())
     if os.getcwd() == '/builds/SI7-Agent/web/swagger_server':
-        mocker.patch('connect.connect_manager.ConnectManager', return_value=(True, True))
+        mocker.patch('connect.connect_manager.ConnectManager', return_value=BuildData.build_connectmanager_dummy())
 
     cm = connect.connect_manager.ConnectManager()
     d, c = cm.database, cm.cursor
