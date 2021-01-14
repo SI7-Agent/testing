@@ -8,7 +8,7 @@ from modules.object_module import ObjectModuleWeb
 from modules.people_module import PeopleModuleWeb
 from query_tool.postgre_tool import PostgreSQLUserTool
 
-TEST_REPEAT = 1
+TEST_REPEAT = 100
 
 
 class BuildData:
