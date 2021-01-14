@@ -1,14 +1,6 @@
-import os
-
 import pytest
-# import file_checker
 
 from easy_jwt import JWT
-
-
-# @pytest.fixture()
-# def ch():
-#     os.chdir('C:/Users/Asus/Desktop/testing')
 
 
 @pytest.fixture()
@@ -33,12 +25,3 @@ def test_jwt_validate_none(jwt_env):
     jwt_to_validate = None
     test_values = jwt_env.verify_token(jwt_to_validate)
     assert(test_values is False)
-
-
-# def test_opening_connexion(ch):
-#     import main2
-#     w = main2.worker
-#     q = w.COLORS[0]
-#     print(q)
-#
-#     print(111)

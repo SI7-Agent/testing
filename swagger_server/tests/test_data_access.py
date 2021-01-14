@@ -141,7 +141,7 @@ def access_env():
 def test_make_connection_ok_classic():
     connection = sqlite3.connect(':memory:')
 
-    c = connection.cursor
+    c = connection.cursor()
 
     assert (c is not None)
 
