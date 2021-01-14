@@ -32,17 +32,17 @@ before_script:
 #        - pytest -v tests/test_data_access.py
 #        - pytest -v tests/test_modules.py
 
-integrate-test:
-    stage: integrate_test
-    tags:
-        - docker
-    image: orgoro/dlib-opencv-python
-    only:
-        - web
-    script:
-        - cd /builds/SI7-Agent/web/swagger_server
-        - pytest -v tests/test_int_mocking.py
-        #- pytest -v tests/test_int_no_mocking.py
+#integrate-test:
+#    stage: integrate_test
+#    tags:
+#        - docker
+#    image: orgoro/dlib-opencv-python
+#    only:
+#        - web
+#    script:
+#        - cd /builds/SI7-Agent/web/swagger_server
+#        - pytest -v tests/test_int_mocking.py
+#        - pytest -v tests/test_int_no_mocking.py
         
 e2e-test:
     stage: e2e_test
