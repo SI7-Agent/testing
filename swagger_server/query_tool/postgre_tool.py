@@ -10,7 +10,7 @@ import psycopg2
 
 
 class PostgreSQLTool(Commands):
-    def push_picture_data(self, metadata):
+    def push_picture_data(self, metadata, t=None):
         self.connectmanager.cursor.execute("select * from pics;")
         id_pics = len(self.connectmanager.cursor.fetchall())
 
@@ -18,13 +18,14 @@ class PostgreSQLTool(Commands):
         id_pics_data = len(self.connectmanager.cursor.fetchall()) + 1
 
         query = '''INSERT INTO pics_data (id_data, id_dependent, label, gender, emote, location) VALUES (%s, %s, %s, %s, %s, %s);'''
+        if t == 't':
+            query = query.replace('%s', '?')
 
         self.connectmanager.cursor.execute(query, (
         str(id_pics_data), str(id_pics), metadata["label"], metadata["gender"], metadata["emote"],
         metadata["location"]))
 
         self.connectmanager.database.commit()
-        AdminTool(self.connectmanager).admin_tool().push_log('pics_data', 'Data insert succeeded')
         MyLogger.info("Data insert succeeded")
 
     def get_picture_props(self, params='*', filters=';'):
@@ -35,26 +36,27 @@ class PostgreSQLTool(Commands):
 
         return metadatas
 
-    def push_picture(self, orig_picture, mime):
+    def push_picture(self, orig_picture, mime, t=None):
         id_pics = None
         try:
+            query = "INSERT INTO pics (id_pic, orig_picture, mime) VALUES (%s, %s, %s);"
+            if t == 't':
+                query = query.replace('%s', '?')
             self.connectmanager.cursor.execute("select * from pics;")
             id_pics = len(self.connectmanager.cursor.fetchall()) + 1
 
-            self.connectmanager.cursor.execute("INSERT INTO pics (id_pic, orig_picture, mime) VALUES (%s, %s, %s);",
-                                               (str(id_pics), orig_picture, mime))
+            self.connectmanager.cursor.execute(query, (str(id_pics), orig_picture, mime))
 
             self.connectmanager.database.commit()
-            AdminTool(self.connectmanager).admin_tool().push_log('pics', 'Pic load succeeded')
             MyLogger.info("Pic load succeeded")
         except psycopg2.errors.NotNullViolation:
-            AdminTool(self.connectmanager).admin_tool().push_log('pics', 'Pics failed. NULL restriction')
+            id_pics = None
             MyLogger.error("Pics failed. NULL restriction")
         except psycopg2.errors.UniqueViolation:
-            AdminTool(self.connectmanager).admin_tool().push_log('pics', 'Pics failed. Unique restriction')
+            id_pics = None
             MyLogger.critical("Pics failed. Unique restriction")
         except:
-            AdminTool(self.connectmanager).admin_tool().push_log('pics', 'Pics failed. Undefined error')
+            id_pics = None
             MyLogger.critical("Pics failed. Undefined error")
         finally:
             return id_pics
