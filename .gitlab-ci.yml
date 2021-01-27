@@ -1,0 +1,56 @@
+stages:
+    - unit_test
+    - integrate_test
+    - e2e_test
+
+services:
+  - postgres:latest
+
+variables:
+    POSTGRES_DB: testing_database
+    POSTGRES_USER: postgres
+    POSTGRES_PASSWORD: "rocketman1"
+    POSTGRES_HOST_AUTH_METHOD: trust
+
+before_script:
+    - pip3 install -r requirements.txt
+    - export PYTHONPATH="$PYTHONPATH:./swagger_server"
+    - python -c "import sys;print(sys.path)"
+    - export PGPASSWORD=$POSTGRES_PASSWORD
+    #- psql -h "postgres" -U "$POSTGRES_USER" -d "$POSTGRES_DB" -c "SELECT 'OK' AS status;"
+
+unit-test:
+    stage: unit_test
+    tags:
+        - docker
+    image: orgoro/dlib-opencv-python
+    only:
+        - web
+    script:
+        - cd /builds/SI7-Agent/web/swagger_server
+        - pytest -v tests/test_jwt.py
+        - pytest -v tests/test_data_access.py
+        - pytest -v tests/test_modules.py
+
+integrate-test:
+    stage: integrate_test
+    tags:
+        - docker
+    image: orgoro/dlib-opencv-python
+    only:
+        - web
+    script:
+        - cd /builds/SI7-Agent/web/swagger_server
+        - pytest -v tests/test_int_mocking.py
+        - pytest -v tests/test_int_no_mocking.py
+        
+e2e-test:
+    stage: e2e_test
+    tags:
+        - docker
+    image: orgoro/dlib-opencv-python
+    only:
+        - web
+    script:
+        - cd /builds/SI7-Agent/web/swagger_server
+        - pytest -v tests/test_e2e.py

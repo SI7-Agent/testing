@@ -10,22 +10,24 @@ import psycopg2
 
 
 class PostgreSQLTool(Commands):
-    def push_picture_data(self, metadata):
+    def push_picture_data(self, metadata, t=None):
         self.connectmanager.cursor.execute("select * from pics;")
         id_pics = len(self.connectmanager.cursor.fetchall())
 
         self.connectmanager.cursor.execute("select * from pics_data;")
         id_pics_data = len(self.connectmanager.cursor.fetchall()) + 1
 
-
         query = '''INSERT INTO pics_data (id_data, id_dependent, label, gender, emote, location) VALUES (%s, %s, %s, %s, %s, %s);'''
+        if t == 't':
+            query = query.replace('%s', '?')
 
-        self.connectmanager.cursor.execute(query, (str(id_pics_data), str(id_pics), metadata["label"], metadata["gender"], metadata["emote"], metadata["location"]))
+        self.connectmanager.cursor.execute(query, (
+        str(id_pics_data), str(id_pics), metadata["label"], metadata["gender"], metadata["emote"],
+        metadata["location"]))
 
         self.connectmanager.database.commit()
-        AdminTool(self.connectmanager).admin_tool().push_log('pics_data', 'Data insert succeeded')
         MyLogger.info("Data insert succeeded")
-        
+
     def get_picture_props(self, params='*', filters=';'):
         query = 'SELECT ' + params + ' FROM pics_data join pics on pics_data.id_dependent = pics.id_pic ' + filters
 
@@ -34,29 +36,30 @@ class PostgreSQLTool(Commands):
 
         return metadatas
 
-    def push_picture(self, orig_picture, mime):
-       id_pics = None
-       try:
-           self.connectmanager.cursor.execute("select * from pics;")
-           id_pics = len(self.connectmanager.cursor.fetchall()) + 1
+    def push_picture(self, orig_picture, mime, t=None):
+        id_pics = None
+        try:
+            query = "INSERT INTO pics (id_pic, orig_picture, mime) VALUES (%s, %s, %s);"
+            if t == 't':
+                query = query.replace('%s', '?')
+            self.connectmanager.cursor.execute("select * from pics;")
+            id_pics = len(self.connectmanager.cursor.fetchall()) + 1
 
-           self.connectmanager.cursor.execute("INSERT INTO pics (id_pic, orig_picture, mime) VALUES (%s, %s, %s);",
-                                               (str(id_pics), orig_picture, mime))
+            self.connectmanager.cursor.execute(query, (str(id_pics), orig_picture, mime))
 
-           self.connectmanager.database.commit()
-           AdminTool(self.connectmanager).admin_tool().push_log('pics', 'Pic load succeeded')
-           MyLogger.info("Pic load succeeded")
-       except psycopg2.errors.NotNullViolation:
-           AdminTool(self.connectmanager).admin_tool().push_log('pics', 'Pics failed. NULL restriction')
-           MyLogger.error("Pics failed. NULL restriction")
-       except psycopg2.errors.UniqueViolation:
-           AdminTool(self.connectmanager).admin_tool().push_log('pics', 'Pics failed. Unique restriction')
-           MyLogger.critical("Pics failed. Unique restriction")
-       except:
-           AdminTool(self.connectmanager).admin_tool().push_log('pics', 'Pics failed. Undefined error')
-           MyLogger.critical("Pics failed. Undefined error")
-       finally:
-           return id_pics
+            self.connectmanager.database.commit()
+            MyLogger.info("Pic load succeeded")
+        except psycopg2.errors.NotNullViolation:
+            id_pics = None
+            MyLogger.error("Pics failed. NULL restriction")
+        except psycopg2.errors.UniqueViolation:
+            id_pics = None
+            MyLogger.critical("Pics failed. Unique restriction")
+        except:
+            id_pics = None
+            MyLogger.critical("Pics failed. Undefined error")
+        finally:
+            return id_pics
 
     def push_face(self, face_metadata):
         try:
@@ -89,14 +92,18 @@ class PostgreSQLTool(Commands):
                 if len(metadata) > 1:
                     if metadata['emote'] is not None:
                         self.connectmanager.cursor.execute(query,
-                                                           (str(self.currentid_event), "Обнаруженный человек - " + metadata['name'],
-                                                            metadata['first_seen'], datetime.now(), metadata['location']))
+                                                           (str(self.currentid_event),
+                                                            "Обнаруженный человек - " + metadata['name'],
+                                                            metadata['first_seen'], datetime.now(),
+                                                            metadata['location']))
                         admin_tool.push_log('events', 'Known human recognition succeeded')
                         MyLogger.info("Known human recognition succeeded")
                     else:
                         self.connectmanager.cursor.execute(query,
-                                                       (str(self.currentid_event), "Обнаружено: " + metadata['name'],
-                                                        metadata['first_seen'], datetime.now(), metadata['location']))
+                                                           (
+                                                           str(self.currentid_event), "Обнаружено: " + metadata['name'],
+                                                           metadata['first_seen'], datetime.now(),
+                                                           metadata['location']))
                         admin_tool.push_log('events', 'Object recognition succeeded')
                         MyLogger.info("Object recognition succeeded")
                 else:
@@ -132,13 +139,16 @@ class PostgreSQLTool(Commands):
             AdminTool(self.connectmanager).admin_tool().push_log('recognitions', 'Emote recognition succeeded')
             MyLogger.info("Emote recognition succeeded")
         except psycopg2.errors.NotNullViolation:
-            AdminTool(self.connectmanager).admin_tool().push_log('recognitions', 'Emote recognition failed. NULL restriction')
+            AdminTool(self.connectmanager).admin_tool().push_log('recognitions',
+                                                                 'Emote recognition failed. NULL restriction')
             MyLogger.error("Emote recognition failed. NULL restriction")
         except psycopg2.errors.UniqueViolation:
-            AdminTool(self.connectmanager).admin_tool().push_log('recognitions', 'Emote recognition failed. Unique restriction')
+            AdminTool(self.connectmanager).admin_tool().push_log('recognitions',
+                                                                 'Emote recognition failed. Unique restriction')
             MyLogger.critical("Emote recognition failed. Unique restriction")
         except:
-            AdminTool(self.connectmanager).admin_tool().push_log('recognitions', 'Emote recognition failed. Undefined error')
+            AdminTool(self.connectmanager).admin_tool().push_log('recognitions',
+                                                                 'Emote recognition failed. Undefined error')
             MyLogger.critical("Emote recognition failed. Undefined error")
 
     def get_guy(self, params='*', filters=''):
@@ -227,7 +237,8 @@ class PostgreSQLTool(Commands):
             AdminTool(self.connectmanager).admin_tool().push_log('people_id', 'Face metadata update succeeded')
             MyLogger.info("Face metadata update succeeded")
         except psycopg2.errors.NotNullViolation:
-            AdminTool(self.connectmanager).admin_tool().push_log('people_id', 'Face metadata update failed. NULL restriction')
+            AdminTool(self.connectmanager).admin_tool().push_log('people_id',
+                                                                 'Face metadata update failed. NULL restriction')
             MyLogger.error("Face metadata update failed. NULL restriction")
 
 
@@ -246,7 +257,8 @@ class PostgreSQLUserTool(PostgreSQLTool):
             AdminTool(self.connectmanager).admin_tool().push_log('users', 'Selection succeeded')
             MyLogger.info("Selection succeeded")
 
-            return {"firstName": guy[0][0], "lastName": guy[0][1], "username": guy[0][2], "gender": guy[0][3], "password": guy[0][4]}
+            return {"firstName": guy[0][0], "lastName": guy[0][1], "username": guy[0][2], "gender": guy[0][3],
+                    "password": guy[0][4]}
 
     def update_data(self, user, data):
         query = 'SELECT * FROM users WHERE users.username = %s;'

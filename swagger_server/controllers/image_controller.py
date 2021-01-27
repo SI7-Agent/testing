@@ -60,7 +60,7 @@ def get_detections_from_image(id, type="", emotion="", gender=""):
                 return "Invalid query params", 400
             if "" not in gender and "Human" not in type:
                 return "Invalid query params", 400
-			
+
             human_flag = False
             if "Human" in type:
                 human_flag = True
@@ -130,15 +130,15 @@ def get_list(filter=None):
                 list.append([i, "emotion"])
             list.append(["Male", "gender"])
             list.append(["Female", "gender"])
-			
+
         elif filter == "gender":
             list.append(["Male", "gender"])
             list.append(["Female", "gender"])
-			
+
         elif filter == "emotion":
             for i in worker.EMOTES:
                 list.append([i, "emotion"])
-				
+
         elif filter == "objects":
             for i in worker.CLASSES:
                 if i != "Person":

@@ -12,7 +12,11 @@ class PeopleModule(Robot):
             predictions = []
             frame_per_recognize = 3
 
-            small_frame = cv2.resize(frame, (0, 0), fx=0.25, fy=0.25)
+            try:
+                small_frame = cv2.resize(frame, (0, 0), fx=0.25, fy=0.25)
+            except TypeError:
+                return None
+
             rgb_small_frame = small_frame[:, :, ::-1]
 
             face_locations = face_recognition.face_locations(rgb_small_frame)
@@ -79,7 +83,10 @@ class PeopleModuleWeb(Robot):
         def find_persons(self, frame):
             predictions = []
 
-            small_frame = cv2.resize(frame, (0, 0), fx=0.25, fy=0.25)
+            try:
+                small_frame = cv2.resize(frame, (0, 0), fx=0.25, fy=0.25)
+            except TypeError:
+                return None
 
             face_locations = face_recognition.face_locations(small_frame)
 
@@ -99,9 +106,35 @@ class PeopleModuleWeb(Robot):
                 submassive["small"] = small_frame
                 predictions.append(submassive)
 
-                self.register_new_face("None", submassive["small"], "None", "None")
-                self.control_tool.push_event({"name":"Человек", "first_seen": datetime.now(), "location":"None", "emote":"None"})
-
             return predictions
 
         return find_persons
+
+    def detect_persons(self, frame):
+        predictions = []
+
+        try:
+            small_frame = cv2.resize(frame, (0, 0), fx=0.25, fy=0.25)
+        except TypeError:
+            return None
+
+        face_locations = face_recognition.face_locations(small_frame)
+
+        for (top, right, bottom, left) in face_locations:
+            submassive = {"left": None, "top": None, "right": None, "bottom": None, "label": "", "color": None,
+                          "small": None, "status": None}
+
+            top *= 4
+            right *= 4
+            bottom *= 4
+            left *= 4
+
+            submassive["left"] = left
+            submassive["top"] = top
+            submassive["right"] = right
+            submassive["bottom"] = bottom
+            submassive["color"] = self.COLORS[self.CLASSES.index("Person")]
+            submassive["small"] = small_frame
+            predictions.append(submassive)
+
+        return predictions

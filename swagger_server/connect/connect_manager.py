@@ -11,9 +11,12 @@ class ConnectManager:
     cursor = None
     connect_info = None
 
-    def __init__(self, config_name='connection.ini'):
+    def __init__(self, config_name='connection.ini', config=None):
         try:
-            self.connect_info = self.read_connection_config(config_name)
+            if config is None:
+                self.connect_info = self.read_connection_config(config_name)
+            else:
+                self.connect_info = config
             self.database_type = self.connect_info['database']
             if self.database_type == 'postgresql':
                 self.database, self.cursor = Connection.create_postgresql_connection(self.connect_info)
